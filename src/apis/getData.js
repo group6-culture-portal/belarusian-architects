@@ -3,25 +3,47 @@ import fetch from 'node-fetch';
 const API_PATH = '';
 
 // Это пример как использовать api
-export const getAllDirectors = async () => {
-  const response = await fetch(`${API_PATH}/all_directors`);
-  const result = await response.json();
+export const getDirectors = async () => {
+  try {
+    const response = await fetch(`${API_PATH}/directors`);
+    const result = await response.json();
 
-  // Делаете что хотите с result
-
-  return result;
+    return result;
+  } catch (ex) {
+    return {
+      error: ex,
+    };
+  }
 };
 
 export const getDirector = async id => {
-  const response = await fetch(`${API_PATH}/all_directors`, {
-    headers: {
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({ id }),
-  });
-  const result = await response.json();
+  try {
+    const response = await fetch(`${API_PATH}/director/${id}`);
+    const result = await response.json();
 
-  // Делаете что хотите с result
+    return result;
+  } catch (ex) {
+    return {
+      error: ex,
+    };
+  }
+};
 
-  return result;
+export const searchDirector = async (query, lang) => {
+  try {
+    const response = await fetch(`${API_PATH}/search`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ query, lang }),
+    });
+    const result = await response.json();
+
+    return result;
+  } catch (ex) {
+    return {
+      error: ex,
+    };
+  }
 };

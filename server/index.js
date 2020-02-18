@@ -1,26 +1,33 @@
 const fs = require('fs');
 const express = require('express');
 const app = express();
+const bodyParser = require('body-parser');
 
-// const DB = JSON.parse(fs.readFileSync('./local.json'));
 const DB = Object.values(require('./local.json').directors);
-// const DBArray = Object.values(DB);
 
-console.log(DB);
-console.log(DB[0]);
-// console.log(DBArray);
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: false }));
 
-app.get('/all_directors', (req, res) => {
+app.get('/api/directors', (req, res) => {
   res.json(DB);
 });
 
-app.get('/director/:id', (req, res) => {
+app.get('/api/director/:id', (req, res) => {
   const result = DB[req.params.id];
+  res.json(result);
+});
+
+app.post('/api/search', (req, res) => {
+  const { query, lang } = req.body;
+
+  const result = DB.filter(
+    i =>
+      i.name[lang].toLowerCase().includes(query.toLowerCase()) ||
+      i.birthPlace[lang].toLowerCase().includes(query.toLowerCase())
+  );
 
   res.json(result);
 });
 
-app.get('/search', (req, res) => {});
-
-// const result = Array.from(DB).filter(i => i.name === 'BigBoy');
-// console.log(result);
+const port = 5000;
+const server = app.listen(port, () => console.log(server.address()));
