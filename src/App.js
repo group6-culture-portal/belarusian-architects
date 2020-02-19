@@ -4,6 +4,7 @@ import history from './history';
 import { ThemeProvider } from '@material-ui/core/styles';
 import theme from './theme';
 import Styleguide from './components/styleguide/Styleguide';
+import './index.css';
 
 function DummyComponent() {
   return <h1>Hello</h1>;
