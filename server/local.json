@@ -1519,6 +1519,281 @@
         "latitude": 53.90073457066538,
         "longitude": 27.562729500000007
       }
+    },
+    "5": {
+      "name": {
+        "en": "Eўstsigney Mirovich",
+        "bl": "Еўсцігней Міровіч",
+        "ru": "Евстигней Мирович"
+      },
+      "birthPlace": {
+        "en": "St. Petersburg, Russian Empire",
+        "bl": "Санкт-Пецярбург, Расійская імперыя",
+        "ru": "Санкт-Петербург, Российская империя"
+      },
+      "lifetime": "10.07.1878 — 29.02.1952",
+      "photo": "https://be.wikipedia.org/wiki/Файл:Mirovich_03.jpg",
+      "summary": {
+        "en": "Belarusian playwright and theater director.",
+        "bl": "Беларускі драматург і тэатральны рэжысёр.",
+        "ru": "Белорусский драматург и театральный режиссер."
+      },
+      "biography": {
+        "en": [
+          {
+            "dateText": "10.07.1878",
+            "title": "Born in a family of a railway worker, who comes from the North-Western Region."
+          },
+          {
+            "dateText": "1900",
+            "title": "He worked in the St. Petersburg theater actor, then director."
+          },
+          {
+            "dateText": "1906",
+            "title": "Active member of the St. Petersburg Union of dramatic and musical writers."
+          },
+          {
+            "dateText": "1919",
+            "title": "He worked in theaters in Belarus."
+          },
+          {
+            "dateText": "1921—1931",
+            "title": "Artistic Director"
+          },
+          {
+            "dateText": "1941—1945",
+            "title": "The director of the Belarusian theater. Kupala."
+          },
+          {
+            "dateText": "1952",
+            "title": "He was buried at the Military Cemetery in Minsk."
+          }
+        ],
+        "bl": [
+          {
+            "dateText": "10.07.1878",
+            "title": "Нарадзіўся ў сям’і чыгуначніка, выхадца з Паўночна-Заходняга краю."
+          },
+          {
+            "dateText": "1900",
+            "title": "Працаваў у пецярбургскіх тэатрах акцёрам, затым рэжысёрам."
+          },
+          {
+            "dateText": "1906",
+            "title": "правадзейны член Санкт-Пецярбургскага саюза драматычных і музычных пісьменнікаў."
+          },
+          {
+            "dateText": "1919",
+            "title": "Працаваў у тэатрах Беларусі."
+          },
+          {
+            "dateText": "1921—1931",
+            "title": "Мастацкі кіраўнік"
+          },
+          {
+            "dateText": "1941—1945",
+            "title": "Рэжысёр Беларускага тэатра ім. Я. Купалы."
+          },
+          {
+            "dateText": "1952",
+            "title": "Пахаваны на Вайсковых могілках Мінска."
+          }
+        ],
+        "ru": [
+          {
+            "dateText": "10.07.1878",
+            "title": "Родился в семье железнодорожника, выходца из Северо-Западного края."
+          },
+          {
+            "dateText": "1900",
+            "title": "Работал в петербургских театрах актером, затем режиссером."
+          },
+          {
+            "dateText": "1906",
+            "title": "Действительный член Санкт-Петербургского союза драматических и музыкальных писателей."
+          },
+          {
+            "dateText": "1919",
+            "title": "Работал в театрах Беларуси."
+          },
+          {
+            "dateText": "1921—1931",
+            "title": "Художественный руководитель"
+          },
+          {
+            "dateText": "1941—1945",
+            "title": "Режиссер Белорусского театра им. Я. Купалы."
+          },
+          {
+            "dateText": "1952",
+            "title": "Похоронен на Военном кладбище Минска."
+          }
+        ]
+      },
+      "works": [
+        {
+          "en": [
+            {
+              "date": "1904",
+              "title": "«Guardians»"
+            },
+            {
+              "date": "1910",
+              "title": "«Countess Elvira»"
+            },
+            {
+              "date": "1912",
+              "title": "«Knight Don Fernando»"
+            },
+            {
+              "date": "1915",
+              "title": "«Theater of the Merchant Epishkin»"
+            },
+            {
+              "date": "1915",
+              "title": "«Vova adapted»"
+            },
+            {
+              "date": "1923",
+              "title": "«Masheka»"
+            },
+            {
+              "date": "1923",
+              "title": "«Kastus Kalinovsky»"
+            },
+            {
+              "date": "1925",
+              "title": "«Governor's blacksmith»"
+            },
+            {
+              "date": "1926",
+              "title": "«Victory»"
+            },
+            {
+              "date": "1928",
+              "title": "«Sing the spindles»"
+            },
+            {
+              "date": "1932",
+              "title": "«Linen»"
+            },
+            {
+              "date": "1957",
+              "title": "compilation «Plays»"
+            }
+          ],
+          "bl": [
+            {
+              "date": "1904",
+              "title": "«Апекуны»"
+            },
+            {
+              "date": "1910",
+              "title": "«Графіня Эльвіра»"
+            },
+            {
+              "date": "1912",
+              "title": "«Рыцар дон Фернанда»"
+            },
+            {
+              "date": "1915",
+              "title": "«Тэатр купца Епишкина»"
+            },
+            {
+              "date": "1915",
+              "title": "«Вова прыстасаваўся»"
+            },
+            {
+              "date": "1923",
+              "title": "«Машэка»"
+            },
+            {
+              "date": "1923",
+              "title": "«Кастусь Каліноўскі»"
+            },
+            {
+              "date": "1925",
+              "title": "«Каваль-ваявода»"
+            },
+            {
+              "date": "1926",
+              "title": "«Перамога»"
+            },
+            {
+              "date": "1928",
+              "title": "«Запяюць верацёны»"
+            },
+            {
+              "date": "1932",
+              "title": "«Лён»"
+            },
+            {
+              "date": "1957",
+              "title": "зборнік «П’есы»"
+            }
+          ],
+          "ru": [
+            {
+              "date": "1904",
+              "title": "«Опекуны»"
+            },
+            {
+              "date": "1910",
+              "title": "«Графиня Эльвира»"
+            },
+            {
+              "date": "1912",
+              "title": "«Рыцарь дон Фернандо»"
+            },
+            {
+              "date": "1915",
+              "title": "«Театр купца Епишкина»"
+            },
+            {
+              "date": "1915",
+              "title": "«Вова приспособился»"
+            },
+            {
+              "date": "1923",
+              "title": "«Машека»"
+            },
+            {
+              "date": "1923",
+              "title": "«Кастусь Калиновский»"
+            },
+            {
+              "date": "1925",
+              "title": "«Кузнец-воевода»"
+            },
+            {
+              "date": "1926",
+              "title": "«Победа»"
+            },
+            {
+              "date": "1928",
+              "title": "«Запоют веретена»"
+            },
+            {
+              "date": "1932",
+              "title": "«Лён»"
+            },
+            {
+              "date": "1957",
+              "title": "сборник «П’есы»"
+            }
+          ]
+        }
+      ],
+      "gallery": [
+        "https://be.wikipedia.org/wiki/Файл:Mirovich_03.jpg", "https://be.wikipedia.org/wiki/Файл:Могила_актёра_Евстигнея_Мировича.JPG"
+      ],
+      "videos": [
+        "https://youtu.be/Yunms45xnog"
+      ],
+      "map": {
+        "latitude": 59.930188,
+        "longitude": 30.338089
+      }
     }
   }
 }
