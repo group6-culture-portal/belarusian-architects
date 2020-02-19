@@ -920,6 +920,605 @@
         "latitude": 53.90073457066538,
         "longitude": 27.562729500000007
       }
+    }, 
+    "3": {
+      "name": {
+        "en": "Ignat Buinitsky",
+        "bl": "Ігнат Буйніцкі",
+        "ru": "Игнат Буйницкий"
+      },
+      "birthPlace": {
+        "en": "Manor of Polivachi of the Prozorok volost",
+        "bl": "Сядзіба Поливачи Прозорокской воласці",
+        "ru": "Усадьба Поливачи Прозорокской волости"
+      },
+      "lifetime": "10.08.1861 — 09.09.1917",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Ihnat_Bujnicki.jpg/515px-Ihnat_Bujnicki.jpg",
+      "summary": {
+        "en": "Belarusian actor, director, theater figure, founder of the first professional national Belarusian theater.",
+        "bl": "Беларускі акцёр, рэжысёр, тэатральны дзеяч, заснавальнік першага прафесійнага нацыянальнага беларускага тэатра.",
+        "ru": "Белорусский актёр, режиссёр, театральный деятель, основатель первого профессионального национального белорусского театра."
+      },
+      "biography": {
+        "en": [
+          {
+            "dateText": "10.08.1861",
+            "title": "Was born in Manor of Polivachi of the Prozorok volost."
+          },
+          {
+            "dateText": "1907",
+            "title": "Ignat Terentyevich, together with his daughters Wanda and Elena, as well as with his close friends, created an amateur troupe in the Polivachi folklore."
+          },
+          {
+            "dateText": "1910",
+            "title": "On the basis of an amateur troupe, a permanent group was formed and long tours around Belarus began."
+          },
+          {
+            "dateText": "1910-1913",
+            "title": "The troupe is touring not only in Belarus, but also in Vilnius, St. Petersburg, Warsaw."
+          },
+          {
+            "dateText": "1913",
+            "title": "Buinitsky organized the Prozorok Belarusian Credit Society, in which every peasant could get a loan at a small percentage. Ignat Buinitsky married Frantishka Brzhozovskaya, from this marriage he had three daughters."
+          },
+          {
+            "dateText": "1914-1916",
+            "title": "Buinitsky took an active part in the activities of the Vilnius society “To Help the Front”."
+          },
+          {
+            "dateText": "1917",
+            "title": "Went to the Western Front of World War I."
+          },
+          {
+            "dateText": "22.09.1917",
+            "title": "Died on stage during a rehearsal (was engaged in amateur performances). At first he was buried there, in Molodechno, but later reburied in Prozoroki on the central square."
+          }
+        ],
+        "bl": [
+          {
+            "dateText": "10.08.1861",
+            "title": "Нарадзіўся ў маёнтку Палівачы Празароцкай воласці."
+          },
+          {
+            "dateText": "1907",
+            "title": "Ігнат Цярэнцьевіч разам з дачкамі Вандай і Аленай, а таксама са сваімі блізкімі сябрамі стварыў самадзейную трупу ў фальклоры Полівачы."
+          },
+          {
+            "dateText": "1910",
+            "title": "На базе аматарскай трупы было створана пастаянная група і пачаліся працяглыя гастролі па Беларусі."
+          },
+          {
+            "dateText": "1910-1913",
+            "title": "Трупа гастралюе не толькі ў Беларусі, але і ў Вільні, Санкт-Пецярбургу, Варшаве."
+          },
+          {
+            "dateText": "1913",
+            "title": "Буйніцкі арганізаваў Беларускае крэдытнае таварыства «Прозарок», у якім кожны селянін мог атрымаць пазыку пад невялікі адсотак. Ігнат Буйніцкі ажаніўся з Францішкам Бржазоўскай, ад гэтага шлюбу ў яго былі тры дачкі."
+          },
+          {
+            "dateText": "1914-1916",
+            "title": "Буйніцкі прыняў актыўны ўдзел у віленскім таварыстве “Дапаможа фронту”."
+          },
+          {
+            "dateText": "1917",
+            "title": "Пайшоў на Заходні фронт Першай сусветнай вайны."
+          },
+          {
+            "dateText": "22.09.1917",
+            "title": "Памёр на сцэне падчас рэпетыцыі (займаўся мастацкай самадзейнасцю). Спачатку яго пахавалі там, у Маладзечне, але пазней перапахавалі ў Празароках на цэнтральнай плошчы."
+          }
+        ],
+        "ru": [
+          {
+            "dateText": "10.08.1861",
+            "title": "Родился в Усадьбе Поливачи Прозорокской волости."
+          },
+          {
+            "dateText": "1907",
+            "title": " Игнат Терентьевич вместе с дочерьми Вандой и Еленой, а также со своими близкими друзьями создал в фольварке Поливачи любительскую труппу."
+          },
+          {
+            "dateText": "1910",
+            "title": "На базе любительской труппы была сформирована постоянная группа и начались длительные гастроли по Беларуси."
+          },
+          {
+            "dateText": "1910-1913",
+            "title": "Труппа гастролирует не только в Беларуси, но и в Вильнюсе, Санкт-Петербурге, Варшаве."
+          },
+          {
+            "dateText": "1913",
+            "title": "Буйницкий организовал Прозорокское белорусское кредитное общество, в котором каждый крестьянин под небольшой процент мог получить заём. Женился Игнат Буйницкий на Франтишке Бржозовской, от этого брака у него осталось три дочери."
+          },
+          {
+            "dateText": "1914-1916",
+            "title": "Буйницкий принимал активное участие в деятельности виленского общества «В помощь фронту»"
+          },
+          {
+            "dateText": "1917",
+            "title": "Отправился на Западный фронт Первой мировой войны."
+          },
+          {
+            "dateText": "22.09.1917",
+            "title": "Умер на сцене во время репетиции (занимался солдатской самодеятельностью). Сначала был похоронен там же, в Молодечно, но позже перезахоронен в Прозороках на центральной площади."
+          }
+        ]
+      },
+      "works": [
+        {
+          "en": [
+            {
+              "date": "1910",
+              "title": "«Proposal» A.P. Chekhov"
+            },
+            {
+              "date": "1910",
+              "title": "«Fashionable nobleman» K. Kaganets"
+            },
+            {
+              "date": "1910",
+              "title": "«By revision» M. Kropyvnytsky"
+            },
+            {
+              "date": "1911",
+              "title": "«On a winter evening» E. Orzhesko"
+            },
+            {
+              "date": "1911",
+              "title": "«Rude» E. Orzhesko"
+            },
+            {
+              "date": "1911",
+              "title": "«Sewed in fools» M. Kropyvnytsky"
+            },
+            {
+              "date": "1912",
+              "title": "«Lyavonikha», Belarusian folk dance"
+            },
+            {
+              "date": "1913",
+              "title": "«Blizzard» Belarusian folk dance"
+            },
+            {
+              "date": "1913",
+              "title": "«Miller» Belarusian folk dance"
+            },
+            {
+              "date": "1914",
+              "title": "«Kachan» Belarusian folk dance"
+            },
+            {
+              "date": "1914",
+              "title": "«Bird cherry» Belarusian folk dance"
+            }
+          ],
+          "bl": [
+            {
+              "date": "1910",
+              "title": "«Прапанова» А.П. Чэхаў"
+            },
+            {
+              "date": "1910",
+              "title": "«Модны шляхцюкі» К. Каганец"
+            },
+            {
+              "date": "1910",
+              "title": "«Па рэвізіі» М. Кропивницкий"
+            },
+            {
+              "date": "1911",
+              "title": "«У зімовы вечар» Э. Ажэшкі"
+            },
+            {
+              "date": "1911",
+              "title": "«Хам» Э. Ажэшкі"
+            },
+            {
+              "date": "1911",
+              "title": "«Пошилися ў дурні» М. Кропивницкий"
+            },
+            {
+              "date": "1912",
+              "title": "«Лявоніха», Беларускі народны танец"
+            },
+            {
+              "date": "1913",
+              "title": "«Мяцеліца» Беларускі народны танец"
+            },
+            {
+              "date": "1913",
+              "title": "«Мельнік» Беларускі народны танец"
+            },
+            {
+              "date": "1914",
+              "title": "«Качан» Беларускі народны танец"
+            },
+            {
+              "date": "1914",
+              "title": "«Чаромха» Беларускі народны танец"
+            }
+          ],
+          "ru": [
+            {
+              "date": "1910",
+              "title": "«Предложение» А.П. Чехов"
+            },
+            {
+              "date": "1910",
+              "title": "«Модный шляхтюк» К. Каганец"
+            },
+            {
+              "date": "1910",
+              "title": "«По ревизии» М. Кропивницкий"
+            },
+            {
+              "date": "1911",
+              "title": "«В зимний вечер» Э. Ожешко"
+            },
+            {
+              "date": "1911",
+              "title": "«Хам» Э. Ожешко"
+            },
+            {
+              "date": "1911",
+              "title": "«Пошилися в дурни» М. Кропивницкий"
+            },
+            {
+              "date": "1912",
+              "title": "«Лявониха», Белорусский народный танец"
+            },
+            {
+              "date": "1913",
+              "title": "«Метелица» Белорусский народный танец"
+            },
+            {
+              "date": "1913",
+              "title": "«Мельник» Белорусский народный танец"
+            },
+            {
+              "date": "1914",
+              "title": "«Качан» Белорусский народный танец"
+            },
+            {
+              "date": "1914",
+              "title": "«Черёмуха» Белорусский народный танец"
+            }
+          ]
+        }
+      ],
+      "gallery": [
+        "https://upload.wikimedia.org/wikipedia/commons/b/b2/Trupa_Bujnickaha.jpg", "https://upload.wikimedia.org/wikipedia/commons/c/cd/Marka_Ihnat_Bujnicki.jpg", "https://i1.wp.com/vkurier.by/wp-content/uploads/2016/08/000000.jpg?zoom=2&resize=401%2C511&ssl=1", "https://i0.wp.com/vkurier.by/wp-content/uploads/2016/08/81.jpg?zoom=2&resize=525%2C700&ssl=1"
+      ],
+      "videos": [
+        "https://youtu.be/kVDHOril4-Q",
+        "https://youtu.be/ACDGr4TUkvs"
+      ],
+      "map": {
+        "latitude": 53.900690,
+        "longitude": 27.562732
+      }
+    },
+    "4": {
+      "name": {
+        "en": "Vladislav Golubok",
+        "bl": "Уладзіслаў Галубок",
+        "ru": "Владислав Голубок"
+      },
+      "birthPlace": {
+        "en": "Lesnaya station near Baranovichi, Russian Empire",
+        "bl": "Cтанция Лясная пад Баранавічамі, Расійская Імперыя",
+        "ru": "Cтанция Лесная под Барановичами, Российская Империя"
+      },
+      "lifetime": "03.05.1882 — 28.09.1937",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/9/91/Vladislav_Golubok.jpg",
+      "summary": {
+        "en": "Belorussian Soviet actor, director, writer, artist, decorator, first national artist of the Belarusian SSR, one of the founders of the Belarusian national theater, artistic director and director of the Belarusian State Theater.",
+        "bl": "Беларускі савецкі акцёр, рэжысёр, пісьменнік, мастак, дэкаратар, першы народны артыст Беларускай ССР, адзін з заснавальнікаў беларускага нацыянальнага тэатра, мастацкі кіраўнік і дырэктар Беларускага дзяржаўнага тэатра.",
+        "ru": "Белорусский советский актёр, режиссёр, писатель, художник, декоратор, первый народный артист Белорусской ССР, один из основателей белорусского национального театра, художественный руководитель и директор Белорусского государственного театра."
+      },
+      "biography": {
+        "en": [
+          {
+            "dateText": "03.05.1882",
+            "title": "Born at the Lesnaya station near Baranavichy in the family of a railwayman."
+          },
+          {
+            "dateText": "1895",
+            "title": "Worked as a clerk in a store, then was a clerk on the railway."
+          },
+          {
+            "dateText": "1906",
+            "title": "Engaged in literary activities, collaborated with the Belarusian newspaper Nasha Niva."
+          },
+          {
+            "dateText": "1917-1920",
+            "title": "Actor and director of the “First Partnership of Belarusian Drama and Comedy”"
+          },
+          {
+            "dateText": "1920",
+            "title": "Created a theater called the Dove Troupe, whose task was to provide artistic services to the regions of the republic."
+          },
+          {
+            "dateText": "1928",
+            "title": "The first in Belarus was awarded the title of People's Artist of Belarus."
+          },
+          {
+            "dateText": "1937",
+            "title": "He was accused of nationalism and anti-Soviet propaganda, arrested."
+          },
+          {
+            "dateText": "28.09.1937",
+            "title": "He died, was shot for nationalism and anti-Soviet propaganda."
+          }
+        ],
+        "bl": [
+          {
+            "dateText": "03.05.1882",
+            "title": "Нарадзіўся на станцыі Лесная пад Баранавічамі ў сям'і чыгуначніка."
+          },
+          {
+            "dateText": "1895",
+            "title": "Працаваў пісарам у краме, потым быў чыноўнікам на чыгунцы."
+          },
+          {
+            "dateText": "1906",
+            "title": "Займаўся літаратурнай дзейнасцю, супрацоўнічаў з беларускай газетай “Наша ніва”."
+          },
+          {
+            "dateText": "1917-1920",
+            "title": "Акцёр і рэжысёр “Першага партнёрства беларускай драматургіі і камедыі”"
+          },
+          {
+            "dateText": "1920",
+            "title": "У 1920 стварыў тэатр, які называўся «Трупа Галубка»."
+          },
+          {
+            "dateText": "1928",
+            "title": "Першым у Беларусі было прысвоена званне народнага артыста Беларусі."
+          },
+          {
+            "dateText": "1937",
+            "title": "Яго абвінавацілі ў нацыяналізме і антысавецкай прапагандзе, арыштавалі."
+          },
+          {
+            "dateText": "28.09.1937",
+            "title": "Ён памёр, расстраляны за нацыяналізм і антысавецкую прапаганду."
+          }
+        ],
+        "ru": [
+          {
+            "dateText": "03.05.1882",
+            "title": "Родился на станции Лесная под Барановичами в семье железнодорожника."
+          },
+          {
+            "dateText": "1895",
+            "title": "С 13 лет работал приказчиком в магазине, затем был конторщиком на железной дороге."
+          },
+          {
+            "dateText": "1906",
+            "title": "Занимался литературной деятельностью, сотрудничал с белорусским газетой “Наша нива”."
+          },
+          {
+            "dateText": "1917-1920",
+            "title": "Актер и режиссер “Первого партнерства белорусского драматургии и комедии”."
+          },
+          {
+            "dateText": "1920",
+            "title": "Создал театр, который назывался «Труппа Голубка»."
+          },
+          {
+            "dateText": "1928",
+            "title": "Первым в Беларуси было присвоено звание народного артиста Беларуси."
+          },
+          {
+            "dateText": "1937",
+            "title": "Его обвинили в национализме и антисоветской пропаганде, арестовали."
+          },
+          {
+            "dateText": "28.09.1937",
+            "title": "Был убит, расстрелян за национализм и антисоветскую пропаганду."
+          }
+        ]
+      },
+      "works": [
+        {
+          "en": [
+            {
+              "date": "1918",
+              "title": "«Innocent blood»"
+            },
+            {
+              "date": "1918",
+              "title": "«Aerial clerk»"
+            },
+            {
+              "date": "1918",
+              "title": "«Rootless»"
+            },
+            {
+              "date": "1919",
+              "title": "«Swashbucklers»"
+            },
+            {
+              "date": "1919",
+              "title": "«Last meeting»"
+            },
+            {
+              "date": "1921",
+              "title": "«Murderers»"
+            },
+            {
+              "date": "1922",
+              "title": "«Bigot»"
+            },
+            {
+              "date": "1922",
+              "title": "«Womans-villain»"
+            },
+            {
+              "date": "1924",
+              "title": "«Court»"
+            },
+            {
+              "date": "1927",
+              "title": "«Pisarev's birthday party»"
+            },
+            {
+              "date": "1927",
+              "title": "«Pinsk Madonna»"
+            },
+            {
+              "date": "1929",
+              "title": "«White wreath»"
+            },
+            {
+              "date": "1930",
+              "title": "«Pan Surint»"
+            },
+            {
+              "date": "1930",
+              "title": "«Crab»"
+            },
+            {
+              "date": "1933",
+              "title": "«White weapon»"
+            }
+          ],
+          "bl": [
+            {
+              "date": "1918",
+              "title": "«Бязьвінная кроў»"
+            },
+            {
+              "date": "1918",
+              "title": "«Залёты дзяка»"
+            },
+            {
+              "date": "1918",
+              "title": "«Бязродны»"
+            },
+            {
+              "date": "1919",
+              "title": "«Ветрагоны»"
+            },
+            {
+              "date": "1919",
+              "title": "«Апошняе спатканьне»"
+            },
+            {
+              "date": "1921",
+              "title": "«Душагубы»"
+            },
+            {
+              "date": "1922",
+              "title": "«Фанатык»"
+            },
+            {
+              "date": "1922",
+              "title": "«Бабы-ліхадзейкі»"
+            },
+            {
+              "date": "1924",
+              "title": "«Суд»"
+            },
+            {
+              "date": "1927",
+              "title": "«Пісаравы імяніны»"
+            },
+            {
+              "date": "1927",
+              "title": "«Пінская мадонна»"
+            },
+            {
+              "date": "1929",
+              "title": "«Белы вянок»"
+            },
+            {
+              "date": "1930",
+              "title": "«Пан Сурынта»"
+            },
+            {
+              "date": "1930",
+              "title": "«Краб»"
+            },
+            {
+              "date": "1933",
+              "title": "«Белая зброя»"
+            }
+          ],
+          "ru": [
+            {
+              "date": "1918",
+              "title": "«Невинная кровь»"
+            },
+            {
+              "date": "1918",
+              "title": "«Залёты дьяка»"
+            },
+            {
+              "date": "1918",
+              "title": "«Безродный»"
+            },
+            {
+              "date": "1919",
+              "title": "«Сорвиголовы»"
+            },
+            {
+              "date": "1919",
+              "title": "«Последнее свидание»"
+            },
+            {
+              "date": "1921",
+              "title": "«Душегубы»"
+            },
+            {
+              "date": "1922",
+              "title": "«Фанатик»"
+            },
+            {
+              "date": "1922",
+              "title": "«Бабы-злодейки»"
+            },
+            {
+              "date": "1924",
+              "title": "«Суд»"
+            },
+            {
+              "date": "1927",
+              "title": "«Писаревы именины»"
+            },
+            {
+              "date": "1927",
+              "title": "«Пинская мадонна»"
+            },
+            {
+              "date": "1929",
+              "title": "«Белы вянок»"
+            },
+            {
+              "date": "1930",
+              "title": "«Белый венок»"
+            },
+            {
+              "date": "1930",
+              "title": "«Краб»"
+            },
+            {
+              "date": "1933",
+              "title": "«Белое оружие»"
+            }
+          ]
+        }
+      ],
+      "gallery": [
+        "https://upload.wikimedia.org/wikipedia/commons/8/82/Haluboktheatre4.jpg", "https://upload.wikimedia.org/wikipedia/commons/c/ce/Halubok2.jpg", "https://upload.wikimedia.org/wikipedia/commons/f/f9/Haluboktheatre2.jpg", "https://upload.wikimedia.org/wikipedia/commons/1/1d/Haluboktheatre1.jpg"
+      ],
+      "videos": [
+        "https://youtu.be/xFe7Z0kHs-0"
+      ],
+      "map": {
+        "latitude": 53.90073457066538,
+        "longitude": 27.562729500000007
+      }
     }
   }
 }
