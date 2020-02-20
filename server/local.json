@@ -703,7 +703,7 @@
         "bl": "Анадыр, Чукоцкая аўтаномная акруга, Камчацкая вобласць, Хабараўскі край, РСФСР",
         "ru": "Анадырь, Чукотский автономный округ, Камчатская область, Хабаровский край, РСФСР"
       },
-      "lifetime": "20.12.1940 — ",
+      "lifetime": "20.12.1940 — xxxx",
       "photo": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Vadzim_Dapkiunas_%281%29.jpg",
       "summary": {
         "en": "Soviet and Belarusian theater figure and theater organizer.",
@@ -1793,6 +1793,416 @@
       "map": {
         "latitude": 59.930188,
         "longitude": 30.338089
+      }
+    },
+    "6": {
+      "name": {
+        "en": "Nikolai Nikolaevich Pinigin",
+        "bl": "Мікалай Мікалаевіч Пінігін",
+        "ru": "Николай Николаевич Пинигин"
+      },
+      "birthPlace": {
+        "en": "Izum, Ukraine",
+        "bl": "Ізюм, Ўкраіна ",
+        "ru": "Изюм, Украина"
+      },
+      "lifetime": "06.08.1957 -  xxxx",
+      "photo": "https://be.wikipedia.org/wiki/%D0%9C%D1%96%D0%BA%D0%B0%D0%BB%D0%B0%D0%B9_%D0%9C%D1%96%D0%BA%D0%B0%D0%BB%D0%B0%D0%B5%D0%B2%D1%96%D1%87_%D0%9F%D1%96%D0%BD%D1%96%D0%B3%D1%96%D0%BD#/media/%D0%A4%D0%B0%D0%B9%D0%BB:Pinigin.JPG",
+      "summary": {
+        "en": "Belarusian director, awarded with a diplomas at international festivals, Honored Artist of the Republic of Belarus, recognized as “Person of the Year in Belarus” in the nomination “Scene” (1994), laureate of the State Prize of the Republic of Belarus (1992).",
+        "bl": "Беларускі рэжысёр, дыпламант міжнародных фестываляў, заслужаны дзеяч мастацтваў Рэспублікі Беларусь,прызнаны «Чалавекам года Беларусі» ў намінацыі «Сцэна» (1994),лаўрэат Дзяржаўнай прэміі Рэспублікі Беларусь(1992).",
+        "ru": "Белорусский режиссер, дипломант международных фестивалей, заслуженный деятель искусств Республики Беларусь, признан «Человеком года Беларуси» в номинации «Сцена» (1994 г.), лауреат Государственной премии Республики Беларусь (1992 год)."
+      },
+      "biography": {
+        "en": [
+          {
+            "dateText": "06.08.1957",
+            "title": "Was born in Izum in Ukraine."
+          },
+          {
+            "dateText": "1979",
+            "title": "He graduated from the directing department of the Belarusian Theater and Art Institute."
+          },
+          {
+            "dateText": "1979—1980",
+            "title": "He worked as a director at the Belarusian TV."
+          },
+          {
+            "dateText": "1980—1982",
+            "title": "He worked at the Russian Drama Theater. M. Gorky (Minsk)."
+          },
+          {
+            "dateText": "1982—1984",
+            "title": "He trained as a director at the Moscow Maly Theater."
+          },
+          {
+            "dateText": "1985",
+            "title": "He worked as a director of the National Academic Theater named after Y. Kupala."
+          },
+          {
+            "dateText": "1985—1987",
+            "title": "He worked as a teacher of the department «Skill of actor and direction» at the Belarusian Academy of Arts."
+          },
+          {
+            "dateText": "1995",
+            "title": "He trained as a director in the Paris «Courant D'Est»."
+          },
+          {
+            "dateText": "1998",
+            "title": "Director of the Bolshoi Drama Theater. G.A. Tovstonogov (St. Petersburg)."
+          },
+          {
+            "dateText": "2008",
+            "title": "He appointed chief director of the National Academic Yanka Kupala Theater."
+          }
+        ],
+        "bl": [
+          {
+            "dateText": "06.08.1957",
+            "title": " Нарадзіўся ў г. Ізюм ва Ўкраіне."
+          },
+          {
+            "dateText": "1979",
+            "title": "Скончыў рэжысёрскі факультэт Беларускага тэатральна-мастацкага інстытута."
+          },
+          {
+            "dateText": "1979—1980",
+            "title": "Працаваў рэжысёрам на беларускім тэлебачанні."
+          },
+          {
+            "dateText": "1980—1982",
+            "title": "Працаваў у Рускім драматычным тэатры ім. М. Горкага (Мінск)."
+          },
+          {
+            "dateText": "1982—1984",
+            "title": "Стажыраваўся ў якасці рэжысёра ў Маскоўскім Малым тэатры. "
+          },
+          {
+            "dateText": "1985",
+            "title": "Працаваў рэжысёрам Нацыянальнага акадэмічнага тэатра імя Я. Купалы."
+          },
+          {
+            "dateText": "1985—1987",
+            "title": "Працаваў выкладчыкам кафедры «Майстэрства акцёра і рэжысуры» у Беларускай акадэміі мастацтваў."
+          },
+          {
+            "dateText": "1995",
+            "title": "Стажыраваўся ў якасці рэжысёра у парыжскім «Courant D’Est»."
+          },
+          {
+            "dateText": "1998",
+            "title": "Рэжысёр Вялікага драматычнага тэатра ім. Г. А. Таўстаногава (Санкт-Пецярбург)."
+          },
+          {
+            "dateText": "2008",
+            "title": "Прызначаны галоўным рэжысёрам Нацыянальнага акадэмічнага тэатру імя Я. Купалы."
+          }
+        ],
+        "ru": [
+          {
+            "dateText": "06.08.1957",
+            "title": "Родился в г. Изюме в Украине."
+          },
+          {
+            "dateText": "1979",
+            "title": "Закончил режиссерский факультет Белорусского театрально-художественного института."
+          },
+          {
+            "dateText": "1979—1980",
+            "title": "Работал режиссером на белорусском телевидении."
+          },
+          {
+            "dateText": "1980—1982",
+            "title": "Работал в Русском драматическом театре им. М. Горького (Минск)."
+          },
+          {
+            "dateText": "1982—1984",
+            "title": "Стажировался в качестве режиссера в Московском Малом театре."
+          },
+          {
+            "dateText": "1985",
+            "title": "Работал режиссером Национального академического театра имени Я. Купалы."
+          },
+          {
+            "dateText": "1985—1987",
+            "title": "Работал преподавателем кафедры «Мастерство актера и режиссуры» в Белорусском академии искусств."
+          },
+          {
+            "dateText": "1995",
+            "title": "Стажировался в качестве режиссера в парижском «Courant D'Est»"
+          },
+          {
+            "dateText": "1998",
+            "title": "Режиссер Большого драматического театра им. Г. А. Товстоногова (Санкт-Петербург)."
+          },
+          {
+            "dateText": "2008",
+            "title": "Назначен главным директором Национального академического театра имени Янки Купалы."
+          }
+        ]
+      },
+      "works": [
+        {
+          "en": [
+            {
+              "date": "1979",
+              "title": "«Night Stagecoach» in prose K.Paustovsky"
+            },
+            {
+              "date": "1984",
+              "title": "«Lady from the Sea» by H. Ibsen"
+            },
+            {
+              "date": "1989",
+              "title": "«Dragon» by E. Schwartz"
+            },
+            {
+              "date": "1989",
+              "title": "«Emigrant» S. Mrozhaka"
+            },
+            {
+              "date": "1990",
+              "title": "«Local» Y. Kupala"
+            },
+            {
+              "date": "1993",
+              "title": "«Idyll» by V. Dunin-Martsinkevich"
+            },
+            {
+              "date": "1992",
+              "title": " «A child from Bethlehem»"
+            },
+            {
+              "date": "1995",
+              "title": "«Lady's visit» S. Cortes"
+            },
+       
+            {
+              "date": "1997",
+              "title": "«The whims of Marianne» A. Muse"
+            },
+            {
+              "date": "1998",
+              "title": "«ART» Y. Reza"
+            },
+            {
+              "date": "1999",
+              "title": "«California» Suite Neil Simon"
+            },
+            {
+              "date": "2000",
+              "title": "«Lying on long legs» E. de Filipa"
+            },
+            {
+              "date": "2001",
+              "title": "«Boris Godunov» by Mussorgsky"
+            },
+            {
+              "date": "2001",
+              "title": "«Talents and Admirers»  Alexander Ostrovsky"
+            },
+            {
+              "date": "2002",
+              "title": "«Dresser»  R. Harwood"
+            },
+            {
+              "date": "2004",
+              "title": "«The Moth»  P. Gladilin"
+            },
+            {
+              "date": "2004",
+              "title": "«Ekaterina Ivanovna» L. M. Andreeva"
+            },
+            {
+              "date": "2005",
+              "title": "«Quartet»  R. Harwood"
+            },
+            {
+              "date": "2006",
+              "title": "«Emigrants» S. Mrozhak"
+            },
+            {
+              "date": "2007",
+              "title": "«The Night Before Christmas» M.V. Gogol"
+            }
+          ],
+          "bl": [
+            {
+              "date": "1979",
+              "title": "«Начны дыліжанс» па прозе К. Паўстоўскага "
+            },
+            {
+              "date": "1984",
+              "title": "«Жанчына з мора» Г. Ібсена"
+            },
+            {
+              "date": "1989",
+              "title": "«Дракон» Я. Шварца"
+            },
+            {
+              "date": "1989",
+              "title": "«Эмігрант» С. Мрожака "
+            },
+            {
+              "date": "1990",
+              "title": "«Тутэйшыя» Я. Купалы"
+            },
+            {
+              "date": "1993",
+              "title": "«Ідылія» В. Дуніна-Марцінкевіча"
+            },
+            {
+              "date": "1992",
+              "title": "«Дзіця з Віфлеему»"
+            },
+            {
+              "date": "1995",
+              "title": "«Візіт дамы» С. Картэса"
+            },
+            {
+              "date": "1997",
+              "title": "«Сваволі Марыяны» А. Мюсэ"
+            },
+            {
+              "date": "1998",
+              "title": "«ART» Я. Рэза"
+            },
+            {
+              "date": "1999",
+              "title": "«Каліфарнійская сюіта» Ніл Сайман"
+            },
+            {
+              "date": "2000",
+              "title": "«Хлусня на доўгіх нагах» Э. дэ Філіпа"
+            },
+            {
+              "date": "2001",
+              "title": "«Барыс Гадуноў» М. Мусаргскага"
+            },
+            {
+              "date": "2001",
+              "title": "«Таленты і прыхільнікі» А. М. Астроўскага"
+            },
+            {
+              "date": "2002",
+              "title": "«Касцюмер» Р. Харвуда"
+            },
+            {
+              "date": "2004",
+              "title": "«Матылёк» П. Гладзіліна"
+            },
+            {
+              "date": "2004",
+              "title": "«Кацярына Іванаўна» Л. М. Андрэева"
+            },
+            {
+              "date": "2005",
+              "title": "«Квартэт» Р. Харвуда"
+            },
+            {
+              "date": "2006",
+              "title": "«Эмігранты» С. Мрожака"
+            },
+            {
+              "date": "2007",
+              "title": "«Ноч перад Калядамі» М. В. Гогаль"
+            }
+          ],
+          "ru": [
+            {
+              "date": "1979",
+              "title": "Ночной дилижанс »по прозе К. Паустовского"
+            },
+            {
+              "date": "1984",
+              "title": "«Женщина с моря» Г. Ибсена"
+            },
+            {
+              "date": "1989",
+              "title": "«Дракон» Е. Шварца"
+            },
+            {
+              "date": "1989",
+              "title": "«Эмигрант» С. Мрожака"
+            },
+            {
+              "date": "1990",
+              "title": "«Здешние» Я. Купалы"
+            },
+            {
+              "date": "1993",
+              "title": "«Идиллия» В. Дунина-Марцинкевича"
+            },
+            {
+              "date": "1992",
+              "title": "«Ребенок из Вифлеема»"
+            },
+            {
+              "date": "1995",
+              "title": "«Визит дамы» С. Кортеса"
+            },
+            {
+              "date": "1997",
+              "title": "«Прихоти Марианны» А. Мюсэ"
+            },
+            {
+              "date": "1998",
+              "title": "«ART» Я. Реза"
+            },
+            {
+              "date": "1999",
+              "title": "«Калифорнийская сюита» Нил Саймон"
+            },
+            {
+              "date": "2000",
+              "title": "«Ложь на длинных ногах» Э. де Филиппо"
+            },
+            {
+              "date": "2001",
+              "title": "«Борис Годунов» М. Мусоргского"
+            },
+            {
+              "date": "2001",
+              "title": "«Таланты и поклонники» А. Н. Островского"
+            },
+            {
+              "date": "2002",
+              "title": "«Костюмер» Р. Харвуда"
+            },
+            {
+              "date": "2004",
+              "title": "«Мотылек» П. Гладилина"
+            },
+            {
+              "date": "2004",
+              "title": "«Екатерина Ивановна» Л. М. Андреева"
+            },
+            {
+              "date": "2005",
+              "title": "«Квартет» Р. Харвуда"
+            },
+            {
+              "date": "2006",
+              "title": "«Эмигранты» С. Мрожака"
+            },
+            {
+              "date": "2007",
+              "title": "«Ночь перед Рождеством» М. В. Гоголь"
+            }
+          ]
+        }
+      ],
+      "gallery": [
+        "https://news.tut.by/culture/105593.html"
+        
+      ],
+      "videos": [
+        "https://bel.sputnik.by/video/20180806/1036926801/nikolaj-pinigin-otmechaet-den-rozhdeniya.html",
+        "https://www.youtube.com/watch?v=VHib0GPP3KM&feature=youtu.be"
+      ],
+      "map": {
+        "latitude": 53.900895,
+        "longitude": 27.562883
       }
     }
   }
