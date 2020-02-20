@@ -9,6 +9,10 @@
   border-bottom: 1px solid #616161;
 }
 
+.section:first-child {
+  background-color: #373737;
+}
+
 .section a {
   margin-right: 2%;
 }

@@ -18,8 +18,7 @@ const theme = createMuiTheme({
   typography: {
     fontFamily: 'Alegreya Sans',
     h1: {
-      fontFamily: 'Source Sans Pro',
-      fontWeight: '700',
+      fontFamily: 'Pacifico',
       fontSize: '36px'
     },
     h2: {

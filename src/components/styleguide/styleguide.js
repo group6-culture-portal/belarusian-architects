@@ -12,17 +12,20 @@ export default function Styleguide() {
   return (
     <div className={styles.wrapper}>
       <section className={styles.section}>
-        <Typography variant="h4" gutterBottom>
+        <Typography variant="h4" gutterBottom color="secondary">
           Links
         </Typography>
-        <Button href="#" color="primary">
+        <Button href="#" color="secondary">
+          HOME
+        </Button>
+        <Button href="#" color="secondary">
+          SEARCH
+        </Button>
+        <Button href="#" color="secondary">
           STYLEGUIDE
         </Button>
-        <Button href="#" color="primary">
-          ALL DIRECTORS
-        </Button>
-        <Button href="#" color="primary">
-          HOME
+        <Button href="#" color="secondary">
+          AUTHORS
         </Button>
       </section>
       <section className={styles.section}>
@@ -56,7 +59,7 @@ export default function Styleguide() {
           Typography
         </Typography>
         <Typography variant="h1">
-          h1. Heading
+          h1. Culture portal
         </Typography>
         <Typography variant="h2">
           h2. Heading
