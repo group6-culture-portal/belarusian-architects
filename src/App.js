@@ -3,8 +3,8 @@ import { Router, Route, Switch } from 'react-router-dom';
 import history from './history';
 import { ThemeProvider } from '@material-ui/core/styles';
 import theme from './theme';
-import Styleguide from './components/styleguide/styleguide';
 import Navigation from './components/Navigation/navigation'
+import Styleguide from './containers/styleguide/Styleguide';
 import './index.css';
 
 function DummyComponent() {
