@@ -4,7 +4,6 @@ import {NavLink} from 'react-router-dom'
 import {links} from '../Navigation/navigation' 
 import { Button } from '@material-ui/core/';
 
-
 export default class Drawer extends Component {
   renderLinks() {
     return (
