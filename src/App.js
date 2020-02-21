@@ -1,18 +1,40 @@
-import React, { useState } from 'react';
-import { Router, Route, Switch } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { Router, Route, Switch, Link } from 'react-router-dom';
 import history from './history';
 import { ThemeProvider } from '@material-ui/core/styles';
 import theme from './theme';
-import Styleguide from './components/styleguide/Styleguide';
+import Styleguide from './containers/styleguide/Styleguide';
 import './index.css';
 import LanguageContext from './context/languageContext';
+import { getDirector } from './apis/getData';
 
 function DummyComponent() {
-  return <h1>Hello</h1>;
+  return (
+    <ul>
+      <li>
+        <Link to="/">Home</Link>
+      </li>
+      <li>
+        <Link to="/search">search</Link>
+      </li>
+      <li>
+        <Link to="/all_directors">all_directors</Link>
+      </li>
+      <li>
+        <Link to="/creators">creators</Link>
+      </li>
+      <li>
+        <Link to="/styleguide">styleguide</Link>
+      </li>
+      <li>
+        <Link to="/workflow">workflow</Link>
+      </li>
+    </ul>
+  );
 }
 
 function App() {
-  const [language, setLanguage] = useState('english');
+  const [language, setLanguage] = useState('en');
   return (
     <div className="App">
       <ThemeProvider theme={theme}>

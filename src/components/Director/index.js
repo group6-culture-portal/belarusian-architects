@@ -3,7 +3,7 @@ import { getDirector } from '../../apis/getData';
 import TimeLineContainer from './TimeLineContainer';
 
 const DirectorPage = props => {
-  const { id } = this.props.match.params;
+  const { id } = props.match.params;
   const [director, setDirector] = useState({});
   useEffect(() => {
     (async directorId => {
