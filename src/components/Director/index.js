@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { getDirector } from '../../apis/getData';
 import TimeLineContainer from './TimeLineContainer';
+import { useParams } from 'react-router-dom';
 
 const DirectorPage = props => {
-  const { id } = props.match.params;
+  const { id } = useParams();
   const [director, setDirector] = useState({});
   useEffect(() => {
     (async directorId => {
