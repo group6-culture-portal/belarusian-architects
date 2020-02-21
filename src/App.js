@@ -35,3 +35,23 @@ function App() {
 }
 
 export default App;
+
+// function Dir() {
+//   const [director, setDirector] = useState(null);
+//   const { id } = useParams();
+//   useEffect(() => {
+//     (async directorId => {
+//       const result = await getDirector(directorId);
+//       setDirector(result);
+//     })(id);
+//   }, [id]);
+//   return director ? (
+//     <>
+//       <h1>{director.name.en}</h1>
+//       <h1>{director.birthPlace['en']}</h1>
+//       <h1>{director.lifetime}</h1>
+//     </>
+//   ) : (
+//     'loading'
+//   );
+// }
