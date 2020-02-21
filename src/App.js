@@ -3,7 +3,8 @@ import { Router, Route, Switch } from 'react-router-dom';
 import history from './history';
 import { ThemeProvider } from '@material-ui/core/styles';
 import theme from './theme';
-import Styleguide from './components/styleguide/Styleguide';
+import Styleguide from './containers/styleguide/Styleguide';
+import MainPage from './containers/main_page/MainPage';
 import './index.css';
 
 function DummyComponent() {
@@ -16,7 +17,7 @@ function App() {
       <ThemeProvider theme={theme}>
         <Router history={history}>
           <Switch>
-            <Route path="/" exact component={DummyComponent} />
+            <Route path="/" exact component={MainPage} />
             <Route path="/search" exact component={DummyComponent} />
             <Route path="/all_directors" exact component={DummyComponent} />
             <Route path="/creators" exact component={DummyComponent} />
