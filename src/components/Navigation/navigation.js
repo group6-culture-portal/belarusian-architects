@@ -1,6 +1,5 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom'
-import theme from '../../theme';
 import './navigation.scss'
 import { Button } from '@material-ui/core/';
 import MobileNavButton from '../MobileNavButton/mobileNavButton'
