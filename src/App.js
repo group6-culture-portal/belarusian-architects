@@ -5,6 +5,8 @@ import { ThemeProvider } from '@material-ui/core/styles';
 import theme from './theme';
 import Styleguide from './components/styleguide/styleguide';
 import Navigation from './components/Navigation/navigation'
+import MobileNavButton from './components/MobileNavButton/mobileNavButton'
+import Drawer from './components/Drawer/drawer'
 import './index.css';
 
 function DummyComponent() {
@@ -16,7 +18,7 @@ function App() {
     <div className="App">
       <ThemeProvider theme={theme}>
         <Router history={history}>
-        <Navigation />
+        <Navigation></Navigation>
           <Switch>
             <Route path="/" exact component={DummyComponent} />
             <Route path="/search" exact component={DummyComponent} />

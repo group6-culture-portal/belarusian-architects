@@ -1,0 +1,25 @@
+.mobile-nav-button-wrapper {
+  display: block;
+  background-color: #373737;
+  color: #F5F5F5;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box; 
+  }
+
+  .burger-icon {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    margin-left: 2%;
+    cursor: pointer;
+  }
+
+  @media (max-width: 3000px) and (min-width: 721px) {
+    .mobile-nav-button-wrapper {
+      display: none;
+    }
+  }

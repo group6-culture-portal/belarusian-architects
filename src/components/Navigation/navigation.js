@@ -3,8 +3,9 @@ import {NavLink} from 'react-router-dom'
 import theme from '../../theme';
 import './navigation.scss'
 import { Button } from '@material-ui/core/';
+import MobileNavButton from '../MobileNavButton/mobileNavButton'
 
-const links = [
+export const links = [
   {to: '/', label: 'Home', exact: true},
   {to: '/search', label: 'Search', exact: false},
   {to: '/all_directors', label: 'Directors', exact: false},
@@ -35,9 +36,12 @@ class Navigation extends React.Component {
 
   render() {
     return (
+      <React.Fragment>
       <ul className='nav-wrapper'>
         {this.renderLinks()}
       </ul>
+      <MobileNavButton ></MobileNavButton>
+      </React.Fragment>
   ) 
   }
 }

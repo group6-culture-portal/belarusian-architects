@@ -32,3 +32,13 @@
 .active {
   color: green;
 }
+
+@media (max-width: 720px) {
+  .nav-button, .nav-link {
+    display: none;
+  }
+
+  .nav-wrapper {
+    flex-wrap: nowrap;
+  }
+}
