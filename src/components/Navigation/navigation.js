@@ -28,9 +28,8 @@ class Navigation extends React.Component {
     return links.map((link, index) => {
       return (
         <Button 
-        className="menu-button"
         key={index}
-        style={buttonStyle}
+        className="nav-button"
         >
           <NavLink
           to={link.to}
@@ -45,8 +44,7 @@ class Navigation extends React.Component {
   }
 
   render() {
-    console.log(theme)
-  return (
+    return (
       <ul className='nav-wrapper'>
         {this.renderLinks()}
       </ul>
