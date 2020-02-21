@@ -12,7 +12,7 @@ export default class MobileNavButton extends Component {
 render() {
   const cls = ['burger-icon']
   
-  let onBurgerClickHandler = () => {
+  const onBurgerClickHandler = () => {
     this.setState({isOpen: !this.state.isOpen});
   }
 
@@ -36,6 +36,7 @@ render() {
   <Drawer 
   isOpen={this.state.isOpen} 
   />
+  {this.state.isOpen ? <div onClick={() => {this.setState({isOpen: !this.state.isOpen})}} className="backdrop"/> : null}
   </React.Fragment>
 )
 }
