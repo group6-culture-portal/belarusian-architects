@@ -1,0 +1,44 @@
+.nav-wrapper {
+  display: flex;
+  background-color: #373737;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box; 
+  }
+
+.nav-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;  
+}
+
+.nav-link {
+  text-decoration: none;
+  padding: 6px 16px;
+  color: #373737;
+  background-color: #F5F5F5;
+  border-radius: 4px;
+  transition: color 0.8s ease-in-out;
+  &:hover {
+    opacity: 0.8;
+    transition: opacity 0.3s ease-in-out;
+  }
+}
+
+.active {
+  color: green;
+}
+
+@media (max-width: 720px) {
+  .nav-button, .nav-link {
+    display: none;
+  }
+
+  .nav-wrapper {
+    flex-wrap: nowrap;
+  }
+}
