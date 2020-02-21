@@ -1,16 +1,8 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom'
-import history from '../../history';
 import theme from '../../theme';
-import styles from '../styleguide/Styleguide.module.css';
 import './navigation.scss'
-import { Typography, Button, Select, MenuItem, TextField, StylesProvider } from '@material-ui/core/';
-import VideoLibraryIcon from '@material-ui/icons/VideoLibrary';
-import TimelineIcon from '@material-ui/icons/Timeline';
-import HomeIcon from '@material-ui/icons/Home';
-import ListIcon from '@material-ui/icons/List';
-import MapIcon from '@material-ui/icons/Map';
-import PhotoLibraryIcon from '@material-ui/icons/PhotoLibrary';
+import { Button } from '@material-ui/core/';
 
 const links = [
   {to: '/', label: 'Home', exact: true},
@@ -20,8 +12,6 @@ const links = [
   {to: '/styleguide', label: 'Style guide', exact: false},
   {to: '/workflow', label: 'Workflow', exact: false}
 ]
-
-const buttonStyle = theme.typography.button;
 
 class Navigation extends React.Component {
   renderLinks() {
