@@ -6,6 +6,7 @@ import theme from './theme';
 import Styleguide from './containers/styleguide/Styleguide';
 import MainPage from './containers/main_page/MainPage';
 import LanguageContext from './context/languageContext';
+import Navigation from './components/Navigation/navigation'
 import './index.css';
 
 function DummyComponent() {
@@ -19,6 +20,7 @@ function App() {
       <ThemeProvider theme={theme}>
         <LanguageContext.Provider value={{ language: language, changeLanguage: setLanguage }}>
           <Router history={history}>
+            <Navigation></Navigation>
             <Switch>
               <Route path="/" exact component={MainPage} />
               <Route path="/search" exact component={DummyComponent} />
