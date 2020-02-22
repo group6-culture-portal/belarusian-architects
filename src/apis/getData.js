@@ -16,6 +16,19 @@ export const getDirectors = async () => {
   }
 };
 
+export const getDirectorOfDay = async () => {
+  try {
+    const response = await fetch(`${API_PATH}/director_of_day`);
+    const result = await response.json();
+
+    return result;
+  } catch (ex) {
+    return {
+      error: ex,
+    };
+  }
+};
+
 export const getDirector = async id => {
   try {
     const response = await fetch(`${API_PATH}/director/${id}`);
