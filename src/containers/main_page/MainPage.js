@@ -12,7 +12,6 @@ export default function MainPage() {
     (async () => {
       const result = await getDirectorOfDay();
       setDirector(result);
-      console.log(result);
     })();
   });
 
@@ -49,6 +48,13 @@ export default function MainPage() {
 
   return (
     <div className={styles.wrapper}>
+      <Typography variant="h1" gutterBottom>
+        {
+          language === 'en' ? <>Culture portal<br/>Belarusian theatre directors</> :
+          language === 'ru' ? <>Культурный портал<br/>Белорусские театральные режиссеры</> :
+          <>Культурны партал<br/>Беларускiя тэатральныя рэжысёры</>
+        }
+      </Typography>
       <div className={styles.directorText}>
         <Typography variant="subtitle1">{definition[language]}</Typography>
       </div>
