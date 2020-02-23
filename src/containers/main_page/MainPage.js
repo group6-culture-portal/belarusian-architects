@@ -12,7 +12,6 @@ export default function MainPage() {
     (async () => {
       const result = await getDirectorOfDay();
       setDirector(result);
-      console.log(result);
     })();
   }, []);
 
