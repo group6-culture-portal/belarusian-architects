@@ -9,6 +9,15 @@
                 "linkedIn": "https://github.com",
                 "test": "https://github.com"
             }
+        },
+        { 
+            "name": "Andrei Mandryk",
+            "image": "https://avatars1.githubusercontent.com/u/44781670?s=400&v=4",
+            "info": "Beginning front-end developer from Brest, Belarus.",
+            "github" : "https://github.com/gagarin880120",
+            "links": {
+                "Telegram": "https://t.me/gagarin880120",
+            }
         }
     ]
 
