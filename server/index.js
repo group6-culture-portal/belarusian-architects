@@ -3,12 +3,12 @@ const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
 const cors = require('cors');
-
 const DB = Object.values(require('./local.json').directors).map((director, index) => {
   director.id = index;
 
   return director;
 });
+const creatorsDB = Object.values(require('./creators.json').members);
 
 var whitelist = ['http://localhost:3000', 'undefined'];
 var corsOptions = {
@@ -53,6 +53,10 @@ app.get('/api/director_of_day', (req, res) => {
   const result = DB[new Date().getDate() % DB.length];
 
   res.json(result);
+});
+
+app.get('/api/team', (req, res) => {
+  res.json(creatorsDB);
 });
 
 const port = 5000;

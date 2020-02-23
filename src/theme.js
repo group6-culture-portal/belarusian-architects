@@ -19,7 +19,7 @@ const theme = createMuiTheme({
     fontFamily: 'Alegreya Sans',
     h1: {
       fontFamily: 'Pacifico',
-      fontSize: '36px'
+      fontSize: '42px'
     },
     h2: {
       fontFamily: 'Source Sans Pro',
