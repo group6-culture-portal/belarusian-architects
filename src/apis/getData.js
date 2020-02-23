@@ -60,3 +60,16 @@ export const searchDirector = async (query, lang) => {
     };
   }
 };
+
+export const getCreatorsInfo = async () => {
+  try {
+    const response = await fetch(`${API_PATH}/team`);
+    const result = await response.json();
+
+    return result;
+  } catch (err) {
+    return {
+      error: err,
+    };
+  }
+};
