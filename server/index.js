@@ -4,7 +4,11 @@ const app = express();
 const bodyParser = require('body-parser');
 const cors = require('cors');
 
-const DB = Object.values(require('./local.json').directors);
+const DB = Object.values(require('./local.json').directors).map((director, index) => {
+  director.id = index;
+
+  return director;
+});
 
 var whitelist = ['http://localhost:3000', 'undefined'];
 var corsOptions = {
