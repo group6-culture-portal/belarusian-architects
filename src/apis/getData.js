@@ -42,14 +42,14 @@ export const getDirector = async id => {
   }
 };
 
-export const searchDirector = async (query, lang) => {
+export const searchDirector = async query => {
   try {
     const response = await fetch(`${API_PATH}/search`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({ query, lang }),
+      body: JSON.stringify({ query }),
     });
     const result = await response.json();
 
