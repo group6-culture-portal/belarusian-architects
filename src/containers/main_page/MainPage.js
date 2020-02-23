@@ -12,14 +12,15 @@ export default function MainPage() {
     (async () => {
       const result = await getDirectorOfDay();
       setDirector(result);
+      console.log(result);
     })();
-  });
+  }, []);
 
   const renderDirector = () => {
     return (
       <div className={styles.cardContent}>
-        <img className={styles.photo} src={director.photo} alt="director of the day photo" />
-        <div className={styles.cardText} gutterBottom>
+        <img className={styles.photo} src={director.photo} alt="director of the day" />
+        <div className={styles.cardText}>
           <Typography variant="h2" style={{ fontSize: '40px' }} color="primary">
             {director.name[language]}
           </Typography>
