@@ -1,7 +1,26 @@
 .creatorsPage {
-    margin-top: 20px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .title {
    
+}
+
+.members {
+    
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.member {
+    margin: 20px;
+    margin-top: 80px;
+}
+
+.member:last-child {
+    margin-bottom: 100px;
 }
