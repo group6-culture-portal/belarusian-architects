@@ -6,6 +6,7 @@ import theme from './theme';
 import Styleguide from './containers/styleguide/Styleguide';
 import MainPage from './containers/main_page/MainPage';
 import CreatortPage from './containers/creators_page/index.jsx';
+import Workflow from './containers/workflow/workflow'
 
 import LanguageContext from './context/languageContext';
 import Navigation from './components/Navigation/navigation'
@@ -30,7 +31,7 @@ function App() {
               <Route path="/all_directors" exact component={DummyComponent} />
               <Route path="/creators" exact component={CreatortPage} />
               <Route path="/styleguide" exact component={Styleguide} />
-              <Route path="/workflow" exact component={DummyComponent} />
+              <Route path="/workflow" exact component={Workflow} />
             </Switch>
           </Router>
         </LanguageContext.Provider>

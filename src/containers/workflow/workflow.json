@@ -1,0 +1,103 @@
+{ "creators": {
+  "0": {
+    "name": {
+      "en": "Sergey Stekh",
+      "ru": "Сергей Стех",
+      "bl": "Сяргей Стех"
+    },
+    "nick": "SergeyCodeJs",
+    "avatar": "https://avatars0.githubusercontent.com/u/53942885?s=400&u=3e2cdf5d2fff800cd3d36ee46dc9b463f471eecf&v=4",
+    "whatIsDone": {
+      "en": [{
+          "time": "2 hours",
+          "task": "Put content about directors in JSON file"
+        },
+        {
+          "time": "12 hours",
+          "task": "Setup navigation bar, routing and language selection"
+        },
+        {
+          "time": "10 hours",
+          "task": "Make workflow page and JSON file with worklog data"
+        }
+      ],
+      "ru": [{
+          "time": "2 часа",
+          "task": "Вносил данные о театральных режиссерах в файл JSON"
+        },
+        {
+          "time": "12 часов",
+          "task": "Верстал и делал логику навигационной панели, делал роутинг и селектор выбора языка"
+        },
+        {
+          "time": "10 часов",
+          "task": "Делал компонент с выполненными задачами всех участников и потраченным на них временем, заносил данные в JSON файл"
+        }
+      ],
+      "bl": [{
+          "time": "2 гадзіны",
+          "task": "Ўносіў дадзеныя аб тэатральных рэжысёраў у файл JSON"
+        },
+        {
+          "time": "12-й гадзіне",
+          "task": "Вярстаўся і рабіў логіку навігацыйнай панэлі, рабіў роўтынг і селектар выбару мовы"
+        },
+        {
+          "time": "10 гадзін",
+          "task": "Рабіў кампанент з выкананымі задачамі ўсіх удзельнікаў і выдаткаваныя на іх часам, заносіў дадзеныя ў JSON файл"
+        }
+      ]
+    }
+  },
+  "1": {
+    "name": {
+      "en": "",
+      "ru": "",
+      "bl": ""
+    },
+    "nick": "",
+    "avatar": "",
+    "whatIsDone": {
+      "en": [{
+          "time": "",
+          "task": ""
+        },
+        {
+          "time": "",
+          "task": ""
+        },
+        {
+          "time": "",
+          "task": ""
+        }
+      ],
+      "ru": [{
+          "time": "",
+          "task": ""
+        },
+        {
+          "time": "",
+          "task": ""
+        },
+        {
+          "time": "",
+          "task": ""
+        }
+      ],
+      "bl": [{
+          "time": "",
+          "task": ""
+        },
+        {
+          "time": "",
+          "task": ""
+        },
+        {
+          "time": "",
+          "task": ""
+        }
+      ]
+    }
+  }
+}
+}

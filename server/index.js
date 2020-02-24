@@ -8,6 +8,13 @@ const DB = Object.values(require('./local.json').directors).map((director, index
 
   return director;
 });
+
+const workflowDB = Object.values(require('./workflow.json').creators).map((creator, index) => {
+  creator.id = index;
+
+  return creator;
+});
+
 const creatorsDB = Object.values(require('./creators.json').members);
 
 var whitelist = ['http://localhost:3000', 'undefined'];
