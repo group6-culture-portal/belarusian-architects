@@ -3,24 +3,21 @@
   background-color: #373737;
   flex-wrap: wrap;
   justify-content: space-around;
-  max-width: 1024px;
-  margin: 0 auto;
   padding: 0;
   box-sizing: border-box; 
+  height: 60px;
   }
 
 .nav-button {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 60px;  
 }
 
 .nav-link {
   text-decoration: none;
   padding: 6px 16px;
-  color: #373737;
-  background-color: #F5F5F5;
+  color: #f5f5f5;
   border-radius: 4px;
   transition: color 0.8s ease-in-out;
   &:hover {
@@ -30,7 +27,7 @@
 }
 
 .active {
-  color: green;
+  text-decoration: underline;
 }
 
 @media (max-width: 720px) {
