@@ -33,12 +33,28 @@
   color: green;
 }
 
-@media (max-width: 720px) {
-  .nav-button, .nav-link {
+.select-wrapper {
+  border-right: 1px solid #F5F5F5;
+  border-bottom: 1px solid #F5F5F5;
+  padding-right: 20px;
+  transition: all 1s ease-in;
+}
+
+@media (max-width: 847px) {
+  .nav-button, .nav-button span, .nav-link {
     display: none;
   }
 
   .nav-wrapper {
     flex-wrap: nowrap;
+  }
+
+  .select-wrapper {
+    position: fixed;
+    z-index: 1000;
+    height: 60px;
+    left: 20px;
+    border-right: 1px solid #F5F5F5;
+    padding-right: 20px;
   }
 }

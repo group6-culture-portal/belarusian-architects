@@ -3,13 +3,23 @@ import './drawer.scss'
 import {NavLink} from 'react-router-dom'
 import {links} from '../Navigation/navigation' 
 import { Button } from '@material-ui/core/';
+import LanguageContext from '../../context/languageContext';
 
 export default class Drawer extends Component {
+  static contextType = LanguageContext;
+  
   renderLinks() {
+    let languageNumber;
+    if (this.context.language === 'en') {
+      languageNumber = 0;
+    } else if (this.context.language === 'ru') {
+      languageNumber = 1;
+    } else if (this.context.language === 'bl') {
+      languageNumber = 2;
+    }
     return (
-      links.map((link, index) => {
+      links[languageNumber].map((link, index) => {
         return (
-          
           <Button 
           key={index}
           className="drawer-button"
@@ -23,7 +33,6 @@ export default class Drawer extends Component {
               {link.label}
             </NavLink>
           </Button>
-          
         )
       })
     )
@@ -40,7 +49,6 @@ render() {
     <div className={cls.join(' ')}>
       {this.renderLinks()}
     </div>
-
     </React.Fragment>
 )
 }
