@@ -1,12 +1,18 @@
-import { useContext, useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { Timeline, TimelineItem } from 'vertical-timeline-component-for-react';
 import languageContext from '../../context/languageContext';
+import { Typography } from '@material-ui/core';
 
 function TimeLineList(items) {
+  console.log(items);
   const result = items.map((item, index) => {
-    <TimelineItem key={index} dateText={item.dateText} style={{ color: '#e86971 ' }}>
-      <h3>{item.title}</h3>
-    </TimelineItem>;
+    return (
+      <TimelineItem key={index} dateText={item.dateText} style={{ color: '#e86971 ' }}>
+        <Typography variant="subtitle1" gutterBottom>
+          {item.title}
+        </Typography>
+      </TimelineItem>
+    );
   });
 
   return result;
@@ -39,8 +45,8 @@ const TimeLineContainer = props => {
 
   return (
     <>
-      <h2>{text}</h2>
-      <Timeline lineColor={'#ddd'}>{TimeLineList(biography)}</Timeline>
+      <Typography variant="h2">{text}</Typography>
+      <Timeline lineColor={'#ddd'}>{biography ? TimeLineList(biography[language]) : null}</Timeline>
     </>
   );
 };

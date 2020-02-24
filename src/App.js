@@ -6,6 +6,7 @@ import theme from './theme';
 import Styleguide from './containers/styleguide/Styleguide';
 import './index.css';
 import LanguageContext from './context/languageContext';
+import Director from './containers/DirectorPage';
 import { getDirector } from './apis/getData';
 
 function DummyComponent() {
@@ -44,6 +45,7 @@ function App() {
               <Route path="/" exact component={DummyComponent} />
               <Route path="/search" exact component={DummyComponent} />
               <Route path="/all_directors" exact component={DummyComponent} />
+              <Route path="/director/:id" exact component={Director} />
               <Route path="/creators" exact component={DummyComponent} />
               <Route path="/styleguide" exact component={Styleguide} />
               <Route path="/workflow" exact component={DummyComponent} />

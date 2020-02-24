@@ -2,53 +2,119 @@
   "directors": {
     "0": {
       "name": {
-        "en": "",
+        "en": "Larisa Aleksandrovskaya",
         "bl": "Ларыса Александроўская",
-        "ru": ""
+        "ru": "Лариса Александровская"
       },
       "birthPlace": {
-        "en": "",
+        "en": "Minsk",
         "bl": "Мінск",
-        "ru": ""
+        "ru": "Минск"
       },
-      "lifetime": "15.02.1904 - 23.05.1980",
+      "lifetime": "15.02.1904 — 23.05.1980",
       "photo": "https://upload.wikimedia.org/wikipedia/commons/0/0c/%C5%81arysa_Aleksandro%C5%ADskaja._%D0%9B%D0%B0%D1%80%D1%8B%D1%81%D0%B0_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D1%9E%D1%81%D0%BA%D0%B0%D1%8F_%281937%29.jpg",
+      "summary": {
+        "en": "Belarusian and soviet opera singer (soprano), director, publicist and public figure. People's Artist of the BSSR (1938). People's Artist of the USSR (1940).",
+        "bl": "Беларуская оперная спявачка (сапрана), тэатральны рэжысёр, рэжысёр і грамадскі дзеяч. Народная артыстка БCCР (1938). Народная артыстка СССР (1940).",
+        "ru": "Белорусская советская оперная певица (сопрано), режиссёр, публицист и общественный деятель. Народная артистка БCCР (1938). Народная артистка СССР (1940)."
+      },
       "biography": {
-        "en": {
-          "summary": "",
-          "timeline": {}
-        },
-        "bl": {
-          "summary": "Беларуская оперная спявачка (сапрана), тэатральны рэжысёр, рэжысёр і грамадскі дзеяч. Народная артыстка БCCР (1938), Народная артыстка СССР (1940).",
-          "timeline": {
-            "1904": "Нарадзілася ў г. Мінску.",
-            "1919-24": "Удзельніца арганізаванай ёю самадзейнай трупы пры Палітаддзеле Заходняга фронту.",
-            "1928": "Скончыла Беларускі музычны тэхнікум, клас спеваў В. А. Цвяткова",
-            "1933": "Скончыла cтудыю оперы і балета ў Мінску, вучаніца А. П. Баначыча. З 1933 г. — артыстка Беларускага тэатра оперы і балета.",
-            "1941": "На пачатку Вялікай Айчыннай вайны Л. Александроўская пакінула Мінск без рэчаў і дакументаў, толькі забраўшы з бальніцы сына. У складзе франтавых канцэртных брыгад дзесяткі разоў выязджала на перадавую.",
-            "1942": "Уступіла ў партыю КПСС",
-            "1951—1960": "Галоўны рэжысёр Беларускага тэатра оперы і балета.",
-            "1976": "Ганаровы старшыня Беларускага тэатральнага аб'яднання."
-          }
-        },
-        "ru": [
+        "en": [
           {
-            "dateText": "2 февраля 1902",
-            "title": "Родилась в Минске.",
-            "subtitle": "",
-            "paragraphs": ["", ""]
+            "dateText": "15.02.1904",
+            "title": "Was born in Minsk."
           },
           {
             "dateText": "1920",
-            "title": "Начала выступать в труппе театра Главполитпросвета Западного фронта как певица.",
-            "subtitle": "",
-            "paragraphs": ["", ""]
+            "title": "Began performing in the troupe of the theater of the Glavpolitprosvet of the Western Front as a singer."
           },
           {
             "dateText": "1924 — 1928",
-            "title": "Училась в Минском музыкальном техникуме.",
-            "subtitle": "",
-            "paragraphs": ["", ""]
+            "title": "Studied at the Minsk College of Music."
+          },
+          {
+            "dateText": "1927",
+            "title": "Performed Belarusian folk songs at the International Music Exhibition in Frankfurt am Main (Germany)."
+          },
+          {
+            "dateText": "1928",
+            "title": "Studied in a special opera class. Has toured abroad (France, England, Sweden, Bulgaria, Romania, Yugoslavia, Czechoslovakia, Poland, East Germany."
+          },
+          {
+            "dateText": "1930 — 1933",
+            "title": "Studied at the State Opera and Ballet Studio (Minsk)."
+          },
+          {
+            "dateText": "1933",
+            "title": "Soloist of the Belarusian Opera and Ballet Theater in Minsk."
+          },
+          {
+            "dateText": "1951 — 1960",
+            "title": "The main director of the Belarusian Opera and Ballet Theater."
+          },
+          {
+            "dateText": "1950 — 1970",
+            "title": "Performed with journalistic articles."
+          },
+          {
+            "dateText": "23.05.1980",
+            "title": "Died. Was buried in Minsk at the Eastern cemetery."
+          }
+        ],
+        "bl": [
+          {
+            "dateText": "15.02.1904",
+            "title": "Нарадзілася ў г. Мінску."
+          },
+          {
+            "dateText": "1919 — 1924",
+            "title": "Удзельніца арганізаванай ёю самадзейнай трупы пры Палітаддзеле Заходняга фронту."
+          },
+          {
+            "dateText": "1927",
+            "title": "Выконвала беларускія народныя песні на Міжнароднай музычнай выставе ў Франкфурце-на-Майне (Германія)."
+          },
+          {
+            "dateText": "1928",
+            "title": "Скончыла Беларускі музычны тэхнікум, клас спеваў В. А. Цвяткова"
+          },
+          {
+            "dateText": "1933",
+            "title": "Скончыла cтудыю оперы і балета ў Мінску, вучаніца А. П. Баначыча. З 1933 г. — артыстка Беларускага тэатра оперы і балета."
+          },
+          {
+            "dateText": "1941",
+            "title": "На пачатку Вялікай Айчыннай вайны пакінула Мінск без рэчаў і дакументаў, толькі забраўшы з бальніцы сына. У складзе франтавых канцэртных брыгад дзесяткі разоў выязджала на перадавую."
+          },
+          {
+            "dateText": "1942",
+            "title": "Уступіла ў партыю КПСС"
+          },
+          {
+            "dateText": "1951 — 1960",
+            "title": "Галоўны рэжысёр Беларускага тэатра оперы і балета."
+          },
+          {
+            "dateText": "1976",
+            "title": "Ганаровы старшыня Беларускага тэатральнага аб'яднання."
+          },
+          {
+            "dateText": "23.05.1980",
+            "title": "Памерла. Была пахавана ў г. Мінску."
+          }
+        ],
+        "ru": [
+          {
+            "dateText": "15.02.1904",
+            "title": "Родилась в г. Минске."
+          },
+          {
+            "dateText": "1920",
+            "title": "Начала выступать в труппе театра Главполитпросвета Западного фронта как певица."
+          },
+          {
+            "dateText": "1924 — 1928",
+            "title": "Училась в Минском музыкальном техникуме."
           },
           {
             "dateText": "1927",
@@ -56,15 +122,11 @@
           },
           {
             "dateText": "1928",
-            "title": "Училась в специальном оперном классе. Гастролировала за рубежом (Франция, Англия, Швеция, Болгария, Румыния, Югославия, Чехословакия, Польша, ГДР.",
-            "subtitle": "",
-            "paragraphs": ["", ""]
+            "title": "Училась в специальном оперном классе. Гастролировала за рубежом (Франция, Англия, Швеция, Болгария, Румыния, Югославия, Чехословакия, Польша, ГДР."
           },
           {
             "dateText": "1930 — 1933",
-            "title": "Занималась в Государственной студии оперы и балета (Минск).",
-            "subtitle": "",
-            "paragraphs": ["", ""]
+            "title": "Занималась в Государственной студии оперы и балета (Минск)."
           },
           {
             "dateText": "1933",
@@ -72,40 +134,136 @@
           },
           {
             "dateText": "1951 — 1960",
-            "title": "Была одновременно и главным режиссёром Белорусского театра оперы и балета."
+            "title": "Была главным режиссёром Белорусского театра оперы и балета."
           },
           {
             "dateText": "1950 — 1970",
             "title": "Выступала с публицистическими статьями."
           },
           {
-            "dateText": "23 мая 1980",
+            "dateText": "23.05.1980",
             "title": "Умерла. Была похоронена в Минске на Восточном кладбище."
           }
         ]
       },
       "works": [
         {
-          "en": {
-            "date": "дата",
-            "title": "название работы"
-          },
-          "bl": {
-            "1951": "Запарожац за Дунаем",
-            "1951": "Ціхі Дон",
-            "1952": "Страшны двор",
-            "1952": "Русалка",
-            "1952": "Мазэпа",
-            "1953": "Аіда",
-            "1953": "Дзяўчына з Палесся",
-            "1954": "Барыс Гадуноў",
-            "1954": "Травіята",
-            "1955": "Трубадур",
-            "1956": "Надзея Дурава",
-            "1957": "Міхась Падгорны",
-            "1958": "Яснае світанне",
-            "1960": "Пікавая дама"
-          },
+          "en": [
+            {
+              "date": "1951",
+              "title": "Zaporozhets beyond the Danube - S. Gulak-Artsyamovskaga"
+            },
+            {
+              "date": "1951",
+              "title": "The Quiet Don - Ivan Dzerzhinsky"
+            },
+            {
+              "date": "1952",
+              "title": "The Last Yard - Moniuszko"
+            },
+            {
+              "date": "1952",
+              "title": "Mermaid - Dargomyzhsky"
+            },
+            {
+              "date": "1952",
+              "title": "Mazepa - Tchaikovsky"
+            },
+            {
+              "date": "1953",
+              "title": "Aida - by Giuseppe Verdi"
+            },
+            {
+              "date": "1953",
+              "title": "Girl from Polesie - E. Tikotskogo"
+            },
+            {
+              "date": "1954",
+              "title": "Boris Godunov - by Mussorgsky"
+            },
+            {
+              "date": "1954",
+              "title": "La Traviata - by Giuseppe Verdi"
+            },
+            {
+              "date": "1955",
+              "title": "Il Trovatore - by Giuseppe Verdi"
+            },
+            {
+              "date": "1956",
+              "title": "Nadezhda Durova - Bogatyrev"
+            },
+            {
+              "date": "1957",
+              "title": "Mihas Podgorny - E. Tikotsky"
+            },
+            {
+              "date": "1958",
+              "title": "Clear Dawn - A. Turenkova"
+            },
+            {
+              "date": "1960",
+              "title": "The Queen of Spades - by Tchaikovsky"
+            }
+          ],
+          "bl": [
+            {
+              "date": "1951",
+              "title": "«Запарожац за Дунаем» С. Гулак-Арцямоўскага"
+            },
+            {
+              "date": "1951",
+              "title": "«Ціхі Дон» І. І. Дзяржынскага"
+            },
+            {
+              "date": "1952",
+              "title": "«Страшны двор» С. Манюшкі"
+            },
+            {
+              "date": "1952",
+              "title": "«Русалка» А. Даргамыжскага"
+            },
+            {
+              "date": "1952",
+              "title": "«Мазэпа» П. Чайкоўскага"
+            },
+            {
+              "date": "1953",
+              "title": "«Аіда» Джузэпэ Вердзі"
+            },
+            {
+              "date": "1953",
+              "title": "«Дзяўчына з Палесся» Я. Цікоцкага"
+            },
+            {
+              "date": "1954",
+              "title": "«Барыс Гадуноў» М. Мусаргскага"
+            },
+            {
+              "date": "1954",
+              "title": "«Травіята» Джузэпэ Вердзі"
+            },
+            {
+              "date": "1955",
+              "title": "«Трубадур» Джузэпэ Вердзі"
+            },
+            {
+              "date": "1956",
+              "title": "«Надзея Дурава» А. Багатырова"
+            },
+            {
+              "date": "1957",
+              "title": "«Міхась Падгорны» Я. Цікоцкага"
+            },
+            {
+              "date": "1958",
+              "title": "«Яснае світанне» А. Туранкова"
+            },
+            {
+              "date": "1960",
+              "title": "«Пікавая дама» П. Чайкоўскага"
+            }
+          ],
           "ru": [
             {
               "date": "1951",
@@ -161,75 +319,1883 @@
             },
             {
               "date": "1960",
-              "title": "«Пиковая дама» П. И. Чайковского"
+              "title": "«Пиковая дама» П. И. Чайковского."
             }
           ]
         }
       ],
-      "gallery": ["ссылки на фото режиссера и его работ"],
-      "videos": ["ссылки на работы"],
-      "map": { "position": "не знаю как локации на мапах отмечать" }
+      "gallery": [
+        "https://upload.wikimedia.org/wikipedia/ru/thumb/6/62/Могила_певицы_Ларисы_Александровской.JPG/1280px-Могила_певицы_Ларисы_Александровской.JPG",
+        "https://upload.wikimedia.org/wikipedia/ru/2/2c/Sadovsky_N..jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Aida_poster_colors_fixed.jpg/2560px-Aida_poster_colors_fixed.jpg",
+        "http://mtdata.ru/u24/photoC6B9/20361144248-0/original.jpg#20361144248"
+      ],
+      "videos": ["https://youtu.be/ts4AQfXEub0", "https://youtu.be/ORYrVlkTZLg"],
+      "map": {
+        "latitude": 53.9103046,
+        "longitude": 27.5593366
+      }
     },
     "1": {
       "name": {
-        "en": "",
-        "bl": "Ігнат Буйніцкі",
-        "ru": ""
+        "en": "Boris Lutsenko",
+        "bl": "Барыс Луцэнка",
+        "ru": "Борис Луценко"
       },
       "birthPlace": {
-        "en": "",
-        "bl": "в. Палівачы Празароцкай вол., цяпер Глыбоцкі раён",
-        "ru": ""
+        "en": "Maykop, RSFSR",
+        "bl": "Майкоп, РСФСР",
+        "ru": "Майкоп, РСФСР"
       },
-      "lifetime": "22.08.1861 - 22.09.1917",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Ihnat_Bujnicki.jpg",
+      "lifetime": "16.09.1937 — 05.02.2020",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Boris_Lutsenko_22.10.2014_National_Library_of_Belarus.jpg",
+      "summary": {
+        "en": "Belarusian and soviet theatre director. People's Artist of Belarus (1995).",
+        "bl": "Беларускі і савецкі тэатральны рэжысёр, народны артыст Беларусі (1995).",
+        "ru": "Cоветский и белорусский режиссёр-постановщик театра и кино. Народный артист Республики Беларусь (1995). Заслуженный деятель искусств Белорусской ССР (1975)."
+      },
       "biography": {
-        "en": {
-          "summary": "",
-          "timeline": {}
-        },
-        "bl": {
-          "summary": "Беларускі акцёр, рэжысёр, тэатральны дзеяч, стваральнік нацыянальнага прафесійнага тэатра, удзельнік літаратурнага жыцця.",
-          "timeline": {
-            "1861": "Нарадзіўся ў в. Палівачы Празароцкай вол., цяпер Глыбоцкі раён.",
-            "1907": "У сваёй сядзібе ў Палівачах (каля Празарокаў) заснаваў самадзейны тэатр, дзе спачатку прымалі ўдзел яго сваякі.",
-            "12 лютага 1910": "У Вільні тэатр Буйніцкага па адмысловым запрашэнні рэдакцыі «Нашай Нівы» прыняў удзел у прадстаўленні, якое ўвайшло ў гісторыю пад назвай «Першая беларуская вечарынка ў Вільні».",
-            "1910—1913": "Тэатр гастраляваў па Беларусі (Мінск, Слуцк, Полацк, Дзісна, Свянцяны, Паставы, Нясвіж, Ляхавічы), двойчы выступаў у Пецярбургу (1911, 1912), а таксама ў Варшаве (1913).",
-            "1913": "З-за матэрыяльных цяжкасцей і ўціску царскіх уладаў дзейнасць трупы была спыненая.",
-            "1914": "Буйніцкі паспрабаваў стварыць новую трупу, аднак 1-я сусветная вайна перашкодзіла здзейсніць гэту задуму.",
-            "Пачатак 1917": "Буйніцкі з'явіўся ініцыятарам арганізацыі прафесійнага тэатра ў Мінску — Першага беларускага таварыства драмы і камедыі, з якога пачаўся Нацыянальны акадэмічны драматычны тэатр імя Якуба Коласа.",
-            "1917 ": "Адправіўся на Заходні фронт, быў на вайсковай службе ў Маладзечне. Памёр на сцэне ў час рэпетыцыі, займаючыся салдацкай мастацкай самадзейнасцю. Быў пахаваны на мясцовых могілках."
+        "en": [
+          {
+            "dateText": "16.09.1937",
+            "title": "Was born in Maykop, RSFSR."
+          },
+          {
+            "dateText": "1962 — 1967",
+            "title": "Studied at the Belarus Theatrical institute."
+          },
+          {
+            "dateText": "1970",
+            "title": "Start to taught at the Belarus Theatrical institute."
+          },
+          {
+            "dateText": "1967 — 1973",
+            "title": "Director at the Janka Kupala National Theatre."
+          },
+          {
+            "dateText": "1973 — 1981",
+            "title": "Main director of the State Russian Drama Theater of the Belarusian SSR."
+          },
+          {
+            "dateText": "1981 — 1982",
+            "title": "Director at the Janka Kupala National Theatre."
+          },
+          {
+            "dateText": "1982 — 1991",
+            "title": "Main director of the Theater-studio of film actor."
+          },
+          {
+            "dateText": "1991 — 2008",
+            "title": "Artistic director at the National Academic Drama Theater named M. Gorky in Minsk."
+          },
+          {
+            "dateText": "2008 — 2020",
+            "title": "Director at the National Academic Drama Theater named M. Gorky in Minsk."
+          },
+          {
+            "dateText": "05.02.2020",
+            "title": "Died in Minsk."
           }
-        },
-        "ru": {
-          "summary": "",
-          "timeline": {}
-        }
+        ],
+        "bl": [
+          {
+            "dateText": "16.09.1937",
+            "title": "Нарадзіўся ў Майкопе (Краснадарскі край, РСФСР)."
+          },
+          {
+            "dateText": "1962 — 1967",
+            "title": "Вучыўся ў Беларускім тэатральна-мастацкім інстытуце. "
+          },
+          {
+            "dateText": "1970",
+            "title": "Пачаў выкладаць у Беларускім тэатральна-мастацкім інстытуце."
+          },
+          {
+            "dateText": "1967 — 1973",
+            "title": "Прыняты рэжысёрам ў Беларускі тэатр імя Я. Купалы."
+          },
+          {
+            "dateText": "1973 — 1981",
+            "title": "Галоўны рэжысёр Дзяржаўнага рускага драматычнага тэатра імя М. Горкага."
+          },
+          {
+            "dateText": "1981 — 1982",
+            "title": "Рэжысёр Купалаўскага тэатра."
+          },
+          {
+            "dateText": "1982 — 1991",
+            "title": "Галоўны рэжысёр Тэатра-студыі кінаакцёра."
+          },
+          {
+            "dateText": "1991 — 2008",
+            "title": "Мастацкі кіраўнік Нацыянальнага акадэмічнага драматычнага тэатра імя М. Горкага."
+          },
+          {
+            "dateText": "2008 — 2020",
+            "title": "Рэжысёр Нацыянальнага акадэмічнага драматычнага тэатра імя М. Горкага."
+          },
+          {
+            "dateText": "05.02.2020",
+            "title": "Памёр ў Мінску."
+          }
+        ],
+        "ru": [
+          {
+            "dateText": "16.09.1937",
+            "title": "Родился в городе Майкоп (Адыгея, РСФСР)."
+          },
+          {
+            "dateText": "1962 — 1967",
+            "title": "Учился в Белорусском государственном театрально-художественном институте."
+          },
+          {
+            "dateText": "1970",
+            "title": "Начал преподавать в Белорусском государственном театрально-художественном институте."
+          },
+          {
+            "dateText": "1967 — 1973",
+            "title": "Принят режиссером в Белоруссский театр им. Я. Купалы."
+          },
+          {
+            "dateText": "1973 — 1981",
+            "title": "Главный режиссер Государственного русского драматического театра им. М. Горького."
+          },
+          {
+            "dateText": "1981 — 1982",
+            "title": "Режиссер Купаловского театра."
+          },
+          {
+            "dateText": "1982 — 1991",
+            "title": "Главный режиссер Театра-студии киноактера."
+          },
+          {
+            "dateText": "1991 — 2008",
+            "title": "Художественный руководитель Национального академического драматического театра им. М. Горького."
+          },
+          {
+            "dateText": "2008 — 2020",
+            "title": "Режиссер-постановщик Национального академического драматического театра им. М. Горького."
+          },
+          {
+            "dateText": "05.02.2020",
+            "title": "Умер в г. Минск."
+          }
+        ]
       },
       "works": [
         {
-          "en": {
-            "date": "дата",
-            "title": "название работы"
-          },
-          "bl": {
-            "1910-1913": "Модны шляхцюк",
-            "1910-1913": "Па рэвізіі",
-            "1910-1913": "Пашыліся ў дурні",
-            "1910-1913": "Хам",
-            "1910-1913": "У зімовы вечар",
-            "1910-1913": "Міхалка",
-            "1910-1913": "Сватанне"
-          },
-          "ru": {
-            "date": "дата",
-            "title": "название работы"
-          }
+          "en": [
+            {
+              "date": "1968",
+              "title": "«Rudobel Republic» by S. Grakhouski"
+            },
+            {
+              "date": "1970",
+              "title": "«Memory of the heart» by A. Korneychuk"
+            },
+            {
+              "date": "1971",
+              "title": "«Zatyukany Apostle» by А. Makayonak."
+            },
+            {
+              "date": "1972",
+              "title": "«Scattered nest» by Y. Kupala"
+            },
+            {
+              "date": "1974",
+              "title": "«Macbeth» by W. Shakespeare"
+            },
+            {
+              "date": "1976",
+              "title": "«The Threepenny Opera» by B. Brecht"
+            },
+            {
+              "date": "1976",
+              "title": "«The Last Ones» by М. Gorky"
+            },
+            {
+              "date": "1979",
+              "title": "«The Tragedy of Man» by I. Madach"
+            },
+            {
+              "date": "1983",
+              "title": "«See who came» by V. Aro"
+            },
+            {
+              "date": "1985",
+              "title": "«Who's Afraid of Virginia Woolf?» by E. Albee"
+            },
+            {
+              "date": "1990",
+              "title": "«The Trousers» by J. Anouilh"
+            },
+            {
+              "date": "2002",
+              "title": "«Dream on the Barrow» by Y. Kupala"
+            },
+            {
+              "date": "2003 — 2004",
+              "title": "«Before Sunset» by G. Hauptmann"
+            },
+            {
+              "date": "2003 — 2004",
+              "title": "«The Tidings Brought to Mary» by P. Claudel"
+            },
+            {
+              "date": "2010",
+              "title": "«Oedipus» by E. Minchukova"
+            }
+          ],
+          "bl": [
+            {
+              "date": "1968",
+              "title": "«Рудабельская рэспубліка» С. Грахоўскага"
+            },
+            {
+              "date": "1970",
+              "title": "«Памяць сэрца» А. Карнейчука"
+            },
+            {
+              "date": "1971",
+              "title": "«Зацюканы апостал» А. Макаёнка"
+            },
+            {
+              "date": "1972",
+              "title": "«Раскіданае гняздо» Я. Купалы"
+            },
+            {
+              "date": "1974",
+              "title": "«Макбет» У. Шэкспіра"
+            },
+            {
+              "date": "1976",
+              "title": "«Трохграшовая опера» Б. Брэхта"
+            },
+            {
+              "date": "1976",
+              "title": "«Апошнія» М. Горкага"
+            },
+            {
+              "date": "1979",
+              "title": "«Трагедыя чалавека» І. Мадача"
+            },
+            {
+              "date": "1983",
+              "title": "«Глядзіце, хто прыйшоў» У. Аро"
+            },
+            {
+              "date": "1985",
+              "title": "«Не баюся Вірджыніі Вульф» Э. Олбі"
+            },
+            {
+              "date": "1990",
+              "title": "«Генералы ў спадніцах» Ж. Ануя"
+            },
+            {
+              "date": "2002",
+              "title": "«Сон на кургане» Я. Купалы"
+            },
+            {
+              "date": "2003 — 2004",
+              "title": "«Перад захадам сонца» Г. Гауптмана"
+            },
+            {
+              "date": "2003 — 2004",
+              "title": "«Паведамленне Марыі» П. Кладэля"
+            },
+            {
+              "date": "2010",
+              "title": "«Эдзiп» Е. Минчуковай"
+            }
+          ],
+          "ru": [
+            {
+              "date": "1968",
+              "title": "«Рудобельская республика» С. Граховского"
+            },
+            {
+              "date": "1970",
+              "title": "«Память сердца» А. Корнейчука"
+            },
+            {
+              "date": "1971",
+              "title": "«Затюканный апостол» А. Макаенка"
+            },
+            {
+              "date": "1972",
+              "title": "«Раскиданное гнездо» Я. Купалы"
+            },
+            {
+              "date": "1974",
+              "title": "«Макбет» У. Шекспира"
+            },
+            {
+              "date": "1976",
+              "title": "«Трёхгрошовая опера» Б. Брехта"
+            },
+            {
+              "date": "1976",
+              "title": "«Последние» М. Горького"
+            },
+            {
+              "date": "1979",
+              "title": "«Трагедия человека» И. Мадача"
+            },
+            {
+              "date": "1983",
+              "title": "«Смотрите, кто пришел» В. Аро"
+            },
+            {
+              "date": "1985",
+              "title": "«Кто боится Вирджинии Вулф?» Э. Олби"
+            },
+            {
+              "date": "1990",
+              "title": "«Генералы в юбках» Ж. Ануя"
+            },
+            {
+              "date": "2002",
+              "title": "«Сон на кургане» Я. Купалы"
+            },
+            {
+              "date": "2003 — 2004",
+              "title": "«Перед заходом солнца» Г. Гауптмана"
+            },
+            {
+              "date": "2003 — 2004",
+              "title": "«Извещение Марии» П. Клоделя"
+            },
+            {
+              "date": "2010",
+              "title": "«Эдип» Е. Минчуковой"
+            }
+          ]
         }
       ],
-      "gallery": ["ссылки на фото режиссера и его работ"],
-      "videos": ["ссылки на работы"],
-      "map": { "position": "не знаю как локации на мапах отмечать" }
+      "gallery": [
+        "https://www.rustheatre.by/images/stories/administration/lutsenko_black.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/e/ec/Alexey_Kuzmich_Portrait_of_national_actor_Boris_Lutsenko_2001.JPG",
+        "https://lh5.googleusercontent.com/proxy/_LKN2-aofKKxgM4nzZvvSOVQcskL0PTl5AbTRL9sczjiq2qZP3ZUY4VzX1c0ET77pFsud2uKYILsugKo56_cgcd8yYw8U3aPmbgGK7hRPB9IzTJGRDQ",
+        "https://euroradio.fm/sites/default/files/article/miniatures/2020/02/lucenk.jpg",
+        "https://i.ytimg.com/vi/wM-HkQ59usY/maxresdefault.jpg"
+      ],
+      "videos": [
+        "https://youtu.be/wM-HkQ59usY",
+        "https://youtu.be/XGIwlJxxYDM",
+        "https://youtu.be/BgIlvlPESvI"
+      ],
+      "map": {
+        "latitude": 53.89840557065936,
+        "longitude": 27.551131999999964
+      }
+    },
+    "2": {
+      "name": {
+        "en": "Vadim Dopkunas",
+        "bl": "Вадзім Дапкюнас",
+        "ru": "Вадим Допкюнас"
+      },
+      "birthPlace": {
+        "en": "Anadyr, Chukotka Autonomous Okrug, Khabarovsk Krai, Kamchatka Oblast, RSFSR",
+        "bl": "Анадыр, Чукоцкая аўтаномная акруга, Камчацкая вобласць, Хабараўскі край, РСФСР",
+        "ru": "Анадырь, Чукотский автономный округ, Камчатская область, Хабаровский край, РСФСР"
+      },
+      "lifetime": "20.12.1940 — xxxx",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Vadzim_Dapkiunas_%281%29.jpg",
+      "summary": {
+        "en": "Soviet and Belarusian theater figure and theater organizer.",
+        "bl": "Беларускі тэатральны дзеяч і арганізатар тэатральнай справы.",
+        "ru": "Cоветский и белорусский театральный деятель и организатор театрального дела, автор первой постановки в профессиональном театре пьесы Александра Вампилова."
+      },
+      "biography": {
+        "en": [
+          {
+            "dateText": "20.12.1940",
+            "title": "Born in Anadyr, Chukotka Autonomous Okrug, Khabarovsk Krai, Kamchatka Oblast, RSFSR."
+          },
+          {
+            "dateText": "1960",
+            "title": "Graduated from a technical school in Minsk."
+          },
+          {
+            "dateText": "1964",
+            "title": "Graduated from the Belarusian State Theater and Art Institute with a degree in Drama Theater and Cinema."
+          },
+          {
+            "dateText": "1967",
+            "title": "He graduated from the Belarusian State Theater and Art Institute with a degree in drama director."
+          },
+          {
+            "dateText": "1961 — 1967",
+            "title": "Teacher of the Minsk house of culture of vocational education."
+          },
+          {
+            "dateText": "1970 — 1972",
+            "title": "Worked as the second and soon first secretary of the Frunze district committee of the Komsomol of Minsk."
+          },
+          {
+            "dateText": "1972",
+            "title": "Started teaching (at the Minsk State Pedagogical Institute named after M. Gorky)."
+          },
+          {
+            "dateText": "1975",
+            "title": "Lecturer at the Minsk Institute of Culture."
+          },
+          {
+            "dateText": "1978 — 1981",
+            "title": "Director of the Belarusian Theater of Young Spectators."
+          },
+          {
+            "dateText": "1981",
+            "title": "Lecturer at the Minsk Institute of Culture at the Department of Directing."
+          },
+          {
+            "dateText": "1983",
+            "title": "Was invited to work at the Ministry of Culture of Belarus, where he worked as an editor of the repertoire-editorial board and in the management of arts."
+          },
+          {
+            "dateText": "1996 — 2001",
+            "title": "Head of the theater department of the Ministry of Culture of the Republic of Belarus."
+          },
+          {
+            "dateText": "2001 — 2007",
+            "title": "Leading editor of the Concert Orchestra of Belarus."
+          },
+          {
+            "dateText": "2007 — 2009",
+            "title": "Head of the literary and dramatic section and assistant art director of the Janka Kupala National Theatre."
+          }
+        ],
+        "bl": [
+          {
+            "dateText": "20.12.1940",
+            "title": "Нарадзіўся ў Анадыры (Чукоцкая аўтаномная акруга, Камчацкая вобласць, Хабараўскі край, РСФСР)."
+          },
+          {
+            "dateText": "1960",
+            "title": "Скончыў тэхнічнае вучылішча ў Мінску."
+          },
+          {
+            "dateText": "1964",
+            "title": "Скончыў Беларускі дзяржаўны тэатральна-мастацкі інстытут па спецыяльнасці «акцёр драматычнага тэатра і кіно»."
+          },
+          {
+            "dateText": "1967",
+            "title": "Скончыў Беларускі дзяржаўны тэатральна-мастацкі інстытут па спецыяльнасці «рэжысёр драмы»."
+          },
+          {
+            "dateText": "1961 — 1967",
+            "title": "Педагог Мінскага дома культуры прафтэхадукацыі."
+          },
+          {
+            "dateText": "1970 — 1972",
+            "title": "Працаваў другім і неўзабаве першым сакратаром Фрунзенскага раённага камітэта ЛКСМБ г. Мінску."
+          },
+          {
+            "dateText": "1972",
+            "title": "Распачаў выкладчыцкую дзейнасць (ў Мінскім дзяржаўным педагагічным інстытуце імя Горкага)."
+          },
+          {
+            "dateText": "1975",
+            "title": "Выкладоўца ў Мінскім інстытуце культуры."
+          },
+          {
+            "dateText": "1978 — 1981",
+            "title": "Дырэктар Беларускага тэатра юнага глядача"
+          },
+          {
+            "dateText": "1981",
+            "title": "Выкладоўца ў Мінскім інстытуце культуры на кафедры рэжысуры."
+          },
+          {
+            "dateText": "1983",
+            "title": "Запрошаны на працу ў Міністэрства культуры Беларусі, дзе працаваў рэдактарам рэпертуарна-рэдакцыйнай калегіі і ва ўпраўленні мастацтваў."
+          },
+          {
+            "dateText": "1996 — 2001",
+            "title": "Кіраўнік аддзела тэатраў Міністэрства культуры Рэспублікі Беларусь."
+          },
+          {
+            "dateText": "2001 — 2007",
+            "title": "Вядучы рэдактар Канцэртнага аркестра Беларусі."
+          },
+          {
+            "dateText": "2007 — 2009",
+            "title": "Кіраўнік літаратурна-драматургічнай часткі і памочнік мастацкага кіраўніка Нацыянальнага акадэмічнага тэатра імя Янкі Купалы."
+          }
+        ],
+        "ru": [
+          {
+            "dateText": "20.12.1940",
+            "title": "Родился в Анадыре (Чукотский автономный округ, Камчатская область, Хабаровский край, РСФСР)."
+          },
+          {
+            "dateText": "1960",
+            "title": "Закончил техническое училище в Минске."
+          },
+          {
+            "dateText": "1964",
+            "title": "Закончил Белорусский государственный театрально-художественный институт по специальности «актер драматического театра и кино»."
+          },
+          {
+            "dateText": "1967",
+            "title": "Закончил Белорусский государственный театрально-художественный институт по специальности «режиссер драмы."
+          },
+          {
+            "dateText": "1961 — 1967",
+            "title": "Педагог Минского дома культуры профтехобразования."
+          },
+          {
+            "dateText": "1970 — 1972",
+            "title": "Работал вторым и вскоре первым секретарем Фрунзенского районного комитета ЛКСМБ г. Минска."
+          },
+          {
+            "dateText": "1972",
+            "title": "Начал преподавательскую деятельность (в Минском государственном педагогическом институте им. М. Горького)."
+          },
+          {
+            "dateText": "1975",
+            "title": "Преподаватель в Минском институте культуры."
+          },
+          {
+            "dateText": "1978 — 1981",
+            "title": "Директор Белорусского театра юного зрителя"
+          },
+          {
+            "dateText": "1981",
+            "title": "Преподаватель в Минском институте культуры на кафедре режиссуры."
+          },
+          {
+            "dateText": "1983",
+            "title": "Приглашен на работу в Министерство культуры Беларуси, где работал редактором репертуарно-редакционной коллегии и в управлении искусств."
+          },
+          {
+            "dateText": "1996 — 2001",
+            "title": "Руководитель отдела театров Министерства культуры Республики Беларусь."
+          },
+          {
+            "dateText": "2001 — 2007",
+            "title": "Ведущий редактор Концертного оркестра Беларуси."
+          },
+          {
+            "dateText": "2007 — 2009",
+            "title": "Руководитель литературно-драматургической части и помощник художественного руководителя Национального академического театра им. Я. Купалы."
+          }
+        ]
+      },
+      "works": [
+        {
+          "en": [
+            {
+              "date": "1966",
+              "title": "«Farewell to June» by A. Vampilov."
+            }
+          ],
+          "bl": [
+            {
+              "date": "1966",
+              "title": "«Развітанне ў чэрвені» А. Вампілава."
+            }
+          ],
+          "ru": [
+            {
+              "date": "1966",
+              "title": "«Прощание в июне» А. Вампилова."
+            }
+          ]
+        }
+      ],
+      "gallery": [
+        "https://img.tyt.by/n/05/3/dopkunas0921.jpg",
+        "https://www.kino-teatr.ru/acter/album/268177/583344.jpg",
+        "https://www.kino-teatr.ru/acter/album/268177/582956.jpg"
+      ],
+      "videos": ["https://youtu.be/Kuh8QU8F6f0"],
+      "map": {
+        "latitude": 53.90073457066538,
+        "longitude": 27.562729500000007
+      }
+    },
+    "3": {
+      "name": {
+        "en": "Ignat Buinitsky",
+        "bl": "Ігнат Буйніцкі",
+        "ru": "Игнат Буйницкий"
+      },
+      "birthPlace": {
+        "en": "Manor of Polivachi of the Prozorok volost",
+        "bl": "Сядзіба Поливачи Прозорокской воласці",
+        "ru": "Усадьба Поливачи Прозорокской волости"
+      },
+      "lifetime": "10.08.1861 — 09.09.1917",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Ihnat_Bujnicki.jpg/515px-Ihnat_Bujnicki.jpg",
+      "summary": {
+        "en": "Belarusian actor, director, theater figure, founder of the first professional national Belarusian theater.",
+        "bl": "Беларускі акцёр, рэжысёр, тэатральны дзеяч, заснавальнік першага прафесійнага нацыянальнага беларускага тэатра.",
+        "ru": "Белорусский актёр, режиссёр, театральный деятель, основатель первого профессионального национального белорусского театра."
+      },
+      "biography": {
+        "en": [
+          {
+            "dateText": "10.08.1861",
+            "title": "Was born in Manor of Polivachi of the Prozorok volost."
+          },
+          {
+            "dateText": "1907",
+            "title": "Ignat Terentyevich, together with his daughters Wanda and Elena, as well as with his close friends, created an amateur troupe in the Polivachi folklore."
+          },
+          {
+            "dateText": "1910",
+            "title": "On the basis of an amateur troupe, a permanent group was formed and long tours around Belarus began."
+          },
+          {
+            "dateText": "1910-1913",
+            "title": "The troupe is touring not only in Belarus, but also in Vilnius, St. Petersburg, Warsaw."
+          },
+          {
+            "dateText": "1913",
+            "title": "Buinitsky organized the Prozorok Belarusian Credit Society, in which every peasant could get a loan at a small percentage. Ignat Buinitsky married Frantishka Brzhozovskaya, from this marriage he had three daughters."
+          },
+          {
+            "dateText": "1914-1916",
+            "title": "Buinitsky took an active part in the activities of the Vilnius society “To Help the Front”."
+          },
+          {
+            "dateText": "1917",
+            "title": "Went to the Western Front of World War I."
+          },
+          {
+            "dateText": "22.09.1917",
+            "title": "Died on stage during a rehearsal (was engaged in amateur performances). At first he was buried there, in Molodechno, but later reburied in Prozoroki on the central square."
+          }
+        ],
+        "bl": [
+          {
+            "dateText": "10.08.1861",
+            "title": "Нарадзіўся ў маёнтку Палівачы Празароцкай воласці."
+          },
+          {
+            "dateText": "1907",
+            "title": "Ігнат Цярэнцьевіч разам з дачкамі Вандай і Аленай, а таксама са сваімі блізкімі сябрамі стварыў самадзейную трупу ў фальклоры Полівачы."
+          },
+          {
+            "dateText": "1910",
+            "title": "На базе аматарскай трупы было створана пастаянная група і пачаліся працяглыя гастролі па Беларусі."
+          },
+          {
+            "dateText": "1910-1913",
+            "title": "Трупа гастралюе не толькі ў Беларусі, але і ў Вільні, Санкт-Пецярбургу, Варшаве."
+          },
+          {
+            "dateText": "1913",
+            "title": "Буйніцкі арганізаваў Беларускае крэдытнае таварыства «Прозарок», у якім кожны селянін мог атрымаць пазыку пад невялікі адсотак. Ігнат Буйніцкі ажаніўся з Францішкам Бржазоўскай, ад гэтага шлюбу ў яго былі тры дачкі."
+          },
+          {
+            "dateText": "1914-1916",
+            "title": "Буйніцкі прыняў актыўны ўдзел у віленскім таварыстве “Дапаможа фронту”."
+          },
+          {
+            "dateText": "1917",
+            "title": "Пайшоў на Заходні фронт Першай сусветнай вайны."
+          },
+          {
+            "dateText": "22.09.1917",
+            "title": "Памёр на сцэне падчас рэпетыцыі (займаўся мастацкай самадзейнасцю). Спачатку яго пахавалі там, у Маладзечне, але пазней перапахавалі ў Празароках на цэнтральнай плошчы."
+          }
+        ],
+        "ru": [
+          {
+            "dateText": "10.08.1861",
+            "title": "Родился в Усадьбе Поливачи Прозорокской волости."
+          },
+          {
+            "dateText": "1907",
+            "title": " Игнат Терентьевич вместе с дочерьми Вандой и Еленой, а также со своими близкими друзьями создал в фольварке Поливачи любительскую труппу."
+          },
+          {
+            "dateText": "1910",
+            "title": "На базе любительской труппы была сформирована постоянная группа и начались длительные гастроли по Беларуси."
+          },
+          {
+            "dateText": "1910-1913",
+            "title": "Труппа гастролирует не только в Беларуси, но и в Вильнюсе, Санкт-Петербурге, Варшаве."
+          },
+          {
+            "dateText": "1913",
+            "title": "Буйницкий организовал Прозорокское белорусское кредитное общество, в котором каждый крестьянин под небольшой процент мог получить заём. Женился Игнат Буйницкий на Франтишке Бржозовской, от этого брака у него осталось три дочери."
+          },
+          {
+            "dateText": "1914-1916",
+            "title": "Буйницкий принимал активное участие в деятельности виленского общества «В помощь фронту»"
+          },
+          {
+            "dateText": "1917",
+            "title": "Отправился на Западный фронт Первой мировой войны."
+          },
+          {
+            "dateText": "22.09.1917",
+            "title": "Умер на сцене во время репетиции (занимался солдатской самодеятельностью). Сначала был похоронен там же, в Молодечно, но позже перезахоронен в Прозороках на центральной площади."
+          }
+        ]
+      },
+      "works": [
+        {
+          "en": [
+            {
+              "date": "1910",
+              "title": "«Proposal» A.P. Chekhov"
+            },
+            {
+              "date": "1910",
+              "title": "«Fashionable nobleman» K. Kaganets"
+            },
+            {
+              "date": "1910",
+              "title": "«By revision» M. Kropyvnytsky"
+            },
+            {
+              "date": "1911",
+              "title": "«On a winter evening» E. Orzhesko"
+            },
+            {
+              "date": "1911",
+              "title": "«Rude» E. Orzhesko"
+            },
+            {
+              "date": "1911",
+              "title": "«Sewed in fools» M. Kropyvnytsky"
+            },
+            {
+              "date": "1912",
+              "title": "«Lyavonikha», Belarusian folk dance"
+            },
+            {
+              "date": "1913",
+              "title": "«Blizzard» Belarusian folk dance"
+            },
+            {
+              "date": "1913",
+              "title": "«Miller» Belarusian folk dance"
+            },
+            {
+              "date": "1914",
+              "title": "«Kachan» Belarusian folk dance"
+            },
+            {
+              "date": "1914",
+              "title": "«Bird cherry» Belarusian folk dance"
+            }
+          ],
+          "bl": [
+            {
+              "date": "1910",
+              "title": "«Прапанова» А.П. Чэхаў"
+            },
+            {
+              "date": "1910",
+              "title": "«Модны шляхцюкі» К. Каганец"
+            },
+            {
+              "date": "1910",
+              "title": "«Па рэвізіі» М. Кропивницкий"
+            },
+            {
+              "date": "1911",
+              "title": "«У зімовы вечар» Э. Ажэшкі"
+            },
+            {
+              "date": "1911",
+              "title": "«Хам» Э. Ажэшкі"
+            },
+            {
+              "date": "1911",
+              "title": "«Пошилися ў дурні» М. Кропивницкий"
+            },
+            {
+              "date": "1912",
+              "title": "«Лявоніха», Беларускі народны танец"
+            },
+            {
+              "date": "1913",
+              "title": "«Мяцеліца» Беларускі народны танец"
+            },
+            {
+              "date": "1913",
+              "title": "«Мельнік» Беларускі народны танец"
+            },
+            {
+              "date": "1914",
+              "title": "«Качан» Беларускі народны танец"
+            },
+            {
+              "date": "1914",
+              "title": "«Чаромха» Беларускі народны танец"
+            }
+          ],
+          "ru": [
+            {
+              "date": "1910",
+              "title": "«Предложение» А.П. Чехов"
+            },
+            {
+              "date": "1910",
+              "title": "«Модный шляхтюк» К. Каганец"
+            },
+            {
+              "date": "1910",
+              "title": "«По ревизии» М. Кропивницкий"
+            },
+            {
+              "date": "1911",
+              "title": "«В зимний вечер» Э. Ожешко"
+            },
+            {
+              "date": "1911",
+              "title": "«Хам» Э. Ожешко"
+            },
+            {
+              "date": "1911",
+              "title": "«Пошилися в дурни» М. Кропивницкий"
+            },
+            {
+              "date": "1912",
+              "title": "«Лявониха», Белорусский народный танец"
+            },
+            {
+              "date": "1913",
+              "title": "«Метелица» Белорусский народный танец"
+            },
+            {
+              "date": "1913",
+              "title": "«Мельник» Белорусский народный танец"
+            },
+            {
+              "date": "1914",
+              "title": "«Качан» Белорусский народный танец"
+            },
+            {
+              "date": "1914",
+              "title": "«Черёмуха» Белорусский народный танец"
+            }
+          ]
+        }
+      ],
+      "gallery": [
+        "https://upload.wikimedia.org/wikipedia/commons/b/b2/Trupa_Bujnickaha.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/c/cd/Marka_Ihnat_Bujnicki.jpg",
+        "https://i1.wp.com/vkurier.by/wp-content/uploads/2016/08/000000.jpg?zoom=2&resize=401%2C511&ssl=1",
+        "https://i0.wp.com/vkurier.by/wp-content/uploads/2016/08/81.jpg?zoom=2&resize=525%2C700&ssl=1"
+      ],
+      "videos": ["https://youtu.be/kVDHOril4-Q", "https://youtu.be/ACDGr4TUkvs"],
+      "map": {
+        "latitude": 53.90069,
+        "longitude": 27.562732
+      }
+    },
+    "4": {
+      "name": {
+        "en": "Vladislav Golubok",
+        "bl": "Уладзіслаў Галубок",
+        "ru": "Владислав Голубок"
+      },
+      "birthPlace": {
+        "en": "Lesnaya station near Baranovichi, Russian Empire",
+        "bl": "Cтанция Лясная пад Баранавічамі, Расійская Імперыя",
+        "ru": "Cтанция Лесная под Барановичами, Российская Империя"
+      },
+      "lifetime": "03.05.1882 — 28.09.1937",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/9/91/Vladislav_Golubok.jpg",
+      "summary": {
+        "en": "Belorussian Soviet actor, director, writer, artist, decorator, first national artist of the Belarusian SSR, one of the founders of the Belarusian national theater, artistic director and director of the Belarusian State Theater.",
+        "bl": "Беларускі савецкі акцёр, рэжысёр, пісьменнік, мастак, дэкаратар, першы народны артыст Беларускай ССР, адзін з заснавальнікаў беларускага нацыянальнага тэатра, мастацкі кіраўнік і дырэктар Беларускага дзяржаўнага тэатра.",
+        "ru": "Белорусский советский актёр, режиссёр, писатель, художник, декоратор, первый народный артист Белорусской ССР, один из основателей белорусского национального театра, художественный руководитель и директор Белорусского государственного театра."
+      },
+      "biography": {
+        "en": [
+          {
+            "dateText": "03.05.1882",
+            "title": "Born at the Lesnaya station near Baranavichy in the family of a railwayman."
+          },
+          {
+            "dateText": "1895",
+            "title": "Worked as a clerk in a store, then was a clerk on the railway."
+          },
+          {
+            "dateText": "1906",
+            "title": "Engaged in literary activities, collaborated with the Belarusian newspaper Nasha Niva."
+          },
+          {
+            "dateText": "1917-1920",
+            "title": "Actor and director of the “First Partnership of Belarusian Drama and Comedy”"
+          },
+          {
+            "dateText": "1920",
+            "title": "Created a theater called the Dove Troupe, whose task was to provide artistic services to the regions of the republic."
+          },
+          {
+            "dateText": "1928",
+            "title": "The first in Belarus was awarded the title of People's Artist of Belarus."
+          },
+          {
+            "dateText": "1937",
+            "title": "He was accused of nationalism and anti-Soviet propaganda, arrested."
+          },
+          {
+            "dateText": "28.09.1937",
+            "title": "He died, was shot for nationalism and anti-Soviet propaganda."
+          }
+        ],
+        "bl": [
+          {
+            "dateText": "03.05.1882",
+            "title": "Нарадзіўся на станцыі Лесная пад Баранавічамі ў сям'і чыгуначніка."
+          },
+          {
+            "dateText": "1895",
+            "title": "Працаваў пісарам у краме, потым быў чыноўнікам на чыгунцы."
+          },
+          {
+            "dateText": "1906",
+            "title": "Займаўся літаратурнай дзейнасцю, супрацоўнічаў з беларускай газетай “Наша ніва”."
+          },
+          {
+            "dateText": "1917-1920",
+            "title": "Акцёр і рэжысёр “Першага партнёрства беларускай драматургіі і камедыі”"
+          },
+          {
+            "dateText": "1920",
+            "title": "У 1920 стварыў тэатр, які называўся «Трупа Галубка»."
+          },
+          {
+            "dateText": "1928",
+            "title": "Першым у Беларусі было прысвоена званне народнага артыста Беларусі."
+          },
+          {
+            "dateText": "1937",
+            "title": "Яго абвінавацілі ў нацыяналізме і антысавецкай прапагандзе, арыштавалі."
+          },
+          {
+            "dateText": "28.09.1937",
+            "title": "Ён памёр, расстраляны за нацыяналізм і антысавецкую прапаганду."
+          }
+        ],
+        "ru": [
+          {
+            "dateText": "03.05.1882",
+            "title": "Родился на станции Лесная под Барановичами в семье железнодорожника."
+          },
+          {
+            "dateText": "1895",
+            "title": "С 13 лет работал приказчиком в магазине, затем был конторщиком на железной дороге."
+          },
+          {
+            "dateText": "1906",
+            "title": "Занимался литературной деятельностью, сотрудничал с белорусским газетой “Наша нива”."
+          },
+          {
+            "dateText": "1917-1920",
+            "title": "Актер и режиссер “Первого партнерства белорусского драматургии и комедии”."
+          },
+          {
+            "dateText": "1920",
+            "title": "Создал театр, который назывался «Труппа Голубка»."
+          },
+          {
+            "dateText": "1928",
+            "title": "Первым в Беларуси было присвоено звание народного артиста Беларуси."
+          },
+          {
+            "dateText": "1937",
+            "title": "Его обвинили в национализме и антисоветской пропаганде, арестовали."
+          },
+          {
+            "dateText": "28.09.1937",
+            "title": "Был убит, расстрелян за национализм и антисоветскую пропаганду."
+          }
+        ]
+      },
+      "works": [
+        {
+          "en": [
+            {
+              "date": "1918",
+              "title": "«Innocent blood»"
+            },
+            {
+              "date": "1918",
+              "title": "«Aerial clerk»"
+            },
+            {
+              "date": "1918",
+              "title": "«Rootless»"
+            },
+            {
+              "date": "1919",
+              "title": "«Swashbucklers»"
+            },
+            {
+              "date": "1919",
+              "title": "«Last meeting»"
+            },
+            {
+              "date": "1921",
+              "title": "«Murderers»"
+            },
+            {
+              "date": "1922",
+              "title": "«Bigot»"
+            },
+            {
+              "date": "1922",
+              "title": "«Womans-villain»"
+            },
+            {
+              "date": "1924",
+              "title": "«Court»"
+            },
+            {
+              "date": "1927",
+              "title": "«Pisarev's birthday party»"
+            },
+            {
+              "date": "1927",
+              "title": "«Pinsk Madonna»"
+            },
+            {
+              "date": "1929",
+              "title": "«White wreath»"
+            },
+            {
+              "date": "1930",
+              "title": "«Pan Surint»"
+            },
+            {
+              "date": "1930",
+              "title": "«Crab»"
+            },
+            {
+              "date": "1933",
+              "title": "«White weapon»"
+            }
+          ],
+          "bl": [
+            {
+              "date": "1918",
+              "title": "«Бязьвінная кроў»"
+            },
+            {
+              "date": "1918",
+              "title": "«Залёты дзяка»"
+            },
+            {
+              "date": "1918",
+              "title": "«Бязродны»"
+            },
+            {
+              "date": "1919",
+              "title": "«Ветрагоны»"
+            },
+            {
+              "date": "1919",
+              "title": "«Апошняе спатканьне»"
+            },
+            {
+              "date": "1921",
+              "title": "«Душагубы»"
+            },
+            {
+              "date": "1922",
+              "title": "«Фанатык»"
+            },
+            {
+              "date": "1922",
+              "title": "«Бабы-ліхадзейкі»"
+            },
+            {
+              "date": "1924",
+              "title": "«Суд»"
+            },
+            {
+              "date": "1927",
+              "title": "«Пісаравы імяніны»"
+            },
+            {
+              "date": "1927",
+              "title": "«Пінская мадонна»"
+            },
+            {
+              "date": "1929",
+              "title": "«Белы вянок»"
+            },
+            {
+              "date": "1930",
+              "title": "«Пан Сурынта»"
+            },
+            {
+              "date": "1930",
+              "title": "«Краб»"
+            },
+            {
+              "date": "1933",
+              "title": "«Белая зброя»"
+            }
+          ],
+          "ru": [
+            {
+              "date": "1918",
+              "title": "«Невинная кровь»"
+            },
+            {
+              "date": "1918",
+              "title": "«Залёты дьяка»"
+            },
+            {
+              "date": "1918",
+              "title": "«Безродный»"
+            },
+            {
+              "date": "1919",
+              "title": "«Сорвиголовы»"
+            },
+            {
+              "date": "1919",
+              "title": "«Последнее свидание»"
+            },
+            {
+              "date": "1921",
+              "title": "«Душегубы»"
+            },
+            {
+              "date": "1922",
+              "title": "«Фанатик»"
+            },
+            {
+              "date": "1922",
+              "title": "«Бабы-злодейки»"
+            },
+            {
+              "date": "1924",
+              "title": "«Суд»"
+            },
+            {
+              "date": "1927",
+              "title": "«Писаревы именины»"
+            },
+            {
+              "date": "1927",
+              "title": "«Пинская мадонна»"
+            },
+            {
+              "date": "1929",
+              "title": "«Белы вянок»"
+            },
+            {
+              "date": "1930",
+              "title": "«Белый венок»"
+            },
+            {
+              "date": "1930",
+              "title": "«Краб»"
+            },
+            {
+              "date": "1933",
+              "title": "«Белое оружие»"
+            }
+          ]
+        }
+      ],
+      "gallery": [
+        "https://upload.wikimedia.org/wikipedia/commons/8/82/Haluboktheatre4.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/c/ce/Halubok2.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/f/f9/Haluboktheatre2.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/1/1d/Haluboktheatre1.jpg"
+      ],
+      "videos": ["https://youtu.be/xFe7Z0kHs-0"],
+      "map": {
+        "latitude": 53.90073457066538,
+        "longitude": 27.562729500000007
+      }
+    },
+    "5": {
+      "name": {
+        "en": "Eўstsigney Mirovich",
+        "bl": "Еўсцігней Міровіч",
+        "ru": "Евстигней Мирович"
+      },
+      "birthPlace": {
+        "en": "St. Petersburg, Russian Empire",
+        "bl": "Санкт-Пецярбург, Расійская імперыя",
+        "ru": "Санкт-Петербург, Российская империя"
+      },
+      "lifetime": "10.07.1878 — 29.02.1952",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Mirovich_03.jpg",
+      "summary": {
+        "en": "Belarusian playwright and theater director.",
+        "bl": "Беларускі драматург і тэатральны рэжысёр.",
+        "ru": "Белорусский драматург и театральный режиссер."
+      },
+      "biography": {
+        "en": [
+          {
+            "dateText": "10.07.1878",
+            "title": "Born in a family of a railway worker, who comes from the North-Western Region."
+          },
+          {
+            "dateText": "1900",
+            "title": "He worked in the St. Petersburg theater actor, then director."
+          },
+          {
+            "dateText": "1906",
+            "title": "Active member of the St. Petersburg Union of dramatic and musical writers."
+          },
+          {
+            "dateText": "1919",
+            "title": "He worked in theaters in Belarus."
+          },
+          {
+            "dateText": "1921—1931",
+            "title": "Artistic Director"
+          },
+          {
+            "dateText": "1941—1945",
+            "title": "The director of the Belarusian theater. Kupala."
+          },
+          {
+            "dateText": "1952",
+            "title": "He was buried at the Military Cemetery in Minsk."
+          }
+        ],
+        "bl": [
+          {
+            "dateText": "10.07.1878",
+            "title": "Нарадзіўся ў сям’і чыгуначніка, выхадца з Паўночна-Заходняга краю."
+          },
+          {
+            "dateText": "1900",
+            "title": "Працаваў у пецярбургскіх тэатрах акцёрам, затым рэжысёрам."
+          },
+          {
+            "dateText": "1906",
+            "title": "правадзейны член Санкт-Пецярбургскага саюза драматычных і музычных пісьменнікаў."
+          },
+          {
+            "dateText": "1919",
+            "title": "Працаваў у тэатрах Беларусі."
+          },
+          {
+            "dateText": "1921—1931",
+            "title": "Мастацкі кіраўнік"
+          },
+          {
+            "dateText": "1941—1945",
+            "title": "Рэжысёр Беларускага тэатра ім. Я. Купалы."
+          },
+          {
+            "dateText": "1952",
+            "title": "Пахаваны на Вайсковых могілках Мінска."
+          }
+        ],
+        "ru": [
+          {
+            "dateText": "10.07.1878",
+            "title": "Родился в семье железнодорожника, выходца из Северо-Западного края."
+          },
+          {
+            "dateText": "1900",
+            "title": "Работал в петербургских театрах актером, затем режиссером."
+          },
+          {
+            "dateText": "1906",
+            "title": "Действительный член Санкт-Петербургского союза драматических и музыкальных писателей."
+          },
+          {
+            "dateText": "1919",
+            "title": "Работал в театрах Беларуси."
+          },
+          {
+            "dateText": "1921—1931",
+            "title": "Художественный руководитель"
+          },
+          {
+            "dateText": "1941—1945",
+            "title": "Режиссер Белорусского театра им. Я. Купалы."
+          },
+          {
+            "dateText": "1952",
+            "title": "Похоронен на Военном кладбище Минска."
+          }
+        ]
+      },
+      "works": [
+        {
+          "en": [
+            {
+              "date": "1904",
+              "title": "«Guardians»"
+            },
+            {
+              "date": "1910",
+              "title": "«Countess Elvira»"
+            },
+            {
+              "date": "1912",
+              "title": "«Knight Don Fernando»"
+            },
+            {
+              "date": "1915",
+              "title": "«Theater of the Merchant Epishkin»"
+            },
+            {
+              "date": "1915",
+              "title": "«Vova adapted»"
+            },
+            {
+              "date": "1923",
+              "title": "«Masheka»"
+            },
+            {
+              "date": "1923",
+              "title": "«Kastus Kalinovsky»"
+            },
+            {
+              "date": "1925",
+              "title": "«Governor's blacksmith»"
+            },
+            {
+              "date": "1926",
+              "title": "«Victory»"
+            },
+            {
+              "date": "1928",
+              "title": "«Sing the spindles»"
+            },
+            {
+              "date": "1932",
+              "title": "«Linen»"
+            },
+            {
+              "date": "1957",
+              "title": "compilation «Plays»"
+            }
+          ],
+          "bl": [
+            {
+              "date": "1904",
+              "title": "«Апекуны»"
+            },
+            {
+              "date": "1910",
+              "title": "«Графіня Эльвіра»"
+            },
+            {
+              "date": "1912",
+              "title": "«Рыцар дон Фернанда»"
+            },
+            {
+              "date": "1915",
+              "title": "«Тэатр купца Епишкина»"
+            },
+            {
+              "date": "1915",
+              "title": "«Вова прыстасаваўся»"
+            },
+            {
+              "date": "1923",
+              "title": "«Машэка»"
+            },
+            {
+              "date": "1923",
+              "title": "«Кастусь Каліноўскі»"
+            },
+            {
+              "date": "1925",
+              "title": "«Каваль-ваявода»"
+            },
+            {
+              "date": "1926",
+              "title": "«Перамога»"
+            },
+            {
+              "date": "1928",
+              "title": "«Запяюць верацёны»"
+            },
+            {
+              "date": "1932",
+              "title": "«Лён»"
+            },
+            {
+              "date": "1957",
+              "title": "зборнік «П’есы»"
+            }
+          ],
+          "ru": [
+            {
+              "date": "1904",
+              "title": "«Опекуны»"
+            },
+            {
+              "date": "1910",
+              "title": "«Графиня Эльвира»"
+            },
+            {
+              "date": "1912",
+              "title": "«Рыцарь дон Фернандо»"
+            },
+            {
+              "date": "1915",
+              "title": "«Театр купца Епишкина»"
+            },
+            {
+              "date": "1915",
+              "title": "«Вова приспособился»"
+            },
+            {
+              "date": "1923",
+              "title": "«Машека»"
+            },
+            {
+              "date": "1923",
+              "title": "«Кастусь Калиновский»"
+            },
+            {
+              "date": "1925",
+              "title": "«Кузнец-воевода»"
+            },
+            {
+              "date": "1926",
+              "title": "«Победа»"
+            },
+            {
+              "date": "1928",
+              "title": "«Запоют веретена»"
+            },
+            {
+              "date": "1932",
+              "title": "«Лён»"
+            },
+            {
+              "date": "1957",
+              "title": "сборник «П’есы»"
+            }
+          ]
+        }
+      ],
+      "gallery": [
+        "https://be.wikipedia.org/wiki/Файл:Mirovich_03.jpg",
+        "https://be.wikipedia.org/wiki/Файл:Могила_актёра_Евстигнея_Мировича.JPG"
+      ],
+      "videos": ["https://youtu.be/Yunms45xnog"],
+      "map": {
+        "latitude": 59.930188,
+        "longitude": 30.338089
+      }
+    },
+    "6": {
+      "name": {
+        "en": "Nikolai Nikolaevich Pinigin",
+        "bl": "Мікалай Мікалаевіч Пінігін",
+        "ru": "Николай Николаевич Пинигин"
+      },
+      "birthPlace": {
+        "en": "Izum, Ukraine",
+        "bl": "Ізюм, Ўкраіна ",
+        "ru": "Изюм, Украина"
+      },
+      "lifetime": "06.08.1957 -  xxxx",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Pinigin.JPG",
+      "summary": {
+        "en": "Belarusian director, awarded with a diplomas at international festivals, Honored Artist of the Republic of Belarus, recognized as “Person of the Year in Belarus” in the nomination “Scene” (1994), laureate of the State Prize of the Republic of Belarus (1992).",
+        "bl": "Беларускі рэжысёр, дыпламант міжнародных фестываляў, заслужаны дзеяч мастацтваў Рэспублікі Беларусь,прызнаны «Чалавекам года Беларусі» ў намінацыі «Сцэна» (1994),лаўрэат Дзяржаўнай прэміі Рэспублікі Беларусь(1992).",
+        "ru": "Белорусский режиссер, дипломант международных фестивалей, заслуженный деятель искусств Республики Беларусь, признан «Человеком года Беларуси» в номинации «Сцена» (1994 г.), лауреат Государственной премии Республики Беларусь (1992 год)."
+      },
+      "biography": {
+        "en": [
+          {
+            "dateText": "06.08.1957",
+            "title": "Was born in Izum in Ukraine."
+          },
+          {
+            "dateText": "1979",
+            "title": "He graduated from the directing department of the Belarusian Theater and Art Institute."
+          },
+          {
+            "dateText": "1979—1980",
+            "title": "He worked as a director at the Belarusian TV."
+          },
+          {
+            "dateText": "1980—1982",
+            "title": "He worked at the Russian Drama Theater. M. Gorky (Minsk)."
+          },
+          {
+            "dateText": "1982—1984",
+            "title": "He trained as a director at the Moscow Maly Theater."
+          },
+          {
+            "dateText": "1985",
+            "title": "He worked as a director of the National Academic Theater named after Y. Kupala."
+          },
+          {
+            "dateText": "1985—1987",
+            "title": "He worked as a teacher of the department «Skill of actor and direction» at the Belarusian Academy of Arts."
+          },
+          {
+            "dateText": "1995",
+            "title": "He trained as a director in the Paris «Courant D'Est»."
+          },
+          {
+            "dateText": "1998",
+            "title": "Director of the Bolshoi Drama Theater. G.A. Tovstonogov (St. Petersburg)."
+          },
+          {
+            "dateText": "2008",
+            "title": "He appointed chief director of the National Academic Yanka Kupala Theater."
+          }
+        ],
+        "bl": [
+          {
+            "dateText": "06.08.1957",
+            "title": " Нарадзіўся ў г. Ізюм ва Ўкраіне."
+          },
+          {
+            "dateText": "1979",
+            "title": "Скончыў рэжысёрскі факультэт Беларускага тэатральна-мастацкага інстытута."
+          },
+          {
+            "dateText": "1979—1980",
+            "title": "Працаваў рэжысёрам на беларускім тэлебачанні."
+          },
+          {
+            "dateText": "1980—1982",
+            "title": "Працаваў у Рускім драматычным тэатры ім. М. Горкага (Мінск)."
+          },
+          {
+            "dateText": "1982—1984",
+            "title": "Стажыраваўся ў якасці рэжысёра ў Маскоўскім Малым тэатры. "
+          },
+          {
+            "dateText": "1985",
+            "title": "Працаваў рэжысёрам Нацыянальнага акадэмічнага тэатра імя Я. Купалы."
+          },
+          {
+            "dateText": "1985—1987",
+            "title": "Працаваў выкладчыкам кафедры «Майстэрства акцёра і рэжысуры» у Беларускай акадэміі мастацтваў."
+          },
+          {
+            "dateText": "1995",
+            "title": "Стажыраваўся ў якасці рэжысёра у парыжскім «Courant D’Est»."
+          },
+          {
+            "dateText": "1998",
+            "title": "Рэжысёр Вялікага драматычнага тэатра ім. Г. А. Таўстаногава (Санкт-Пецярбург)."
+          },
+          {
+            "dateText": "2008",
+            "title": "Прызначаны галоўным рэжысёрам Нацыянальнага акадэмічнага тэатру імя Я. Купалы."
+          }
+        ],
+        "ru": [
+          {
+            "dateText": "06.08.1957",
+            "title": "Родился в г. Изюме в Украине."
+          },
+          {
+            "dateText": "1979",
+            "title": "Закончил режиссерский факультет Белорусского театрально-художественного института."
+          },
+          {
+            "dateText": "1979—1980",
+            "title": "Работал режиссером на белорусском телевидении."
+          },
+          {
+            "dateText": "1980—1982",
+            "title": "Работал в Русском драматическом театре им. М. Горького (Минск)."
+          },
+          {
+            "dateText": "1982—1984",
+            "title": "Стажировался в качестве режиссера в Московском Малом театре."
+          },
+          {
+            "dateText": "1985",
+            "title": "Работал режиссером Национального академического театра имени Я. Купалы."
+          },
+          {
+            "dateText": "1985—1987",
+            "title": "Работал преподавателем кафедры «Мастерство актера и режиссуры» в Белорусском академии искусств."
+          },
+          {
+            "dateText": "1995",
+            "title": "Стажировался в качестве режиссера в парижском «Courant D'Est»"
+          },
+          {
+            "dateText": "1998",
+            "title": "Режиссер Большого драматического театра им. Г. А. Товстоногова (Санкт-Петербург)."
+          },
+          {
+            "dateText": "2008",
+            "title": "Назначен главным директором Национального академического театра имени Янки Купалы."
+          }
+        ]
+      },
+      "works": [
+        {
+          "en": [
+            {
+              "date": "1979",
+              "title": "«Night Stagecoach» in prose K.Paustovsky"
+            },
+            {
+              "date": "1984",
+              "title": "«Lady from the Sea» by H. Ibsen"
+            },
+            {
+              "date": "1989",
+              "title": "«Dragon» by E. Schwartz"
+            },
+            {
+              "date": "1989",
+              "title": "«Emigrant» S. Mrozhaka"
+            },
+            {
+              "date": "1990",
+              "title": "«Local» Y. Kupala"
+            },
+            {
+              "date": "1993",
+              "title": "«Idyll» by V. Dunin-Martsinkevich"
+            },
+            {
+              "date": "1992",
+              "title": " «A child from Bethlehem»"
+            },
+            {
+              "date": "1995",
+              "title": "«Lady's visit» S. Cortes"
+            },
+
+            {
+              "date": "1997",
+              "title": "«The whims of Marianne» A. Muse"
+            },
+            {
+              "date": "1998",
+              "title": "«ART» Y. Reza"
+            },
+            {
+              "date": "1999",
+              "title": "«California» Suite Neil Simon"
+            },
+            {
+              "date": "2000",
+              "title": "«Lying on long legs» E. de Filipa"
+            },
+            {
+              "date": "2001",
+              "title": "«Boris Godunov» by Mussorgsky"
+            },
+            {
+              "date": "2001",
+              "title": "«Talents and Admirers»  Alexander Ostrovsky"
+            },
+            {
+              "date": "2002",
+              "title": "«Dresser»  R. Harwood"
+            },
+            {
+              "date": "2004",
+              "title": "«The Moth»  P. Gladilin"
+            },
+            {
+              "date": "2004",
+              "title": "«Ekaterina Ivanovna» L. M. Andreeva"
+            },
+            {
+              "date": "2005",
+              "title": "«Quartet»  R. Harwood"
+            },
+            {
+              "date": "2006",
+              "title": "«Emigrants» S. Mrozhak"
+            },
+            {
+              "date": "2007",
+              "title": "«The Night Before Christmas» M.V. Gogol"
+            }
+          ],
+          "bl": [
+            {
+              "date": "1979",
+              "title": "«Начны дыліжанс» па прозе К. Паўстоўскага "
+            },
+            {
+              "date": "1984",
+              "title": "«Жанчына з мора» Г. Ібсена"
+            },
+            {
+              "date": "1989",
+              "title": "«Дракон» Я. Шварца"
+            },
+            {
+              "date": "1989",
+              "title": "«Эмігрант» С. Мрожака "
+            },
+            {
+              "date": "1990",
+              "title": "«Тутэйшыя» Я. Купалы"
+            },
+            {
+              "date": "1993",
+              "title": "«Ідылія» В. Дуніна-Марцінкевіча"
+            },
+            {
+              "date": "1992",
+              "title": "«Дзіця з Віфлеему»"
+            },
+            {
+              "date": "1995",
+              "title": "«Візіт дамы» С. Картэса"
+            },
+            {
+              "date": "1997",
+              "title": "«Сваволі Марыяны» А. Мюсэ"
+            },
+            {
+              "date": "1998",
+              "title": "«ART» Я. Рэза"
+            },
+            {
+              "date": "1999",
+              "title": "«Каліфарнійская сюіта» Ніл Сайман"
+            },
+            {
+              "date": "2000",
+              "title": "«Хлусня на доўгіх нагах» Э. дэ Філіпа"
+            },
+            {
+              "date": "2001",
+              "title": "«Барыс Гадуноў» М. Мусаргскага"
+            },
+            {
+              "date": "2001",
+              "title": "«Таленты і прыхільнікі» А. М. Астроўскага"
+            },
+            {
+              "date": "2002",
+              "title": "«Касцюмер» Р. Харвуда"
+            },
+            {
+              "date": "2004",
+              "title": "«Матылёк» П. Гладзіліна"
+            },
+            {
+              "date": "2004",
+              "title": "«Кацярына Іванаўна» Л. М. Андрэева"
+            },
+            {
+              "date": "2005",
+              "title": "«Квартэт» Р. Харвуда"
+            },
+            {
+              "date": "2006",
+              "title": "«Эмігранты» С. Мрожака"
+            },
+            {
+              "date": "2007",
+              "title": "«Ноч перад Калядамі» М. В. Гогаль"
+            }
+          ],
+          "ru": [
+            {
+              "date": "1979",
+              "title": "Ночной дилижанс »по прозе К. Паустовского"
+            },
+            {
+              "date": "1984",
+              "title": "«Женщина с моря» Г. Ибсена"
+            },
+            {
+              "date": "1989",
+              "title": "«Дракон» Е. Шварца"
+            },
+            {
+              "date": "1989",
+              "title": "«Эмигрант» С. Мрожака"
+            },
+            {
+              "date": "1990",
+              "title": "«Здешние» Я. Купалы"
+            },
+            {
+              "date": "1993",
+              "title": "«Идиллия» В. Дунина-Марцинкевича"
+            },
+            {
+              "date": "1992",
+              "title": "«Ребенок из Вифлеема»"
+            },
+            {
+              "date": "1995",
+              "title": "«Визит дамы» С. Кортеса"
+            },
+            {
+              "date": "1997",
+              "title": "«Прихоти Марианны» А. Мюсэ"
+            },
+            {
+              "date": "1998",
+              "title": "«ART» Я. Реза"
+            },
+            {
+              "date": "1999",
+              "title": "«Калифорнийская сюита» Нил Саймон"
+            },
+            {
+              "date": "2000",
+              "title": "«Ложь на длинных ногах» Э. де Филиппо"
+            },
+            {
+              "date": "2001",
+              "title": "«Борис Годунов» М. Мусоргского"
+            },
+            {
+              "date": "2001",
+              "title": "«Таланты и поклонники» А. Н. Островского"
+            },
+            {
+              "date": "2002",
+              "title": "«Костюмер» Р. Харвуда"
+            },
+            {
+              "date": "2004",
+              "title": "«Мотылек» П. Гладилина"
+            },
+            {
+              "date": "2004",
+              "title": "«Екатерина Ивановна» Л. М. Андреева"
+            },
+            {
+              "date": "2005",
+              "title": "«Квартет» Р. Харвуда"
+            },
+            {
+              "date": "2006",
+              "title": "«Эмигранты» С. Мрожака"
+            },
+            {
+              "date": "2007",
+              "title": "«Ночь перед Рождеством» М. В. Гоголь"
+            }
+          ]
+        }
+      ],
+      "gallery": ["https://news.tut.by/culture/105593.html"],
+      "videos": [
+        "https://bel.sputnik.by/video/20180806/1036926801/nikolaj-pinigin-otmechaet-den-rozhdeniya.html",
+        "https://www.youtube.com/watch?v=VHib0GPP3KM&feature=youtu.be"
+      ],
+      "map": {
+        "latitude": 53.900895,
+        "longitude": 27.562883
+      }
     }
   }
 }
