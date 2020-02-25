@@ -3,17 +3,14 @@ const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
 const cors = require('cors');
+
 const DB = Object.values(require('./local.json').directors).map((director, index) => {
   director.id = index;
 
   return director;
 });
 
-const workflowDB = Object.values(require('./workflow.json').creators).map((creator, index) => {
-  creator.id = index;
-
-  return creator;
-});
+const workflowsDB = Object.values(require('./workflow.json').creators);
 
 const creatorsDB = Object.values(require('./creators.json').members);
 
@@ -64,6 +61,10 @@ app.get('/api/director_of_day', (req, res) => {
 
 app.get('/api/team', (req, res) => {
   res.json(creatorsDB);
+});
+
+app.get('/api/workflows', (req, res) => {
+  res.json(workflowsDB);
 });
 
 const port = 5000;
