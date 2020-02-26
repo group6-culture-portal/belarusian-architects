@@ -44,7 +44,7 @@ const useStyles = makeStyles({
     marginTop: 20,
     marginLeft: 20,
     display: "inline-block"
-  }, 
+  },
   h1: {
     fontSize: 30,
     display: "block",
@@ -126,7 +126,7 @@ if (creatorsInfo) {
               </TableHead>
               <TableBody>
                 {getRows(getNumberOfTasks(creatorsInfo, index, language), index).map(row => (
-                  <TableRow key={row.name}>
+                  <TableRow key={index + (Math.random()) * 10000}>
                     <TableCell component="th" scope="row" style={{width: "70px"}}>
                       {row.name}
                     </TableCell>
