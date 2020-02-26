@@ -73,3 +73,16 @@ export const getCreatorsInfo = async () => {
     };
   }
 };
+
+export const getCreators = async () => {
+  try {
+    const response = await fetch(`${API_PATH}/workflows`);
+    const result = await response.json();
+console.log(result)
+    return result;
+  } catch (err) {
+    return {
+      error: err,
+    };
+  }
+};
