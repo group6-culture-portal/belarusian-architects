@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { withStyles, makeStyles } from '@material-ui/core/styles';
+import languageContext from '../../context/languageContext';
 import {
   Table,
   TableBody,
@@ -7,6 +8,7 @@ import {
   TableContainer,
   TableHead,
   TableRow,
+  Typography,
   Paper,
 } from '@material-ui/core';
 
@@ -42,27 +44,52 @@ const stylesPaper = withStyles(theme => ({
 
 export default function CustomizedTables({ rows }) {
   const classes = useStyles();
+  const { language } = useContext(languageContext);
+  const [text, setText] = useState('');
 
+  useEffect(() => {
+    switch (language) {
+      case 'ru':
+        setText('Работы:');
+        break;
+
+      case 'bl':
+        setText('Працы:');
+        break;
+
+      case 'en':
+        setText('Works:');
+        break;
+
+      default:
+        break;
+    }
+  }, [language]);
   return (
-    <TableContainer component={stylesPaper}>
-      <Table className={classes.table} aria-label="customized table">
-        <TableHead>
-          <TableRow>
-            <StyledTableCell>Title</StyledTableCell>
-            <StyledTableCell align="right">Date</StyledTableCell>
-          </TableRow>
-        </TableHead>
-        <TableBody>
-          {rows.map(row => (
-            <StyledTableRow key={row.title}>
-              <StyledTableCell component="th" scope="row">
-                {row.title}
-              </StyledTableCell>
-              <StyledTableCell align="right">{row.date}</StyledTableCell>
-            </StyledTableRow>
-          ))}
-        </TableBody>
-      </Table>
-    </TableContainer>
+    <>
+      <Typography variant="h4" style={{ textAlign: 'left', paddingLeft: 25 }}>
+        {text}
+      </Typography>
+      <TableContainer component={stylesPaper}>
+        <Table className={classes.table} aria-label="customized table">
+          <TableHead>
+            <TableRow>
+              <StyledTableCell>Title</StyledTableCell>
+              <StyledTableCell align="right">Date</StyledTableCell>
+            </TableRow>
+          </TableHead>
+          <TableBody>
+            {rows.map(row => (
+              <StyledTableRow key={row.title}>
+                <StyledTableCell component="th" scope="row">
+                  {row.title}
+                </StyledTableCell>
+                <StyledTableCell align="right">{row.date}</StyledTableCell>
+              </StyledTableRow>
+            ))}
+          </TableBody>
+        </Table>
+      </TableContainer>
+    </>
   );
 }

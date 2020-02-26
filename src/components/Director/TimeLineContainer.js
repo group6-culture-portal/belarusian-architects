@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import { Timeline, TimelineItem } from 'vertical-timeline-component-for-react';
 import languageContext from '../../context/languageContext';
 import { Typography } from '@material-ui/core';
-
+import './Timeline.scss';
 function TimeLineList(items) {
   const result = items.map((item, index) => {
     return (
@@ -26,15 +26,15 @@ const TimeLineContainer = props => {
   useEffect(() => {
     switch (language) {
       case 'ru':
-        setText('Биография');
+        setText('Биография:');
         break;
 
       case 'bl':
-        setText('Біяграфія');
+        setText('Біяграфія:');
         break;
 
       case 'en':
-        setText('Biography');
+        setText('Biography:');
         break;
 
       default:
@@ -44,7 +44,9 @@ const TimeLineContainer = props => {
 
   return (
     <>
-      <Typography variant="h2">{text}</Typography>
+      <Typography variant="h4" style={{ textAlign: 'left', paddingLeft: 25 }}>
+        {text}
+      </Typography>
       <Timeline lineColor={'#ddd'} style={{ width: '100%' }}>
         {biography ? TimeLineList(biography[language]) : null}
       </Timeline>

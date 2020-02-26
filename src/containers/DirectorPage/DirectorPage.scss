@@ -1,9 +1,12 @@
 .director_page {
   margin: 0 auto;
   width: 1024px;
-  border: 1px solid black;
   display: flex;
   // height: 2000px;
+}
+img {
+  border-radius: 8px;
+  object-fit: cover;
 }
 .content {
   min-width: 724px;
@@ -15,7 +18,6 @@
 
 .more {
   max-width: 300px;
-  border: 1 solid red;
   margin: 0 auto;
 
   .director-profile {
@@ -29,7 +31,6 @@
       width: 300px;
       // height: auto;
       max-height: auto;
-      border-radius: 8px;
     }
     .another_directors {
       text-align: start;

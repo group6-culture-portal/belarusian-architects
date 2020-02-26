@@ -8,7 +8,9 @@ import { makeStyles } from '@material-ui/core/styles';
 import Table from '../../components/Director/Table';
 import { Grid, Typography } from '@material-ui/core';
 import Gallery from '../../components/Director/Gallery';
+import Gallery2 from '../../components/Director/Gallery2';
 import VideoGallery from '../../components/Director/VideoGallery';
+import VideoGallery2 from '../../components/Director/VideoGallery2';
 import { YMaps, Map, GeoObject } from 'react-yandex-maps';
 
 const useStyles = makeStyles(theme => ({
@@ -32,6 +34,26 @@ const Director = props => {
 
   let { id } = useParams();
   const { language } = useContext(LanguageContext);
+  const [text, setText] = useState('');
+
+  useEffect(() => {
+    switch (language) {
+      case 'ru':
+        setText('Театр:');
+        break;
+
+      case 'bl':
+        setText('Тэатр:');
+        break;
+
+      case 'en':
+        setText('Theater:');
+        break;
+
+      default:
+        break;
+    }
+  }, [language]);
 
   useEffect(() => {
     (async directorId => {
@@ -51,8 +73,12 @@ const Director = props => {
             <Typography variant="h1">{director.name[language]}</Typography>
             <TimeLineContainer biography={director.biography} />
             <Table rows={director.works[language]} style={{ margin: '0 25px' }} />
-            <Gallery photos={director.gallery} />
+            {/* <Gallery photos={director.gallery} /> */}
+            <Gallery2 photos={director.gallery} />
             {/* </Paper> */}
+            <Typography variant="h4" style={{ textAlign: 'left', paddingLeft: 25, marginTop: 25 }}>
+              {text}
+            </Typography>
             <YMaps>
               <Map
                 width={724}
@@ -74,7 +100,8 @@ const Director = props => {
             {/* {director.videos.map((video, index) => {
               return <Video video={video} name={index} key={video + index} />;
             })} */}
-            <VideoGallery videos={director.videos} />
+            {/* <VideoGallery videos={director.videos} /> */}
+            <VideoGallery2 videos={director.videos} />
           </Grid>
         </main>
         <aside className="more">
