@@ -9,6 +9,8 @@ import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
 import WorkflowHeader from '../../components/workflowHeader/workflow.header'
+import WorkflowTeamPain from '../../components/workflowTeamPain/workflowTeamPain'
+import WorkflowSelfEvaluation from '../../components/workflowSelfEvaluation/workflowSelfEvaluation'
 import { numberOfCreators, getCreatorName, getCreatorNick, getCreatorAvatar, getWhatIsDone, getNumberOfTasks } from './assistFunctions'
 
 import languageContext from '../../context/languageContext';
@@ -100,6 +102,8 @@ if (creatorsInfo) {
   let creatorsEmptyArray = [...Array(numberOfCreators(creatorsInfo))];
   return (
     <React.Fragment>
+    <WorkflowSelfEvaluation />
+    <WorkflowTeamPain />
     <WorkflowHeader />
     <div className={classes.workflowTable}>
     {creatorsEmptyArray.map((creator, index) => {

@@ -86,3 +86,29 @@ export const getCreators = async () => {
     };
   }
 };
+
+export const getCreatorsPain = async () => {
+  try {
+    const response = await fetch(`${API_PATH}/workflowsTeamPain`);
+    const result = await response.json();
+    
+    return result;
+  } catch (err) {
+    return {
+      error: err,
+    };
+  }
+};
+
+export const getCreatorsSelfEvaluation = async () => {
+  try {
+    const response = await fetch(`${API_PATH}/workflowSelfEvaluation`);
+    const result = await response.json();
+    
+    return result;
+  } catch (err) {
+    return {
+      error: err,
+    };
+  }
+};
