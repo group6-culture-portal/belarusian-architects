@@ -8,9 +8,11 @@ import TableContainer from '@material-ui/core/TableContainer';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
+import WorkflowHeader from '../../components/workflowHeader/workflow.header'
+import { numberOfCreators, getCreatorName, getCreatorNick, getCreatorAvatar, getWhatIsDone, getNumberOfTasks } from './assistFunctions'
 
 import languageContext from '../../context/languageContext';
-import { Typography, Button, Avatar } from '@material-ui/core/';
+import { Typography, Avatar } from '@material-ui/core/';
 
 const useStyles = makeStyles({
   workflowTable: {
@@ -63,68 +65,33 @@ export default function Workflow(props) {
     })
 },[])
 
-  
   const classes = useStyles();
 
   const { language } = useContext(languageContext);
 
-  let timeSpent, feature, creatorName, creatorNickName;
+  let timeSpent, feature
 
   switch(language) {
     case 'en': 
     timeSpent = "Time spent";
     feature = "Feature";
-    creatorName = "Name: ";
-    creatorNickName = "Nickname: ";
     break;
     case 'ru': 
     timeSpent = "Потрачено времени";
     feature = "Сделано";
-    creatorName = "Имя: ";
-    creatorNickName = "Ник: ";
     break;
     case 'bl': 
     timeSpent = "Выдаткавана часу";
     feature = "Зроблена";
-    creatorName = "iмя: ";
-    creatorNickName = "Нік: ";
+    default: 
+    timeSpent = null;
+    feature = null;
   }
-
-  const numberOfCreators = (workflowDB) => {
-    return workflowDB.length
-  }
-  
-  
-
-  const getCreator = (workflowDB, creatorId) => {
-    return workflowDB[creatorId]
-  }
-
-  let getCreatorName = (workflowDB, creatorId) => {
-    return workflowDB[creatorId].name[language]
-  }
-  
-  let getCreatorNick = (workflowDB, creatorId) => {
-    return workflowDB[creatorId].nick
-  }
-  
-  let getCreatorAvatar = (workflowDB, creatorId) => {
-    return workflowDB[creatorId].avatar
-  }
-  
-  let getWhatIsDone = (workflowDB, creatorId) => {
-    return workflowDB[creatorId].whatIsDone[language]
-  }
-
-  let getNumberOfTasks = (workflowDB, creatorId) => {
-    return workflowDB[creatorId].whatIsDone[language].length
-  }
-
 
   let getRows = (numberOfTasks, creatorId) => {
     let tasksArray = [...Array(numberOfTasks)];
     return tasksArray = tasksArray.map((element, index) => {
-      return createData(getWhatIsDone(creatorsInfo, creatorId)[index].time, getWhatIsDone(creatorsInfo, creatorId)[index].task)
+      return createData(getWhatIsDone(creatorsInfo, creatorId, language)[index].time, getWhatIsDone(creatorsInfo, creatorId, language)[index].task)
     })
   }
 
@@ -132,25 +99,24 @@ if (creatorsInfo) {
   let creatorsEmptyArray = [...Array(numberOfCreators(creatorsInfo))];
   return (
     <React.Fragment>
+    <WorkflowHeader />
     <div className={classes.workflowTable}>
     {creatorsEmptyArray.map((creator, index) => {
       return (
       <TableContainer style={{width: "450px", marginBottom: "30px", textAlign: "left"}} key={index} component={Paper}>
             <div className={classes.aboutAuthorContainer}>
               
-            <Avatar alt={getCreatorName(creatorsInfo, index)} src={getCreatorAvatar(creatorsInfo, index)} className={classes.avatar} />
+            <Avatar alt={getCreatorName(creatorsInfo, index, language)} src={getCreatorAvatar(creatorsInfo, index)} className={classes.avatar} />
             
               <div className={classes.aboutAuthorTextContainer}>
             <Typography size="small" variant="h1" gutterBottom color="primary" className={classes.h1}>
-              {getCreatorName(creatorsInfo, index)}
+              {getCreatorName(creatorsInfo, index, language)}
             </Typography>
             <Typography variant="h1" gutterBottom color="primary" className={classes.h1}>
               {"<"}{getCreatorNick(creatorsInfo, index)}{">"}
             </Typography>
               </div>
-
             </div>
-
             <Table className={classes.table} aria-label="simple table">
               <TableHead>
                 <TableRow>
@@ -159,7 +125,7 @@ if (creatorsInfo) {
                 </TableRow>
               </TableHead>
               <TableBody>
-                {getRows(getNumberOfTasks(creatorsInfo, index), index).map(row => (
+                {getRows(getNumberOfTasks(creatorsInfo, index, language), index).map(row => (
                   <TableRow key={row.name}>
                     <TableCell component="th" scope="row" style={{width: "70px"}}>
                       {row.name}
@@ -175,6 +141,6 @@ if (creatorsInfo) {
     </div>
     </React.Fragment>
   )} else {
-    return 'loading'
+    return 'Server did not respond or page is loading'
   }
 }
