@@ -4,10 +4,9 @@ import languageContext from '../../context/languageContext';
 import { Typography } from '@material-ui/core';
 
 function TimeLineList(items) {
-  console.log(items);
   const result = items.map((item, index) => {
     return (
-      <TimelineItem key={index} dateText={item.dateText} style={{ color: '#e86971 ' }}>
+      <TimelineItem key={index} dateText={item.dateText} style={{ color: '#e86971' }}>
         <Typography variant="subtitle1" gutterBottom>
           {item.title}
         </Typography>
@@ -46,7 +45,9 @@ const TimeLineContainer = props => {
   return (
     <>
       <Typography variant="h2">{text}</Typography>
-      <Timeline lineColor={'#ddd'}>{biography ? TimeLineList(biography[language]) : null}</Timeline>
+      <Timeline lineColor={'#ddd'} style={{ width: '100%' }}>
+        {biography ? TimeLineList(biography[language]) : null}
+      </Timeline>
     </>
   );
 };

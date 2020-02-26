@@ -1,0 +1,58 @@
+.director_page {
+  margin: 0 auto;
+  width: 1024px;
+  border: 1px solid black;
+  display: flex;
+  // height: 2000px;
+}
+.content {
+  min-width: 724px;
+  text-align: center;
+}
+.makeCursor {
+  cursor: pointer;
+}
+
+.more {
+  max-width: 300px;
+  border: 1 solid red;
+  margin: 0 auto;
+
+  .director-profile {
+    position: sticky;
+    top: 0;
+    h1,
+    h6 {
+      text-align: center;
+    }
+    img {
+      width: 300px;
+      // height: auto;
+      max-height: auto;
+      border-radius: 8px;
+    }
+    .another_directors {
+      text-align: start;
+      margin-top: 40px;
+      a:link {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      a:visited {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      a:hover {
+        text-decoration: underline;
+        color: inherit;
+      }
+
+      a:active {
+        text-decoration: underline;
+        color: inherit;
+      }
+    }
+  }
+}
