@@ -83,6 +83,7 @@ export default function Workflow(props) {
     case 'bl': 
     timeSpent = "Выдаткавана часу";
     feature = "Зроблена";
+    break;
     default: 
     timeSpent = null;
     feature = null;
