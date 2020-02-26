@@ -53,18 +53,18 @@ export default function Member(props) {
         <div className={styles.member}>
             <Card className={null}>
                 <CardActionArea>
-                    <CardMedia
+                    <CardMedia 
                         component="img"
-                        height="300px"
+                        style={{maxHeight:"400px"}}
                         image={props.image}
                         title={props.name}
                     />
 
                     <CardContent>
-                        <Typography gutterBottom variant="h1" component="h2">
+                        <Typography className={styles.member__name} gutterBottom variant="h1" component="h2">
                             {props.name}
                         </Typography>
-                        <Typography variant="h3" color="textSecondary" component="p">
+                        <Typography className={styles.member__info} variant="h3" color="textSecondary" component="p">
                             {props.info}
                         </Typography>
                         <Typography>
