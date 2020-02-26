@@ -4,7 +4,11 @@ const app = express();
 const bodyParser = require('body-parser');
 const cors = require('cors');
 
-const DB = Object.values(require('./local.json').directors);
+const DB = Object.values(require('./local.json').directors).map((director, index) => {
+  director.id = index;
+
+  return director;
+});
 const creatorsDB = Object.values(require('./creators.json').members);
 
 var whitelist = ['http://localhost:3000', 'undefined'];
@@ -32,17 +36,18 @@ app.get('/api/director/:id', (req, res) => {
 });
 
 app.post('/api/search', (req, res) => {
-  const { query, lang } = req.body;
+  const { query } = req.body;
+  const comparing = query.toLowerCase();
 
-  const result = DB.filter(
-    i =>
-      i.name[lang].toLowerCase().includes(query.toLowerCase()) ||
-      i.birthPlace[lang].toLowerCase().includes(query.toLowerCase())
-  );
+  const result = DB.filter(i => {
+    const names = Object.values(i.name).join(' ');
+    const cities = Object.values(i.birthPlace).join(' ');
 
+    if (names.toLowerCase().includes(comparing) || cities.toLowerCase().includes(comparing))
+      return true;
+  });
   res.json(result);
 });
-
 app.get('/api/director_of_day', (req, res) => {
   const result = DB[new Date().getDate() % DB.length];
 
