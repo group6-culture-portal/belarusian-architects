@@ -29,7 +29,15 @@ app.get('/api/directors', (req, res) => {
 });
 
 app.get('/api/director/:id', (req, res) => {
-  const result = DB[req.params.id];
+  const id = Number(req.params.id);
+  const result = DB[id];
+
+  const nextId = (id + 1) % DB.length;
+  result.next = { id: nextId, name: DB[nextId].name };
+
+  const prevId = (id + DB.length - 1) % DB.length;
+  result.prev = { id: prevId, name: DB[prevId].name };
+
   res.json(result);
 });
 
