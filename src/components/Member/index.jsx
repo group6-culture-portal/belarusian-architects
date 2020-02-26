@@ -34,6 +34,21 @@ export default function Member(props) {
         return linksDom
     }
 
+    const getLinksToggler = () => {
+        
+
+        switch (props.language) {
+            case 'en':
+                return <>{showLinks ? "Hide" : "Learn more"}</>
+            case 'ru':
+                return <>{showLinks ? "Спрятать" : "Узнать больше"}</>
+            case 'bl':
+                return <>{showLinks ? "Схаваць" : "Даведайцеся больш"}</>
+            default:
+                break;
+        }
+    }
+
     return (
         <div className={styles.member}>
             <Card className={null}>
@@ -50,7 +65,7 @@ export default function Member(props) {
                             {props.name}
                         </Typography>
                         <Typography variant="h3" color="textSecondary" component="p">
-                           {props.info}
+                            {props.info}
                         </Typography>
                         <Typography>
                             <a target="blank" href={props.github}>
@@ -65,7 +80,7 @@ export default function Member(props) {
                                 size="large" 
                                 variant="outlined"
                                 color="primary">
-                                    {showLinks ? "Hide" : "Learn more"}
+                                    {getLinksToggler()}
                             </Button>
                         </Typography>
                     </CardContent>
