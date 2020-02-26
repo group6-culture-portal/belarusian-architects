@@ -1,4 +1,242 @@
-{ "creators": {
+{ "teamPain": {
+  "en": [
+    "Very much pain a lot of pain suffering crying",
+    "Very much pain a lot of pain suffering crying",
+    "Very much pain a lot of pain suffering crying",
+    "Very much pain a lot of pain suffering crying",
+    "Very much pain a lot of pain suffering crying",
+    "Very much pain a lot of pain suffering crying",
+    "Very much pain a lot of pain suffering crying"
+  ],
+  "ru": [
+    "Много боли и страданий перенесли, плакали, рыдали, еще плакали",
+    "Много боли и страданий перенесли, плакали, рыдали, еще плакали",
+    "Много боли и страданий перенесли, плакали, рыдали, еще плакали",
+    "Много боли и страданий перенесли, плакали, рыдали, еще плакали",
+    "Много боли и страданий перенесли, плакали, рыдали, еще плакали",
+    "Много боли и страданий перенесли, плакали, рыдали, еще плакали",
+    "Много боли и страданий перенесли, плакали, рыдали, еще плакали"
+  ],
+  "bl": [
+    "Шмат болю і пакут перанеслі, плакалі, галасілі, яшчэ плакалі",
+    "Шмат болю і пакут перанеслі, плакалі, галасілі, яшчэ плакалі",
+    "Шмат болю і пакут перанеслі, плакалі, галасілі, яшчэ плакалі",
+    "Шмат болю і пакут перанеслі, плакалі, галасілі, яшчэ плакалі",
+    "Шмат болю і пакут перанеслі, плакалі, галасілі, яшчэ плакалі",
+    "Шмат болю і пакут перанеслі, плакалі, галасілі, яшчэ плакалі",
+    "Шмат болю і пакут перанеслі, плакалі, галасілі, яшчэ плакалі"
+  ]
+},
+  "selfEvaluation": {
+    "0": {
+      "task": {
+        "en": "Main page + page with a list of authors + author's page (only pages with content without widgets)",
+        "ru": "Главная страница + страница со списком авторов + страница автора (только страницы с контентом без виджетов)",
+        "bl": "Галоўная старонка + старонка са спісам аўтараў + старонка аўтара (толькі старонкі са зместам без віджэтаў)"
+      },
+      "score": 10,
+      "checkbox": true
+    },
+    "1": {
+      "task": {
+        "en": "Page with team members + page with worklog",
+        "ru": "Страница с членами команды + страница с рабочим журналом",
+        "bl": "Старонка з членамі каманды + старонка з працоўным журналам"
+      },
+      "score": 10,
+      "checkbox": true
+    },
+    "2": {
+      "task": {
+        "en": "Page with list of authors contains search widget",
+        "ru": "Страница со списком авторов содержит поисковый виджет",
+        "bl": "Старонка са спісам аўтараў змяшчае пошукавы віджэт"
+      },
+      "score": 10,
+      "checkbox": true
+    },
+    "3": {
+      "task": {
+        "en": "Portal has two languages",
+        "ru": "Портал имеет два языка",
+        "bl": "Партал мае дзве мовы"
+      },
+      "score": 20,
+      "checkbox": true
+    },
+    "4": {
+      "task": {
+        "en": "Portal has page with styleguide",
+        "ru": "На портале есть страница с руководством по стилю",
+        "bl": "Партал мае старонку са стылю"
+      },
+      "score": 20,
+      "checkbox": true
+    },
+    "5": {
+      "task": {
+        "en": "Mobile version is okey",
+        "ru": "Мобильная версия хорошая",
+        "bl": "Мабільная версія ў парадку"
+      },
+      "score": 10,
+      "checkbox": true
+    },
+    "6": {
+      "task": {
+        "en": "Ipad/tablet version is okey",
+        "ru": "Версия для iPad / планшета хороша",
+        "bl": "Ipad/tablet version is okey"
+      },
+      "score": 10,
+      "checkbox": true
+    },
+    "7": {
+      "task": {
+        "en": "Author's page contains timeline",
+        "ru": "Страница автора содержит временную шкалу",
+        "bl": "Старонка аўтара змяшчае часовую шкалу"
+      },
+      "score": 10,
+      "checkbox": true
+    },
+    "8": {
+      "task": {
+        "en": "Author's page contains video overlay",
+        "ru": "Страница автора содержит видео оверлей",
+        "bl": "Старонка аўтара змяшчае відэа накладання"
+      },
+      "score": 10,
+      "checkbox": true
+    },
+    "9": {
+      "task": {
+        "en": "Author's page contains photo gallery",
+        "ru": "Страница автора содержит фотогалерею",
+        "bl": "На старонцы аўтара змешчана фотагалерэя"
+      },
+      "score": 20,
+      "checkbox": true
+    },
+    "10": {
+      "task": {
+        "en": "Author's page contains map (geowidget)",
+        "ru": "Страница автора содержит карту (гео виджет)",
+        "bl": "Старонка аўтара змяшчае карту"
+      },
+      "score": 10,
+      "checkbox": true
+    },
+    "11": {
+      "task": {
+        "en": "Design (typography, icons, colors, links + buttons + input are styled)",
+        "ru": "Дизайн (оформление шрифтов, иконки, цвета, ссылки + кнопки + ввод)",
+        "bl": "Дызайн (стылістыка, значкі, колеры, спасылкі + кнопкі + увод)"
+      },
+      "score": 20,
+      "checkbox": true
+    },
+    "12": {
+      "task": {
+        "en": "Material-ui / bootstrap is used",
+        "ru": "Material-ui / bootstrap используется",
+        "bl": "Material-ui / bootstrap сродак"
+      },
+      "score": 20,
+      "checkbox": true
+    },
+    "13": {
+      "task": {
+        "en": "Portal has third language",
+        "ru": "Портал имеет третий язык",
+        "bl": "Партал мае трэцюю мову"
+      },
+      "score": 10,
+      "checkbox": true
+    },
+    "14": {
+      "task": {
+        "en": "Confidence of the project presentation",
+        "ru": "Уверенность в презентации проекта",
+        "bl": "Упэўненасць у прэзентацыі праекта"
+      },
+      "score": 10,
+      "checkbox": true
+    },
+    "15": {
+      "task": {
+        "en": "Project is made using gatsbyjs",
+        "ru": "Проект выполнен с использованием gatsbyjs",
+        "bl": "Праект зроблены з выкарыстаннем gatsbyjs"
+      },
+      "score": 10,
+      "checkbox": false
+    },
+    "16": {
+      "task": {
+        "en": "Contentful / netlify cms is used for content management",
+        "ru": "Contentful / Netlify CMS используется для управления контентом",
+        "bl": "Contentful / Netlify CMS выкарыстоўваецца для кіравання кантэнтам"
+      },
+      "score": 10,
+      "checkbox": true
+    },
+    "17": {
+      "task": {
+        "en": "Animations / special effects like paralax",
+        "ru": "Анимации / спецэффекты, такие как паралакс",
+        "bl": "Анімацыі / спецэфекты, як паралакс"
+      },
+      "score": 20,
+      "checkbox": true
+    },
+    "18": {
+      "task": {
+        "en": "Outstanding design",
+        "ru": "Выдающийся дизайн",
+        "bl": "Выдатны дызайн"
+      },
+      "score": 20,
+      "checkbox": true
+    },
+    "19": {
+      "task": {
+        "en": "There are less than 5 commits from each active team member. Everyone should merge their own PRs.",
+        "ru": "Менее 5 коммитов от каждого активного члена команды. Каждый должен объединить свои пиары",
+        "bl": "Кожны актыўны член каманды складае менш за 5 камісій. Кожны павінен аб'яднаць свае ўласныя піяры."
+      },
+      "score": 0,
+      "checkbox": false
+    },
+    "20": {
+      "task": {
+        "en": "Violations stage2-tasks-requirements",
+        "ru": "Нарушения stage2-tasks-requirements",
+        "bl": "Парушэнні stage2-tasks-requirements"
+      },
+      "score": 0,
+      "checkbox": false
+    },
+    "21": {
+      "task": {
+        "en": "There is no worklog for team",
+        "ru": "Нет рабочего журнала для команды",
+        "bl": "Няма працоўнага журнала для каманды"
+      },
+      "score": 0,
+      "checkbox": false
+    },
+    "22": {
+      "task": {
+        "en": "Too primitive (ugly for 2020) design / UX",
+        "ru": "Слишком примитивный (некрасивый для 2020 года) дизайн / UX",
+        "bl": "Занадта прымітыўны (непрыгожы на 2020 год) дызайн / UX"
+      },
+      "score": 0,
+      "checkbox": false
+    }
+  },
+  "creators": {
   "0": {
     "name": {
       "en": "Sergey Stekh",
