@@ -12,6 +12,10 @@ const DB = Object.values(require('./local.json').directors).map((director, index
 
 const workflowsDB = Object.values(require('./workflow.json').creators);
 
+const workflowTeamPainDB = Object.values(require('./workflow.json').teamPain);
+
+const workflowSelfEvaluationDB = Object.values(require('./workflow.json').selfEvaluation);
+
 const creatorsDB = Object.values(require('./creators.json').members);
 
 var whitelist = ['http://localhost:3000', 'undefined'];
@@ -65,6 +69,14 @@ app.get('/api/team', (req, res) => {
 
 app.get('/api/workflows', (req, res) => {
   res.json(workflowsDB);
+});
+
+app.get('/api/workflowsTeamPain', (req, res) => {
+  res.json(workflowTeamPainDB);
+});
+
+app.get('/api/workflowSelfEvaluation', (req, res) => {
+  res.json(workflowSelfEvaluationDB);
 });
 
 const port = 5000;
