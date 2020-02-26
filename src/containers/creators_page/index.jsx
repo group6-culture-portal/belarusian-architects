@@ -25,11 +25,11 @@ export default function CreatorsPage(props) {
     const getTitle = () => {
         switch (language) {
             case 'en':
-                return <>Creators</>
+                return <>Creators <br/> <hr/> <Typography className={styles.team} variant="h3" className={styles.team}>The team that worked on the project</Typography></>
             case 'ru':
-                return <>Создатели</>
-            case 'by':
-                return <>Саздателi</>
+                return <>Создатели <br/> <hr/> <Typography className={styles.team} variant="h3" className={styles.team}>Команда которая работала над проектом</Typography></>
+            case 'bl':
+                return <>Саздателi <br/> <hr/> <Typography className={styles.team} variant="h3" className={styles.team}>Каманда, якая працавала над праектам</Typography></>
             default:
                 break;
         }
@@ -38,12 +38,12 @@ export default function CreatorsPage(props) {
     const getMembers = () => {
 
         return creatorsData.map(( item, num ) => {
-            return <Member name={ item.name }
+            return <Member name={ item[language].name }
                         key={num}
                         language={language}
                         github={item.github}
                         links={ item.links }
-                        info={ item.info}
+                        info={ item[language].info}
                         image={ item.image }/>
         })
     }

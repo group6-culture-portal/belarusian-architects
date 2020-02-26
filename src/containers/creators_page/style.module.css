@@ -5,8 +5,11 @@
     flex-direction: column;
 }
 
-.title {
-   
+
+@media screen and (max-width: 800px) {
+    .members {
+        width: 80% !important;
+    }
 }
 
 .members {

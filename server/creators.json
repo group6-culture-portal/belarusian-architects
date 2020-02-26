@@ -1,9 +1,18 @@
 {
     "members":[
-        { 
-            "name": "vlad novik",
+        {   "ru": {
+                "name": "Владислав Новик",
+                "info": "FrontEnd Developer"
+            },
+            "en": {
+                "name": "Vlad Novik",
+                "info": "FrontEnd Developer "
+            },
+            "bl": {
+                "name": "Уладiслау Новiк",
+                "info": "FrontEnd Developer "
+            },
             "image": "https://avatars3.githubusercontent.com/u/43148734?s=460&v=4",
-            "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet similique ipsam dolorum fugit earum rem necessitatibus illo ad, placeat harum vero accusamus modi. Modi rerum nam nemo distinctio maxime soluta ipsa iste assumenda, esse eveniet eos adipisci quisquam amet consequuntur? Aperiam mollitia laboriosam nostrum animi aliquam esse harum maiores deserunt. ",
             "github" : "https://github.com",
             "links": {
                 "linkedIn": "https://github.com",
@@ -11,9 +20,19 @@
             }
         },
         { 
-            "name": "Andrei Mandryk",
+            "ru": {
+                "name": "Andrei Mandryk",
+                "info": "Beginning front-end developer from Brest, Belarus."
+            },
+            "en": {
+                "name": "Andrei Mandryk",
+                "info": "Beginning front-end developer from Brest, Belarus."
+            },
+            "bl": {
+                "name": "Andrei Mandryk",
+                "info": "Beginning front-end developer from Brest, Belarus."
+            },
             "image": "https://avatars1.githubusercontent.com/u/44781670?s=400&v=4",
-            "info": "Beginning front-end developer from Brest, Belarus.",
             "github" : "https://github.com/gagarin880120",
             "links": {
                 "Telegram": "https://t.me/gagarin880120"
