@@ -72,20 +72,23 @@ export default function Workflow(props) {
 
   const { language } = useContext(languageContext);
 
-  let timeSpent, feature
+  let timeSpent, feature, aboutAuthorsHeader
 
   switch(language) {
     case 'en': 
     timeSpent = "Time spent";
     feature = "Feature";
+    aboutAuthorsHeader = "About project creators";
     break;
     case 'ru': 
     timeSpent = "Потрачено времени";
     feature = "Сделано";
+    aboutAuthorsHeader = "О создателях проекта";
     break;
     case 'bl': 
     timeSpent = "Выдаткавана часу";
     feature = "Зроблена";
+    aboutAuthorsHeader = "Аб стваральніках праекта";
     break;
     default: 
     timeSpent = null;
@@ -99,11 +102,14 @@ export default function Workflow(props) {
     })
   }
 
+  
+
 if (creatorsInfo) {
   let creatorsEmptyArray = [...Array(numberOfCreators(creatorsInfo))];
   return (
     <React.Fragment>
     <WorkflowHeader />
+    <Typography variant="h2" style={{textAlign: "center", marginTop: 20}}>{aboutAuthorsHeader}</Typography>
     <div className={classes.workflowTable}>
     {creatorsEmptyArray.map((creator, index) => {
       return (

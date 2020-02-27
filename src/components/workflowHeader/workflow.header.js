@@ -16,7 +16,7 @@ function WorkflowHeader(props) {
       marginTop: 20
     },
     h1: {
-      fontSize: 40,
+      fontSize: 50,
       display: "block",
     }
   });

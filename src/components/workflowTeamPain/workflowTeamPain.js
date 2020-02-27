@@ -2,7 +2,7 @@ import React, { useContext, useState, useEffect } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { getCreatorsPain } from '../../apis/getData'
 
-import { List, ListItem, ListItemIcon, ListItemText } from '@material-ui/core/';
+import { List, ListItem, ListItemIcon, ListItemText, Icon } from '@material-ui/core/';
 import StarIcon from '@material-ui/icons/Star';
 
 import languageContext from '../../context/languageContext';
@@ -66,7 +66,7 @@ if(teamPain) {  console.log(teamPain)}
         return (
           <ListItem key={index} style={{alignItems: "center"}}>
             <ListItemIcon style={{textAlign:"center", marginLeft: 20}}>
-              <StarIcon />
+            <Icon style={{ fontSize: 30 }}>add_circle</Icon>
             </ListItemIcon>
             <ListItemText primary={element} />
           </ListItem>
