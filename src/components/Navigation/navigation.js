@@ -79,7 +79,6 @@ function Navigation () {
 
               changeLanguage(currentLanguage);
               
-
               if (currentLanguage === 'ru') {
                 selectElement.innerHTML = 'RU';
               } else if (currentLanguage === 'bl') {

@@ -6,6 +6,7 @@
   padding: 0;
   box-sizing: border-box; 
   height: 60px;
+  margin-block-start: 0px;
   }
 
 .nav-button {
@@ -31,8 +32,6 @@
 }
 
 .select-wrapper {
-  border-right: 1px solid #F5F5F5;
-  border-bottom: 1px solid #F5F5F5;
   padding-right: 20px;
   transition: all 1s ease-in;
 }
