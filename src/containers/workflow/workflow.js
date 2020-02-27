@@ -8,6 +8,7 @@ import TableContainer from '@material-ui/core/TableContainer';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
+import { CircularProgress } from '@material-ui/core';
 import WorkflowHeader from '../../components/workflowHeader/workflow.header'
 import WorkflowTeamPain from '../../components/workflowTeamPain/workflowTeamPain'
 import WorkflowSelfEvaluation from '../../components/workflowSelfEvaluation/workflowSelfEvaluation'
@@ -102,8 +103,6 @@ if (creatorsInfo) {
   let creatorsEmptyArray = [...Array(numberOfCreators(creatorsInfo))];
   return (
     <React.Fragment>
-    <WorkflowSelfEvaluation />
-    <WorkflowTeamPain />
     <WorkflowHeader />
     <div className={classes.workflowTable}>
     {creatorsEmptyArray.map((creator, index) => {
@@ -144,8 +143,11 @@ if (creatorsInfo) {
             )  
           })}
     </div>
+    <WorkflowTeamPain />
+    <WorkflowSelfEvaluation />
     </React.Fragment>
   )} else {
-    return 'Server did not respond or page is loading'
+    return (
+    <CircularProgress color="secondary" />)
   }
 }

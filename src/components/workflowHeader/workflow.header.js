@@ -31,9 +31,9 @@ function WorkflowHeader(props) {
       {language === 'bl' ? "Працэс працы" : null}
       </Typography>
       <Typography size="small" variant="h2" gutterBottom color="primary" style={{fontSize: '20px'}}>
-      {language === 'en' ? "This page shows the development process, the working hours of each developer, the main difficulties the team encountered, and the growth path of each programmer" : null}
-      {language === 'ru' ? "Эта страница показывает процесс разработки, время работы каждого разработчика, основные трудности, с которыми столкнулась команда, и путь роста каждого программиста" : null}
-      {language === 'bl' ? "Гэтая старонка паказвае працэс распрацоўкі, час працы кожнага разработчика, асноўныя цяжкасці, з якімі сутыкнулася каманда, і шлях росту кожнага праграміста" : null}
+      {language === 'en' ? "This page shows the development process, the working hours of each developer, the main difficulties the team encountered, the evaluation of team, tasks, score for compliting tasks, and total team score." : null}
+      {language === 'ru' ? "На этой странице показан процесс разработки, затраченное время каждого разработчика, основные трудности, с которыми столкнулась команда, задачи, оценка выполнения задач и общая оценка команды." : null}
+      {language === 'bl' ? "На гэтай старонцы паказаны працэс распрацоўкі, затрачаны час кожнага распрацоўніка, асноўныя цяжкасці, з якімі сутыкнулася каманда, задачы, ацэнка выканання задач і агульная ацэнка каманды." : null}
       </Typography>
     </div>
   )

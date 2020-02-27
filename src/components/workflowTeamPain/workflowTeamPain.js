@@ -2,6 +2,9 @@ import React, { useContext, useState, useEffect } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { getCreatorsPain } from '../../apis/getData'
 
+import { List, ListItem, ListItemIcon, ListItemText } from '@material-ui/core/';
+import StarIcon from '@material-ui/icons/Star';
+
 import languageContext from '../../context/languageContext';
 import { Typography } from '@material-ui/core/';
 
@@ -43,11 +46,34 @@ if(teamPain) {  console.log(teamPain)}
   
   const classes = useStyles();
 
+  const getHeader = (language) => {
+    if (language === 'ru') {
+      return "Сложности, с которыми столкнулась команда"
+    } else if (language === 'en') {
+      return "The difficulties faced by the team"
+    } else if (language === 'bl') {
+      return "Складанасці, з якімі сутыкнулася каманда"
+    }
+  }
+
+
   if (teamPain) {
   return (
-  <div>
-    {teamPain[selectLanguage(language)]}
-  </div>
+    <React.Fragment>
+    <Typography variant="h2" style={{textAlign:"center", marginBottom: 20}}>{getHeader(language)}</Typography>
+    <List aria-label="pain">
+      {teamPain[selectLanguage(language)].map((element, index) => {
+        return (
+          <ListItem key={index} style={{alignItems: "center"}}>
+            <ListItemIcon style={{textAlign:"center", marginLeft: 20}}>
+              <StarIcon />
+            </ListItemIcon>
+            <ListItemText primary={element} />
+          </ListItem>
+        )
+      })}
+    </List>
+    </React.Fragment>
   )
   } else {
     return ('loading')

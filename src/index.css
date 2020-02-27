@@ -2,3 +2,8 @@ body {
   background-image: url('./assets/comedy-tragedy-masks.png');
   background-repeat: no-repeat;
 }
+
+.App {
+  max-width: 1024px;
+  margin: 0 auto;
+}
