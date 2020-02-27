@@ -13,7 +13,7 @@ export default function MainPage() {
       const result = await getDirectorOfDay();
       setDirector(result);
     })();
-  });
+  }, []);
 
   const renderDirector = () => {
     return (

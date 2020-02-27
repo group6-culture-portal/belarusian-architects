@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import styles from './Styleguide.module.css';
 import { Typography, Button, Select, MenuItem, TextField } from '@material-ui/core/';
 import VideoLibraryIcon from '@material-ui/icons/VideoLibrary';
@@ -7,8 +7,10 @@ import HomeIcon from '@material-ui/icons/Home';
 import ListIcon from '@material-ui/icons/List';
 import MapIcon from '@material-ui/icons/Map';
 import PhotoLibraryIcon from '@material-ui/icons/PhotoLibrary';
+import languageContext from '../../context/languageContext';
 
 export default function Styleguide() {
+  const { language, changeLanguage } = useContext(languageContext);
   return (
     <div className={styles.wrapper}>
       <section className={styles.section}>
@@ -33,24 +35,26 @@ export default function Styleguide() {
           Inputs
         </Typography>
         <TextField label="Search" variant="outlined" />
-        <Select 
+        <Select
           variant="outlined"
-          value="en"
-          onChange={(e) => e.preventDefault()}
-          style={{marginLeft: '2%'}}
+          value={language}
+          onChange={e => {
+            changeLanguage(e.target.value);
+          }}
+          style={{ marginLeft: '2%' }}
         >
           <MenuItem value="en">EN</MenuItem>
           <MenuItem value="ru">RU</MenuItem>
-          <MenuItem value="by">BY</MenuItem>
+          <MenuItem value="bl">BY</MenuItem>
         </Select>
       </section>
       <section className={styles.section}>
         <Typography variant="h4" gutterBottom>
           Buttons
         </Typography>
-        <Button variant="contained" color="primary">Learn more</Button>
-        <Button variant="outlined" color="primary">Узнать больше</Button>
-        <Button variant="contained" color="primary">
+        <Button size="small" variant="contained" color="primary">Learn more</Button>
+        <Button size="medium" variant="outlined" color="primary">Узнать больше</Button>
+        <Button size="large" variant="contained" color="primary">
           <VideoLibraryIcon style={{ fontSize: 28 }} />
         </Button>
       </section>
