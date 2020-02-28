@@ -16,6 +16,19 @@ export const getDirectors = async () => {
   }
 };
 
+export const getDirectorOfDay = async () => {
+  try {
+    const response = await fetch(`${API_PATH}/director_of_day`);
+    const result = await response.json();
+
+    return result;
+  } catch (ex) {
+    return {
+      error: ex,
+    };
+  }
+};
+
 export const getDirector = async id => {
   try {
     const response = await fetch(`${API_PATH}/director/${id}`);
@@ -29,14 +42,14 @@ export const getDirector = async id => {
   }
 };
 
-export const searchDirector = async (query, lang) => {
+export const searchDirector = async query => {
   try {
     const response = await fetch(`${API_PATH}/search`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({ query, lang }),
+      body: JSON.stringify({ query }),
     });
     const result = await response.json();
 
@@ -44,6 +57,58 @@ export const searchDirector = async (query, lang) => {
   } catch (ex) {
     return {
       error: ex,
+    };
+  }
+};
+
+export const getCreatorsInfo = async () => {
+  try {
+    const response = await fetch(`${API_PATH}/team`);
+    const result = await response.json();
+
+    return result;
+  } catch (err) {
+    return {
+      error: err,
+    };
+  }
+};
+
+export const getCreators = async () => {
+  try {
+    const response = await fetch(`${API_PATH}/workflows`);
+    const result = await response.json();
+    
+    return result;
+  } catch (err) {
+    return {
+      error: err,
+    };
+  }
+};
+
+export const getCreatorsPain = async () => {
+  try {
+    const response = await fetch(`${API_PATH}/workflowsTeamPain`);
+    const result = await response.json();
+    
+    return result;
+  } catch (err) {
+    return {
+      error: err,
+    };
+  }
+};
+
+export const getCreatorsSelfEvaluation = async () => {
+  try {
+    const response = await fetch(`${API_PATH}/workflowSelfEvaluation`);
+    const result = await response.json();
+    
+    return result;
+  } catch (err) {
+    return {
+      error: err,
     };
   }
 };

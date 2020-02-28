@@ -1,0 +1,29 @@
+.creatorsPage {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+@media screen and (max-width: 800px) {
+    .members {
+        width: 80% !important;
+    }
+}
+
+.members {
+    
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.member {
+    margin: 20px;
+    margin-top: 80px;
+}
+
+.member:last-child {
+    margin-bottom: 100px;
+}

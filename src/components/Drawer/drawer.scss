@@ -1,0 +1,43 @@
+.drawer-wrapper {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  max-width: 320px;
+  background-color: #373737;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  padding: 0 0 0 0;
+  box-sizing: border-box;
+  z-index: 1001;
+  transform: translateX(0px);
+  transition: transform .22s ease-in;
+}
+
+.drawer-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;  
+  
+}
+
+.drawer-link {
+  text-decoration: none;
+  padding: 6px 16px;
+  color: #f5f5f5;
+  border-radius: 4px;
+  transition: color 0.8s ease-in-out;
+  &:hover {
+    opacity: 0.8;
+    transition: opacity 0.3s ease-in-out;
+  }
+}
+
+.close {
+  transform: translateX(-320px);
+}
+
+.active-button {
+  text-decoration: underline;
+}

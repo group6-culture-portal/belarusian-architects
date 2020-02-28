@@ -1,0 +1,62 @@
+{
+    "members":[
+        {   "ru": {
+                "name": "Владислав Новик",
+                "info": "FrontEnd Developer"
+            },
+            "en": {
+                "name": "Vlad Novik",
+                "info": "FrontEnd Developer "
+            },
+            "bl": {
+                "name": "Уладiслау Новiк",
+                "info": "FrontEnd Developer "
+            },
+            "image": "https://avatars3.githubusercontent.com/u/43148734?s=460&v=4",
+            "github" : "https://github.com",
+            "links": {
+                "linkedIn": "https://github.com",
+                "test": "https://github.com"
+            }
+        },
+        { 
+            "ru": {
+                "name": "Andrei Mandryk",
+                "info": "Beginning front-end developer from Brest, Belarus."
+            },
+            "en": {
+                "name": "Andrei Mandryk",
+                "info": "Beginning front-end developer from Brest, Belarus."
+            },
+            "bl": {
+                "name": "Andrei Mandryk",
+                "info": "Beginning front-end developer from Brest, Belarus."
+            },
+            "image": "https://avatars1.githubusercontent.com/u/44781670?s=400&v=4",
+            "github" : "https://github.com/gagarin880120",
+            "links": {
+                "Telegram": "https://t.me/gagarin880120"
+            }
+        },
+        {   "ru": {
+            "name": "Сергей Стех",
+            "info": "FrontEnd Developer"
+        },
+        "en": {
+            "name": "Sergey Stekh",
+            "info": "FrontEnd Developer "
+        },
+        "bl": {
+            "name": "Сяргей Стех",
+            "info": "FrontEnd Developer "
+        },
+        "image": "https://avatars0.githubusercontent.com/u/53942885?s=400&u=3e2cdf5d2fff800cd3d36ee46dc9b463f471eecf&v=4",
+        "github" : "https://github.com/SergeyCodeJs",
+        "links": {
+            "Facebook": "https://www.facebook.com/sergey.stekh.1"
+        }
+    }
+    ]
+
+    
+}

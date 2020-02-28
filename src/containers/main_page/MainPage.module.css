@@ -1,0 +1,78 @@
+.wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.directorText {
+  columns: 3;
+}
+
+.directorText span {
+  font-weight: bold;
+}
+
+.card {
+  margin: 0 auto;
+  margin-top: 3%;
+  background: #F5F5F5;
+  width: 70%;
+  border-top: 4px solid #373737;
+}
+
+.cardContent {
+  display: flex;
+}
+
+.photo {
+  width: 35%;
+  height: auto;
+}
+
+.cardText {
+  margin: 0 auto;
+  margin-top: 3%;
+  text-align: center;
+}
+
+.underline {
+  width: 15%;
+  height: 1px;
+  background: gray;
+  margin: 30px auto;
+  margin-top: 15px;
+}
+
+.cardContent a {
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 900px) {
+  .directorText {
+    columns: 1;
+  }
+
+  .card {
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 575px) {
+  .card {
+    width: 100%;
+  }
+
+  .photo {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .cardContent {
+    flex-direction: column;
+  }
+}
