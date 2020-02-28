@@ -1,79 +1,53 @@
-import React, { useState, useCallback, useEffect, useContext } from 'react';
-import languageContext from '../../context/languageContext';
-import Gallery from 'react-photo-gallery';
-import Carousel, { Modal, ModalGateway } from 'react-images';
+import React, { useState, useEffect, useContext } from 'react';
 import { Typography } from '@material-ui/core';
+import Lightbox from 'react-lightbox-component';
 
-const useWorkPlease = ({ photos }) => {
-  const [currentImage, setCurrentImage] = useState(0);
-  const [viewerIsOpen, setViewerIsOpen] = useState(false);
-  const [photoObj, setPhotoObj] = useState([]);
+import languageContext from '../../context/languageContext';
+import 'react-lightbox-component/build/css/index.css';
 
+const Gallery = ({ photos }) => {
   const { language } = useContext(languageContext);
   const [text, setText] = useState('');
 
   useEffect(() => {
     switch (language) {
       case 'ru':
-        setText('Галерея:');
+        setText('Галерея');
         break;
 
       case 'bl':
-        setText('Галерэя:');
+        setText('Галерэя');
         break;
 
       case 'en':
-        setText('Gallery:');
+        setText('Gallery');
         break;
 
       default:
         break;
     }
   }, [language]);
-
-  useEffect(() => {
-    const result = photos.map(x => {
-      return {
-        src: x,
-        width: 1,
-        height: 1,
-      };
-    });
-    setPhotoObj(result);
-  }, [photos]);
-
-  const openLightbox = useCallback((event, { photo, index }) => {
-    setCurrentImage(index);
-    setViewerIsOpen(true);
-  }, []);
-
-  const closeLightbox = () => {
-    setCurrentImage(0);
-    setViewerIsOpen(false);
-  };
-
   return (
     <>
-      <Typography variant="h4" style={{ textAlign: 'left', paddingLeft: 25, marginTop: 25 }}>
-        {text}
-      </Typography>
-      <Gallery photos={photoObj} onClick={openLightbox} />
-      <ModalGateway>
-        {viewerIsOpen ? (
-          <Modal onClose={closeLightbox}>
-            <Carousel
-              currentIndex={currentImage}
-              views={photoObj.map(x => ({
-                ...x,
-                srcset: x.srcSet,
-                caption: x.title,
-              }))}
-            />
-          </Modal>
-        ) : null}
-      </ModalGateway>
+      <div
+        style={{
+          backgroundColor: '#343434',
+          color: '#fff',
+          textAlign: 'center',
+          borderRadius: 4,
+        }}
+      >
+        <Typography variant="h4" style={{ textAlign: 'left', paddingLeft: 15, marginTop: 25 }}>
+          {text}
+        </Typography>
+      </div>
+      <Lightbox
+        images={photos.map(x => ({ src: x, title: ' ', description: ' ' }))}
+        thumbnailWidth="160px"
+        thumbnailHeight="160px"
+      />
     </>
   );
 };
 
-export default useWorkPlease;
+export default Gallery;
