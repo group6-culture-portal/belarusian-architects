@@ -28,8 +28,6 @@ function WorkflowTeamPain(props) {
       setTeamPain(res)
     })
 },[])
-if(teamPain) {  console.log(teamPain)}
-  
 
   const useStyles = makeStyles({
     header: {
