@@ -37,7 +37,25 @@
             "links": {
                 "Telegram": "https://t.me/gagarin880120"
             }
+        },
+        {   "ru": {
+            "name": "Сергей Стех",
+            "info": "FrontEnd Developer"
+        },
+        "en": {
+            "name": "Sergey Stekh",
+            "info": "FrontEnd Developer "
+        },
+        "bl": {
+            "name": "Сяргей Стех",
+            "info": "FrontEnd Developer "
+        },
+        "image": "https://avatars0.githubusercontent.com/u/53942885?s=400&u=3e2cdf5d2fff800cd3d36ee46dc9b463f471eecf&v=4",
+        "github" : "https://github.com/SergeyCodeJs",
+        "links": {
+            "Facebook": "https://www.facebook.com/sergey.stekh.1"
         }
+    }
     ]
 
     
