@@ -29,23 +29,16 @@ const Gallery = ({ photos }) => {
   }, [language]);
   return (
     <>
-      <div
-        style={{
-          backgroundColor: '#343434',
-          color: '#fff',
-          textAlign: 'center',
-          borderRadius: 4,
-        }}
-      >
-        <Typography variant="h4" style={{ textAlign: 'left', paddingLeft: 15, marginTop: 25 }}>
+      <div className="section-title">
+        <Typography
+          variant="h4"
+          className="section-title"
+          style={{ textAlign: 'left', paddingLeft: 15, marginTop: 25, marginBottom: 5 }}
+        >
           {text}
         </Typography>
       </div>
-      <Lightbox
-        images={photos.map(x => ({ src: x, title: ' ', description: ' ' }))}
-        thumbnailWidth="160px"
-        thumbnailHeight="160px"
-      />
+      <Lightbox images={photos.map(x => ({ src: x, title: ' ', description: ' ' }))} />
     </>
   );
 };

@@ -65,15 +65,15 @@ const VideoGallery = ({ videos }) => {
   useEffect(() => {
     switch (language) {
       case 'ru':
-        setText('Видео:');
+        setText('Видео');
         break;
 
       case 'bl':
-        setText('Відэа:');
+        setText('Відэа');
         break;
 
       case 'en':
-        setText('Videos:');
+        setText('Videos');
         break;
 
       default:
@@ -93,15 +93,7 @@ const VideoGallery = ({ videos }) => {
 
   return (
     <>
-      <div
-        style={{
-          backgroundColor: '#343434',
-          color: '#fff',
-          textAlign: 'center',
-          marginBottom: 10,
-          borderRadius: 4,
-        }}
-      >
+      <div className="section-title">
         <Typography variant="h4" style={{ textAlign: 'left', paddingLeft: 15, marginTop: 25 }}>
           {text}
         </Typography>
@@ -115,13 +107,8 @@ const VideoGallery = ({ videos }) => {
             <img
               key={idx}
               src={image.src}
-              className="makeCursor"
+              className="makeCursor video-gallery-item"
               alt=""
-              style={{
-                width: 340,
-                height: 190,
-                margin: 10,
-              }}
               onClick={openLightbox.bind(null, idx)}
             />
           );
