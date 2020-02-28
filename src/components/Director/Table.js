@@ -8,17 +8,17 @@ import {
   TableContainer,
   TableHead,
   TableRow,
-  Typography,
   Paper,
 } from '@material-ui/core';
 
 const StyledTableCell = withStyles(theme => ({
   head: {
-    backgroundColor: theme.palette.common.black,
-    color: theme.palette.common.white,
+    backgroundColor: '#373737',
+    color: '#f5f5f5',
+    fontSize: 18,
   },
   body: {
-    fontSize: 14,
+    fontSize: 18,
   },
 }))(TableCell);
 
@@ -29,15 +29,16 @@ const StyledTableRow = withStyles(theme => ({
     },
   },
 }))(TableRow);
+
 const useStyles = makeStyles({
   table: {
-    minWidth: 700,
+    minWidth: '90%',
   },
 });
 
 const stylesPaper = withStyles(theme => ({
   root: {
-    width: '98%',
+    width: '90%',
     margin: '0 auto',
   },
 }))(Paper);
@@ -45,37 +46,35 @@ const stylesPaper = withStyles(theme => ({
 export default function CustomizedTables({ rows }) {
   const classes = useStyles();
   const { language } = useContext(languageContext);
-  const [text, setText] = useState('');
+  const [text, setText] = useState([]);
 
   useEffect(() => {
     switch (language) {
       case 'ru':
-        setText('Работы:');
+        setText(['Работы', 'Год']);
         break;
 
       case 'bl':
-        setText('Працы:');
+        setText(['Працы', 'Год']);
         break;
 
       case 'en':
-        setText('Works:');
+        setText(['Works', 'Year']);
         break;
 
       default:
         break;
     }
   }, [language]);
+
   return (
     <>
-      <Typography variant="h4" style={{ textAlign: 'left', paddingLeft: 25 }}>
-        {text}
-      </Typography>
       <TableContainer component={stylesPaper}>
         <Table className={classes.table} aria-label="customized table">
           <TableHead>
             <TableRow>
-              <StyledTableCell>Title</StyledTableCell>
-              <StyledTableCell align="right">Date</StyledTableCell>
+              <StyledTableCell>{text[0]}</StyledTableCell>
+              <StyledTableCell align="right">{text[1]}</StyledTableCell>
             </TableRow>
           </TableHead>
           <TableBody>
