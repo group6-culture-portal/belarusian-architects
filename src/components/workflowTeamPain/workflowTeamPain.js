@@ -60,7 +60,7 @@ if(teamPain) {  console.log(teamPain)}
   if (teamPain) {
   return (
     <React.Fragment>
-    <Typography variant="h2" style={{textAlign:"center", marginBottom: 20}}>{getHeader(language)}</Typography>
+    <Typography variant="h2" style={{textAlign:"center", marginBottom: 20, fontSize: 32}}>{getHeader(language)}</Typography>
     <List aria-label="pain">
       {teamPain[selectLanguage(language)].map((element, index) => {
         return (

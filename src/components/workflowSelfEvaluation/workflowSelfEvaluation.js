@@ -109,18 +109,21 @@ function WorkflowSelfEvaluation(props) {
   const changeTableLanguage = (language) => {
     let lang = {
       en: {
+        header: "Evaluation",
         task: "Task",
         isDone: "Is task done?",
         score: "Score",
         total: "Total score: "
       },
       ru: {
+        header: "Выполненные задачи и набранные баллы",
         task: "Задача",
         isDone: "Задача выполнена?",
         score: "Баллы",
         total: "Общий балл",
       },
       bl: {
+        header: "Выкананыя задачы і набраныя балы",
         task: "Задача",
         isDone: "Задача выканана?",
         score: "Балы",
@@ -135,7 +138,7 @@ function WorkflowSelfEvaluation(props) {
   if (workflowSelfEvaluation) {
   return (
   <React.Fragment>
-  <Typography variant="h2" style={{textAlign: "center"}}>Evaluation</Typography>
+  <Typography variant="h2" style={{textAlign: "center", fontSize: 32}}>{trLanguage.header}</Typography>
   <table className={classes.table}>
     <thead>
       <tr className={classes.tr}>

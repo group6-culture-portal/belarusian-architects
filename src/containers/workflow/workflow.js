@@ -32,7 +32,12 @@ const useStyles = makeStyles({
   aboutAuthorContainer: {
     display: "flex",
     alignItems: "center",
-    justifyContent: "center"
+    justifyContent: "center",
+    ['@media (max-width: 450px)']: { // eslint-disable-line no-useless-computed-key
+      flexDirection: "column",
+      justifyContent: "center",
+      margin: "0 auto"
+    }
   },
   aboutAuthorTextContainer: {
     margin: "30px 20px 10px 20px"
@@ -46,11 +51,22 @@ const useStyles = makeStyles({
     margin: "0 auto",
     marginTop: 20,
     marginLeft: 20,
-    display: "inline-block"
+    display: "inline-block",
+    ['@media (max-width: 450px)']: { // eslint-disable-line no-useless-computed-key
+      flexDirection: "column",
+      justifyContent: "center",
+      margin: "0 auto"
+    }
   },
   h1: {
     fontSize: 30,
     display: "block",
+  },
+  teamMemberBlock: {
+    width: "450px",
+    marginBottom: "30px",
+    textAlign: "left", 
+    overflow: "hidden",
   }
 });
 
@@ -78,17 +94,17 @@ export default function Workflow(props) {
     case 'en': 
     timeSpent = "Time spent";
     feature = "Feature";
-    aboutAuthorsHeader = "About project creators";
+    aboutAuthorsHeader = "Tasks completed by the project creators and the time taken to complete them";
     break;
     case 'ru': 
     timeSpent = "Потрачено времени";
     feature = "Сделано";
-    aboutAuthorsHeader = "О создателях проекта";
+    aboutAuthorsHeader = "Задачи, выполненные создателями проекта, и затраченное время на их выполнение";
     break;
     case 'bl': 
     timeSpent = "Выдаткавана часу";
     feature = "Зроблена";
-    aboutAuthorsHeader = "Аб стваральніках праекта";
+    aboutAuthorsHeader = "Задачы, выкананыя стваральнікамі праекта, і выдаткаваны час на іх выкананне";
     break;
     default: 
     timeSpent = null;
@@ -109,11 +125,11 @@ if (creatorsInfo) {
   return (
     <React.Fragment>
     <WorkflowHeader />
-    <Typography variant="h2" style={{textAlign: "center", marginTop: 20}}>{aboutAuthorsHeader}</Typography>
+    <Typography variant="h2" style={{textAlign: "center", marginTop: 20, fontSize: 32}}>{aboutAuthorsHeader}</Typography>
     <div className={classes.workflowTable}>
     {creatorsEmptyArray.map((creator, index) => {
       return (
-      <TableContainer style={{width: "450px", marginBottom: "30px", textAlign: "left"}} key={index} component={Paper}>
+      <TableContainer className={classes.teamMemberBlock} key={index} component={Paper}>
             <div className={classes.aboutAuthorContainer}>
               
             <Avatar alt={getCreatorName(creatorsInfo, index, language)} src={getCreatorAvatar(creatorsInfo, index)} className={classes.avatar} />
