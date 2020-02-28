@@ -1,7 +1,6 @@
 import fetch from 'node-fetch';
 
 const API_PATH = 'http://localhost:5000/api';
-// const API_PATH = 'http://89.23.128.240:5000/api';
 
 // Это пример как использовать api
 export const getDirectors = async () => {
