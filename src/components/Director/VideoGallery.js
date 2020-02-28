@@ -1,10 +1,13 @@
 import React, { useState, useCallback, useEffect, useContext } from 'react';
-import languageContext from '../../context/languageContext';
-import Gallery from 'react-photo-gallery';
-import { withStyles } from '@material-ui/core/styles';
+import Lightbox from 'react-lightbox-component';
 import { Dialog, DialogTitle, DialogContent, Typography, IconButton } from '@material-ui/core';
+import { withStyles } from '@material-ui/core/styles';
+
+import languageContext from '../../context/languageContext';
 import { Close } from '@material-ui/icons';
-import './VideoGallery';
+
+import 'react-lightbox-component/build/css/index.css';
+
 const styles = theme => ({
   root: {
     margin: 0,
@@ -23,11 +26,11 @@ const DialogTitle1 = withStyles(styles)(props => {
   return (
     <DialogTitle disableTypography className={classes.root} {...other}>
       <Typography variant="h6">{children}</Typography>
-      {onClose ? (
+      {onClose && (
         <IconButton aria-label="close" className={classes.closeButton} onClick={onClose}>
           <Close />
         </IconButton>
-      ) : null}
+      )}
     </DialogTitle>
   );
 });
@@ -38,12 +41,26 @@ const DialogContent1 = withStyles(theme => ({
   },
 }))(DialogContent);
 
-const useVideoGallery = ({ videos }) => {
+const VideoGallery = ({ videos }) => {
   const [currentVideo, setCurrentVideo] = useState(0);
   const [viewerIsOpen, setViewerIsOpen] = useState(false);
   const [videoObj, setVideoObj] = useState([]);
   const { language } = useContext(languageContext);
   const [text, setText] = useState('');
+
+  useEffect(() => {
+    const result = videos.map((x, index) => {
+      return {
+        src: `http://img.youtube.com/vi/${x.split('/').pop()}/0.jpg`,
+        title: ' ',
+        description: ' ',
+        idx: index,
+        width: '360px',
+        height: '195px',
+      };
+    });
+    setVideoObj(result);
+  }, [videos]);
 
   useEffect(() => {
     switch (language) {
@@ -63,55 +80,9 @@ const useVideoGallery = ({ videos }) => {
         break;
     }
   }, [language]);
-  const imageRender = useCallback(
-    ({ index, left, top, key, photo }) => (
-      <Image
-        key={key}
-        margin={'2px'}
-        index={index}
-        photo={photo}
-        left={left}
-        top={top}
-        open={openLightbox}
-      />
-    ),
-    [videoObj]
-  );
-  useEffect(() => {
-    const result = videos.map(x => {
-      return {
-        src: `http://img.youtube.com/vi/${x.split('/').pop()}/0.jpg`,
-        width: 1,
-        height: 0.54,
-      };
-    });
-    setVideoObj(result);
-  }, [videos]);
 
-  const Image = ({ index, photo, open }) => {
-    return (
-      <>
-        <img
-          className="makeCursor"
-          src={photo}
-          index={index}
-          alt={''}
-          margin={'-10px -10px'}
-          style={{
-            clip: 'rect(50px,480px,300px,0px)',
-            objectFit: 'cover',
-            maxWidth: 724,
-          }}
-          onClick={() => open(index)}
-          {...photo}
-        />
-      </>
-    );
-  };
-
-  const openLightbox = useCallback(index => {
-    // const openLightbox = useCallback(event => {
-    setCurrentVideo(index);
+  const openLightbox = useCallback(idx => {
+    setCurrentVideo(idx);
     setViewerIsOpen(true);
   }, []);
 
@@ -122,16 +93,46 @@ const useVideoGallery = ({ videos }) => {
 
   return (
     <>
-      <Typography variant="h4" style={{ textAlign: 'left', paddingLeft: 25, marginTop: 25 }}>
-        {text}
-      </Typography>
-      <div style={{ width: 724 }}>
-        <Gallery photos={videoObj} renderImage={imageRender} margin={0} />
+      <div
+        style={{
+          backgroundColor: '#343434',
+          color: '#fff',
+          textAlign: 'center',
+          marginBottom: 10,
+          borderRadius: 4,
+        }}
+      >
+        <Typography variant="h4" style={{ textAlign: 'left', paddingLeft: 15, marginTop: 25 }}>
+          {text}
+        </Typography>
       </div>
+
+      <Lightbox
+        images={videoObj}
+        renderImageFunc={(idx, image, width, height) => {
+          console.log(width, height);
+          return (
+            <img
+              key={idx}
+              src={image.src}
+              className="makeCursor"
+              alt=""
+              style={{
+                width: 340,
+                height: 190,
+                margin: 10,
+              }}
+              onClick={openLightbox.bind(null, idx)}
+            />
+          );
+        }}
+      />
+
       <Dialog onClose={closeLightbox} aria-labelledby="customized-dialog-title" open={viewerIsOpen}>
         <DialogTitle1 id="customized-dialog-title" onClose={closeLightbox}></DialogTitle1>
         <DialogContent1 style={{ paddingTop: 25 }}>
           <iframe
+            title="Youtube video"
             width="560"
             height="315"
             src={`https://www.youtube.com/embed/${videos[currentVideo].split('/').pop()}`}
@@ -145,4 +146,4 @@ const useVideoGallery = ({ videos }) => {
   );
 };
 
-export default useVideoGallery;
+export default VideoGallery;
