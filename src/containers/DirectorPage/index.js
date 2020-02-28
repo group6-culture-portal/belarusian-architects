@@ -140,14 +140,6 @@ const Director = props => {
               <Typography variant="h1" style={{ marginBottom: 25 }}>
                 {director.name[language]}
               </Typography>
-              // <div className="description-small-screen">
-              //   <Typography variant="subtitle1" className="director-description">
-              //     {director.lifetime}
-              //   </Typography>
-              //   <Typography variant="body1" className="director-description">
-              //     {director.summary[language]}
-              //   </Typography>
-              // </div>
             )}
             <TimeLineContainer biography={director.biography} />
             <Table rows={director.works[language]} style={{ margin: '0 25px' }} />
@@ -199,20 +191,6 @@ const Director = props => {
 
 export default Director;
 
-/* <div className="another_directors">
-              <Link to={`/director/${director.prev.id}`}>
-                <Typography variant="body1">
-                  <NavigateBefore fontSize="small" />
-                  {director.prev.name[language]}
-                </Typography>
-              </Link>
-              <Link to={`/director/${director.next.id}`}>
-                <Typography variant="body1">
-                  <NavigateNext fontSize="small" />
-                  {director.next.name[language]}
-                </Typography>
-              </Link>
-            </div> */
 function getWindowDimensions() {
   const { innerWidth: width, innerHeight: height } = window;
   return {

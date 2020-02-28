@@ -1,6 +1,5 @@
 .director_page {
   margin: 0 auto;
-  width: 1024px;
   display: flex;
   // height: 2000px;
 }
@@ -9,7 +8,6 @@ img {
   object-fit: cover;
 }
 .content {
-  min-width: 724px;
   text-align: center;
   p {
     text-align: justify;
@@ -19,14 +17,35 @@ img {
     box-shadow: rgba(0, 0, 0, 0.2) 0.5rem 0.5rem 2rem 0px;
   }
 }
+.director-description {
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  margin-top: 25px !important;
+  box-shadow: rgba(0, 0, 0, 0.2) 0.5rem 0.5rem 2rem 0px;
+}
+.section-title {
+  background-color: #343434;
+  color: #fff;
+  text-align: center;
+  // margin-bottom: 10px;
+  border-radius: 4px;
+  margin: 0 auto 10px;
+  width: 95%;
+}
 .makeCursor {
   cursor: pointer;
+}
+div.lightbox-container {
+  width: 90%;
+  margin: 0 auto;
+  img {
+    margin: 0 5px 0;
+  }
 }
 .ymaps-2-1-75-inner-panes {
   border-radius: 4px !important;
 }
 .more {
-  max-width: 300px;
   margin: 0 auto;
 
   .director-profile::before {
@@ -35,17 +54,8 @@ img {
     display: block;
   }
   .director-profile {
-    position: sticky;
     padding: 0 15px 15px;
-    top: 0;
-    h1,
-    h6,
-    p {
-      background-color: #f5f5f5;
-      border-radius: 4px;
-      margin-top: 25px;
-      box-shadow: rgba(0, 0, 0, 0.2) 0.5rem 0.5rem 2rem 0px;
-    }
+
     p {
       padding: 5px 12px 5px;
       text-align: justify;
@@ -53,6 +63,10 @@ img {
     h1,
     h6 {
       text-align: center;
+    }
+
+    div.lightbox-container img {
+      margin: 0;
     }
     .another_directors {
       text-align: start;
@@ -77,5 +91,150 @@ img {
         color: inherit;
       }
     }
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .director_page {
+    width: 100%;
+    flex-direction: column-reverse;
+
+    h1 {
+      margin: 0 auto;
+      padding: 0 0 5px;
+    }
+  }
+  .content {
+    width: 100%;
+  }
+  .more {
+    width: 100%;
+  }
+  .director-profile {
+    position: relative;
+    text-align: center;
+  }
+  .video-gallery-item {
+    width: 200px;
+    height: 109px;
+  }
+  img.lightbox-img-thumbnail {
+    width: 30% !important;
+    height: 120px !important;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .director_page {
+    width: 100%;
+    flex-direction: column-reverse;
+
+    h1 {
+      margin: 0 auto;
+      padding: 0 0 5px;
+    }
+  }
+  .content {
+    width: 100%;
+  }
+  .more {
+    width: 100%;
+  }
+  .director-profile {
+    position: relative;
+    text-align: center;
+  }
+  .video-gallery-item {
+    width: 250px;
+    height: 136px;
+  }
+  img.lightbox-img-thumbnail {
+    width: 120px !important;
+    height: 120px !important;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .director_page {
+    width: 100%;
+    flex-direction: column-reverse;
+
+    h1 {
+      margin: 0 auto;
+      padding: 0 0 5px;
+    }
+  }
+  .content {
+    width: 100%;
+  }
+  .more {
+    width: 100%;
+  }
+  .director-profile {
+    position: relative;
+    text-align: center;
+  }
+  .video-gallery-item {
+    width: 270px;
+    height: 147px;
+  }
+  img.lightbox-img-thumbnail {
+    width: 130px !important;
+    height: 130px !important;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 993px) {
+  .director_page {
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+  }
+  .content {
+    width: 65%;
+  }
+  .more {
+    width: 35%;
+  }
+  .director-profile {
+    position: sticky;
+    top: 0;
+  }
+  .video-gallery-item {
+    width: 270px;
+    height: 147px;
+  }
+  img.lightbox-img-thumbnail {
+    width: 130px !important;
+    height: 130px !important;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1024px) {
+  .director_page {
+    width: 1024px;
+  }
+  .content {
+    width: 66%;
+  }
+  .more {
+    width: 34%;
+  }
+  .director-profile {
+    position: sticky;
+    top: 0;
+  }
+  .video-gallery-item {
+    width: 294px;
+    height: 159px;
+  }
+  img.lightbox-img-thumbnail {
+    width: 142px !important;
+    height: 142px !important;
   }
 }
