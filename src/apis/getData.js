@@ -1,6 +1,6 @@
 import fetch from 'node-fetch';
 
-const API_PATH = 'http://localhost:5000/api';
+const API_PATH = 'https://group6culport.netlify.com:5000/api';
 
 // Это пример как использовать api
 export const getDirectors = async () => {
@@ -78,7 +78,7 @@ export const getCreators = async () => {
   try {
     const response = await fetch(`${API_PATH}/workflows`);
     const result = await response.json();
-    
+
     return result;
   } catch (err) {
     return {
@@ -91,7 +91,7 @@ export const getCreatorsPain = async () => {
   try {
     const response = await fetch(`${API_PATH}/workflowsTeamPain`);
     const result = await response.json();
-    
+
     return result;
   } catch (err) {
     return {
@@ -104,7 +104,7 @@ export const getCreatorsSelfEvaluation = async () => {
   try {
     const response = await fetch(`${API_PATH}/workflowSelfEvaluation`);
     const result = await response.json();
-    
+
     return result;
   } catch (err) {
     return {
