@@ -38,7 +38,8 @@ app.get('/api/directors', (req, res) => {
 });
 
 app.get('/api/director/:id', (req, res) => {
-  const result = DB[req.params.id];
+  const id = Number(req.params.id);
+  const result = DB[id];
   res.json(result);
 });
 
