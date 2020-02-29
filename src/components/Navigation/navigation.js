@@ -1,6 +1,6 @@
-import React, { useContext } from 'react'
-import {NavLink, useHistory} from 'react-router-dom'
-import './navigation.scss'
+import React, { useContext } from 'react';
+import { NavLink, useHistory } from 'react-router-dom';
+import './navigation.scss';
 import languageContext from '../../context/languageContext';
 import { Button, Select, MenuItem } from '@material-ui/core/';
 import MobileNavButton from '../MobileNavButton/mobileNavButton';
@@ -35,14 +35,15 @@ export const links = [
 const Navigation = () => {
   const [show, setShow] = React.useState(true);
   const history = useHistory();
+  const { language } = useContext(languageContext);
 
   React.useEffect(() => {
-    const {pathname} = history.location;
-    if (links.findIndex(l => l.to === pathname) !==-1) setShow(true);
+    const { pathname } = history.location;
+    if (links.findIndex(l => l.to === pathname) !== -1) setShow(true);
     else setShow(false);
   }, [history.location.pathname]);
-  
-  let renderLinks = (language) => {
+
+  let renderLinks = language => {
     let languageNumber;
     if (language === 'en') {
       languageNumber = 0;
@@ -64,11 +65,11 @@ const Navigation = () => {
   };
 
   return (
-    show &&
+    show && (
       <React.Fragment>
-        <ul className='nav-wrapper'>
+        <ul className="nav-wrapper">
           <div className="select-wrapper">
-            <Select 
+            <Select
               id="Select"
               variant="outlined"
               value="en"
@@ -102,13 +103,14 @@ const Navigation = () => {
               <MenuItem value="en">EN</MenuItem>
               <MenuItem value="ru">RU</MenuItem>
               <MenuItem value="bl">BY</MenuItem>
-          </Select>
-        </div>
-        {renderLinks(language)}
-      </ul>
-      <MobileNavButton></MobileNavButton>
-    </React.Fragment>
+            </Select>
+          </div>
+          {renderLinks(language)}
+        </ul>
+        <MobileNavButton></MobileNavButton>
+      </React.Fragment>
+    )
   );
-}
+};
 
 export default Navigation;
