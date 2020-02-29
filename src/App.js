@@ -16,11 +16,6 @@ import Navigation from './components/Navigation/navigation';
 
 import './index.css';
 
-function DummyComponent() {
-  return <h1>Hello</h1>;
-}
-
-
 function App() {
   const [language, setLanguage] = useState('en');
   return (
@@ -34,10 +29,9 @@ function App() {
               <Route path="/search" exact component={Search} />
               <Route path="/creators" exact component={CreatortPage} />
               <Route path="/styleguide" exact component={Styleguide} />
-              <Route path="/workflow" exact component={DummyComponent} />
-              <Route path="*" exact component={Page404} />
               <Route path="/workflow" exact component={Workflow} />
               <Route path="/director/:id" exact component={Director} />
+              <Route path="*" exact component={Page404} />
             </Switch>
           </Router>
         </LanguageContext.Provider>

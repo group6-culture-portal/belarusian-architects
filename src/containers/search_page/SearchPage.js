@@ -16,7 +16,7 @@ import {
   MenuItem,
 } from '@material-ui/core';
 import styles from './SearchPage.module.css';
-import Page404 from '../page_404/page404'
+import Page404 from '../page_404/page404';
 
 const useStyles = makeStyles({
   root: {
@@ -27,22 +27,19 @@ const useStyles = makeStyles({
     height: 440,
   },
   link: {
-      flexGrow: 1,
-    
+    flexGrow: 1,
   },
- 
-
 });
 
 const Search = props => {
   const [query, setQuery] = useState('');
   const [directors, setDirectors] = useState([]);
-  const { language, changeLanguage } = useContext(LanguageContext);
-  const [text, setText] = useState('');
+  const { language } = useContext(LanguageContext);
+  const [text, setText] = useState('Search');
   const [textMoreInfo, setTextMoreInfo] = useState('');
   const [textMoreInfoStyle, setTextMoreInfoStyle] = useState('');
   const [textColor, setTextColor] = useState('');
-  
+
   const classes = useStyles();
 
   useEffect(() => {
@@ -63,29 +60,32 @@ const Search = props => {
         setText('Пошук');
         setTextMoreInfo('Даведацца больш');
         setTextMoreInfoStyle('outlined');
-        setTextColor('black')
+        setTextColor('black');
         break;
       case 'en':
         setText('Search');
         setTextMoreInfo('Learn more');
         setTextMoreInfoStyle('contained');
-        setTextColor('white')
+        setTextColor('white');
         break;
       case 'ru':
         setText('Поиск');
         setTextMoreInfo('Узнать больше');
         setTextMoreInfoStyle('outlined');
-        setTextColor('black')
+        setTextColor('black');
         break;
     }
   }, [language]);
 
+  useEffect(() => {
+    document.title = `${text}: ${query}`;
+  }, [query, language]);
 
   const onChangeQuery = e => setQuery(e.target.value);
   const renderDirector = () => {
     const directorList = directors.map(d => {
       return (
-       <Card key={d.id} className={classes.root}>
+        <Card key={d.id} className={classes.root}>
           <CardActionArea>
             <CardMedia className={classes.media} image={d.photo} title="Contemplative Reptile" />
             <CardContent>
@@ -101,14 +101,18 @@ const Search = props => {
             </CardContent>
           </CardActionArea>
           <CardActions>
-          <Button variant={textMoreInfoStyle} color="primary"  size="small">
-          <Link  className={classes.link} to={`/director/${d.id}`}  style={{ color: `${textColor}` }} >{textMoreInfo} </Link>
-          </Button>
+            <Button variant={textMoreInfoStyle} color="primary" size="small">
+              <Link
+                className={classes.link}
+                to={`/director/${d.id}`}
+                style={{ color: `${textColor}` }}
+              >
+                {textMoreInfo}{' '}
+              </Link>
+            </Button>
           </CardActions>
         </Card>
-    
       );
-      
     });
 
     return directorList;
@@ -118,26 +122,10 @@ const Search = props => {
     <div className="wrapper">
       <div>
         <input type="text" placeholder={text} onChange={onChangeQuery} value={query} />
-        <Select
-          variant="outlined"
-          value={language}
-          onChange={e => {
-            e.preventDefault();
-            changeLanguage(e.target.value);
-          }}
-          style={{ marginLeft: '2%' ,height: '43px' }}
-        >
-          <MenuItem value="en">EN</MenuItem>
-          <MenuItem value="ru">RU</MenuItem>
-          <MenuItem value="bl">BL</MenuItem>
-        </Select>
       </div>
-      <div   className={styles.cards} >{renderDirector()}</div>
-      <>
-
- </>
+      <div className={styles.cards}>{renderDirector()}</div>
+      <></>
     </div>
-
   );
 };
 

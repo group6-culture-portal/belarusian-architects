@@ -55,7 +55,7 @@ const VideoGallery = ({ videos }) => {
         title: ' ',
         description: ' ',
         idx: index,
-        width: '360px',
+        width: '90%',
         height: '195px',
       };
     });
@@ -120,8 +120,8 @@ const VideoGallery = ({ videos }) => {
         <DialogContent1 style={{ paddingTop: 25 }}>
           <iframe
             title="Youtube video"
-            width="560"
-            height="315"
+            width="100%"
+            height="100%"
             src={`https://www.youtube.com/embed/${videos[currentVideo].split('/').pop()}`}
             frameBorder="0"
             allow="accelerometer; encrypted-media; picture-in-picture"
