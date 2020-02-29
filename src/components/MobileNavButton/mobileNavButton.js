@@ -6,7 +6,7 @@ import Drawer from '../Drawer/drawer'
 
 export default class MobileNavButton extends Component {
   state= {
-    isOpen: false
+    isOpen: false,
   }
 
 render() {
@@ -19,8 +19,8 @@ render() {
   return (
   <React.Fragment>
   <div 
-  className={'mobile-nav-button-wrapper'}>
-
+  className={'mobile-nav-button-wrapper'}
+  >
     {!this.state.isOpen 
     ? <ListIcon 
     onClick={onBurgerClickHandler} 
@@ -30,13 +30,12 @@ render() {
     onClick={onBurgerClickHandler} 
     fontSize="large" 
     className={cls.join(' ')}/>}
-
   </div>
 
   <Drawer 
   isOpen={this.state.isOpen} 
   />
-  {this.state.isOpen ? <div onClick={() => {this.setState({isOpen: !this.state.isOpen})}} className="backdrop"/> : null}
+  {this.state.isOpen ? <div onClick={() => {this.setState({isOpen: !this.state.isOpen})}} className="backdrop" /> : null}
   </React.Fragment>
 )
 }

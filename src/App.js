@@ -7,12 +7,14 @@ import Styleguide from './containers/styleguide/Styleguide';
 import MainPage from './containers/main_page/MainPage';
 import CreatortPage from './containers/creators_page/index.jsx';
 import Search from './containers/search_page/SearchPage';
-import Page404 from './containers/page_404/page404'
+import Page404 from './containers/page_404/page404';
+import Workflow from './containers/workflow/workflow';
+import Director from './containers/DirectorPage';
 
 import LanguageContext from './context/languageContext';
-import Navigation from './components/Navigation/navigation'
-import './index.css';
+import Navigation from './components/Navigation/navigation';
 
+import './index.css';
 
 function DummyComponent() {
   return <h1>Hello</h1>;
@@ -35,6 +37,8 @@ function App() {
               <Route path="/styleguide" exact component={Styleguide} />
               <Route path="/workflow" exact component={DummyComponent} />
               <Route path="*" exact component={Page404} />
+              <Route path="/workflow" exact component={Workflow} />
+              <Route path="/director/:id" exact component={Director} />
             </Switch>
           </Router>
         </LanguageContext.Provider>
@@ -44,23 +48,3 @@ function App() {
 }
 
 export default App;
-
-// function Dir() {
-//   const [director, setDirector] = useState(null);
-//   const { id } = useParams();
-//   useEffect(() => {
-//     (async directorId => {
-//       const result = await getDirector(directorId);
-//       setDirector(result);
-//     })(id);
-//   }, [id]);
-//   return director ? (
-//     <>
-//       <h1>{director.name.en}</h1>
-//       <h1>{director.birthPlace['en']}</h1>
-//       <h1>{director.lifetime}</h1>
-//     </>
-//   ) : (
-//     'loading'
-//   );
-// }

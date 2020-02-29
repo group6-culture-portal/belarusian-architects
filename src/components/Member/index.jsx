@@ -34,23 +34,38 @@ export default function Member(props) {
         return linksDom
     }
 
+    const getLinksToggler = () => {
+        
+
+        switch (props.language) {
+            case 'en':
+                return <>{showLinks ? "Hide" : "Learn more"}</>
+            case 'ru':
+                return <>{showLinks ? "Спрятать" : "Узнать больше"}</>
+            case 'bl':
+                return <>{showLinks ? "Схаваць" : "Даведайцеся больш"}</>
+            default:
+                break;
+        }
+    }
+
     return (
         <div className={styles.member}>
             <Card className={null}>
                 <CardActionArea>
-                    <CardMedia
+                    <CardMedia 
                         component="img"
-                        height="300px"
+                        style={{maxHeight:"400px"}}
                         image={props.image}
                         title={props.name}
                     />
 
                     <CardContent>
-                        <Typography gutterBottom variant="h1" component="h2">
+                        <Typography className={styles.member__name} gutterBottom variant="h1" component="h2">
                             {props.name}
                         </Typography>
-                        <Typography variant="h3" color="textSecondary" component="p">
-                           {props.info}
+                        <Typography className={styles.member__info} variant="h3" color="textSecondary" component="p">
+                            {props.info}
                         </Typography>
                         <Typography>
                             <a target="blank" href={props.github}>
@@ -65,7 +80,7 @@ export default function Member(props) {
                                 size="large" 
                                 variant="outlined"
                                 color="primary">
-                                    {showLinks ? "Hide" : "Learn more"}
+                                    {getLinksToggler()}
                             </Button>
                         </Typography>
                     </CardContent>

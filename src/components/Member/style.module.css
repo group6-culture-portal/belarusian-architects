@@ -7,10 +7,41 @@
     margin-bottom: 100px;
 }
 
+
+
+@media screen and (max-width: 800px) {
+    .member__name {
+        font-size: 30px !important;
+    }
+
+    .member__info {
+        font-size: 20px !important;
+    }
+
+    .button {
+        font-size: 14px !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .member__name {
+        font-size: 22px !important;
+    }
+
+    .member__info {
+        font-size: 13px !important;
+    }
+
+    .button {
+        font-size: 11px !important;
+    }
+}
+
 .button {
    margin-top: 12px !important;
    margin-right: 7px !important;
 }
+
 
 a {
     text-decoration: none;
