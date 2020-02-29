@@ -27,7 +27,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "concurrently \"npm run build\" \"pm2 start --name culture ./server/index.js\"",
+    "deploy": "concurrently \"npm run build\" \"pm2 start ./server/index.js\"",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "dev": "concurrently \"npm run start\" \"npm run start --prefix server\""
