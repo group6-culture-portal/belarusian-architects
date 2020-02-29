@@ -35,7 +35,7 @@ export const links = [
 const Navigation = () => {
   const [show, setShow] = React.useState(true);
   const history = useHistory();
-  const { language } = useContext(languageContext);
+  const { language, changeLanguage } = useContext(languageContext);
 
   React.useEffect(() => {
     const { pathname } = history.location;
