@@ -524,53 +524,65 @@
     },
     "4": {
       "name": {
-        "en": "",
-        "ru": "",
-        "bl": ""
+        "en": "Novik Vladislav",
+        "ru": "Новик Владислав",
+        "bl": "Новiк Уладзiслау"
       },
-      "nick": "",
-      "avatar": "",
+      "nick": "latiertiw",
+      "avatar": "https://avatars3.githubusercontent.com/u/43148734?s=460&v=4",
       "whatIsDone": {
         "en": [
           {
-            "time": "",
-            "task": ""
+            "time": "4 hours",
+            "task": "Create 'Creators page'"
           },
           {
-            "time": "",
-            "task": ""
+            "time": "2 hours",
+            "task": "Put content about directors into JSON file"
           },
           {
-            "time": "",
-            "task": ""
+            "time": "1 hour",
+            "task": "Add visual effects (parallax)"
+          },
+          {
+            "time": "3 hours",
+            "task": "Bugfixing"
           }
         ],
         "ru": [
           {
-            "time": "",
-            "task": ""
+            "time": "4 часа",
+            "task": "Создание страницы создателей"
           },
           {
-            "time": "",
-            "task": ""
+            "time": "2 часа",
+            "task": "Добавление информации о режиссёрах"
           },
           {
-            "time": "",
-            "task": ""
+            "time": "1 час",
+            "task": "Добавление визуальных эффектов (параллакс) "
+          },
+          {
+            "time": "3 часа",
+            "task": "Фикс багов"
           }
         ],
         "bl": [
           {
-            "time": "",
-            "task": ""
+            "time": "4 гадзiны",
+            "task": "Стварэнне старонки стваральнікаў"
           },
           {
-            "time": "",
-            "task": ""
+            "time": "2 гадзiны",
+            "task": "Даданне інфармацыі аб рэжысёраў"
           },
           {
-            "time": "",
-            "task": ""
+            "time": "1 гадзiна",
+            "task": "Даданне візуальных эфектаў (паралакс)"
+          },
+          {
+            "time": "3 гадзiны",
+            "task": "Фiкс багау"
           }
         ]
       }
