@@ -75,6 +75,25 @@
       "links": {
         "Telegram": "https://t.me/CyberComrade"
       }
+    },
+    {
+      "ru": {
+        "name": "Юлия Симончик",
+        "info": "FrontEnd Developer"
+      },
+      "en": {
+        "name": "Yuliya Simonchik",
+        "info": "FrontEnd Developer"
+      },
+      "bl": {
+        "name": "Юлія Сімончык",
+        "info": "FrontEnd Developer"
+      },
+      "image": "https://avatars1.githubusercontent.com/u/54934592?s=400&u=4438d61a1062be32d5d1086f0010b44dacde2ca8&v=4",
+      "github": "https://github.com/Yuliya-soul",
+      "links": {
+        "Telegram": "https://t.me/Yuliyasoul"
+      }
     }
   ]
 }
