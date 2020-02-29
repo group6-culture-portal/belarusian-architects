@@ -7,10 +7,10 @@
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 0;
-  box-sizing: border-box; 
+  box-sizing: border-box;
   height: 60px;
   margin-block-start: 0px;
-  }
+}
 
 .nav-button {
   display: flex;
@@ -40,8 +40,11 @@
 }
 
 @media (max-width: 847px) {
-  .nav-button, .nav-button span, .nav-link {
+  .nav-button,
+  .nav-button span,
+  .nav-link {
     display: none;
+    z-index: -1000;
   }
 
   .nav-wrapper {
@@ -50,10 +53,10 @@
 
   .select-wrapper {
     position: absolute;
-    z-index: 1000;
+    z-index: 0;
     height: 60px;
     left: 20px;
-    border-right: 1px solid #F5F5F5;
+    // border-right: 1px solid #F5F5F5;
     padding-right: 20px;
   }
 }
