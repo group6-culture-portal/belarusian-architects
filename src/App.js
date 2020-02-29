@@ -7,6 +7,7 @@ import Styleguide from './containers/styleguide/Styleguide';
 import MainPage from './containers/main_page/MainPage';
 import CreatortPage from './containers/creators_page/index.jsx';
 import Search from './containers/search_page/SearchPage';
+import Page404 from './containers/page_404/page404'
 
 import LanguageContext from './context/languageContext';
 import Navigation from './components/Navigation/navigation'
@@ -16,6 +17,7 @@ import './index.css';
 function DummyComponent() {
   return <h1>Hello</h1>;
 }
+
 
 function App() {
   const [language, setLanguage] = useState('en');
@@ -32,6 +34,7 @@ function App() {
               <Route path="/creators" exact component={CreatortPage} />
               <Route path="/styleguide" exact component={Styleguide} />
               <Route path="/workflow" exact component={DummyComponent} />
+              <Route path="*" exact component={Page404} />
             </Switch>
           </Router>
         </LanguageContext.Provider>

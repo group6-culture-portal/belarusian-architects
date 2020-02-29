@@ -16,6 +16,7 @@ import {
   MenuItem,
 } from '@material-ui/core';
 import styles from './SearchPage.module.css';
+import Page404 from '../page_404/page404'
 
 const useStyles = makeStyles({
   root: {
@@ -103,11 +104,9 @@ const Search = props => {
           <Button variant={textMoreInfoStyle} color="primary"  size="small">
           <Link  className={classes.link} to={`/director/${d.id}`}  style={{ color: `${textColor}` }} >{textMoreInfo} </Link>
           </Button>
-           <VideoLibraryIcon style={{ fontSize: 28 }} />
-          
           </CardActions>
         </Card>
-     
+    
       );
       
     });
@@ -134,8 +133,11 @@ const Search = props => {
         </Select>
       </div>
       <div   className={styles.cards} >{renderDirector()}</div>
-      
+      <>
+
+ </>
     </div>
+
   );
 };
 
