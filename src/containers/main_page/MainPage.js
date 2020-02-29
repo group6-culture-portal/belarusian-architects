@@ -21,7 +21,7 @@ export default function MainPage() {
       <div className={styles.cardContent}>
         <img className={styles.photo} src={director.photo} alt="director of the day" />
         <div className={styles.cardText}>
-          <Typography variant="h2" style={{ fontSize: '40px' }} color="primary">
+          <Typography variant="h1">
             {director.name[language]}
           </Typography>
           <Typography
