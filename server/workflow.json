@@ -471,53 +471,53 @@
     },
     "3": {
       "name": {
-        "en": "",
-        "ru": "",
-        "bl": ""
+        "en": "Yuliya Simonchik",
+        "ru": "Юлия Симончик",
+        "bl": "Юлія Сімончык"
       },
-      "nick": "",
-      "avatar": "",
+      "nick": "Yuliya-soul",
+      "avatar": "https://avatars1.githubusercontent.com/u/54934592?s=400&u=4438d61a1062be32d5d1086f0010b44dacde2ca8&v=4",
       "whatIsDone": {
         "en": [
           {
-            "time": "",
-            "task": ""
+            "time": "4 hours",
+            "task": "Put content about directors in JSON file"
           },
           {
-            "time": "",
-            "task": ""
+            "time": "21 hours",
+            "task": "Create directors search page"
           },
           {
-            "time": "",
-            "task": ""
+            "time": "5 hours",
+            "task": "Create 404 page"
           }
         ],
         "ru": [
           {
-            "time": "",
-            "task": ""
+            "time": "4 часа",
+            "task": "Вносилa данные о театральных режиссерах в файл JSON"
           },
           {
-            "time": "",
-            "task": ""
+            "time": "21 час",
+            "task": "Создавала страницу поиска театральных режиссеров"
           },
           {
-            "time": "",
-            "task": ""
+            "time": "5 часов",
+            "task": "Создавала страницу 404"
           }
         ],
         "bl": [
           {
-            "time": "",
-            "task": ""
+            "time": "4 гадзіны",
+            "task": "Ўносіла дадзеныя аб тэатральных рэжысёрах у файл JSON"
           },
           {
-            "time": "",
-            "task": ""
+            "time": "21 гадзіну",
+            "task": "Стварала старонку пошуку тэатральных рэжысёраў"
           },
           {
-            "time": "",
-            "task": ""
+            "time": "5 гадзін",
+            "task": "Стварала старонку 404"
           }
         ]
       }
