@@ -1,6 +1,6 @@
-import React, { useContext } from 'react';
-import { NavLink } from 'react-router-dom';
-import './navigation.scss';
+import React, { useContext } from 'react'
+import {NavLink, useHistory} from 'react-router-dom'
+import './navigation.scss'
 import languageContext from '../../context/languageContext';
 import { Button, Select, MenuItem } from '@material-ui/core/';
 import MobileNavButton from '../MobileNavButton/mobileNavButton';
@@ -32,10 +32,17 @@ export const links = [
   ],
 ];
 
-function Navigation() {
-  const { language, changeLanguage } = useContext(languageContext);
+const Navigation = () => {
+  const [show, setShow] = React.useState(true);
+  const history = useHistory();
 
-  let renderLinks = language => {
+  React.useEffect(() => {
+    const {pathname} = history.location;
+    if (links.findIndex(l => l.to === pathname) !==-1) setShow(true);
+    else setShow(false);
+  }, [history.location.pathname]);
+  
+  let renderLinks = (language) => {
     let languageNumber;
     if (language === 'en') {
       languageNumber = 0;
@@ -57,43 +64,44 @@ function Navigation() {
   };
 
   return (
-    <React.Fragment>
-      <ul className="nav-wrapper">
-        <div className="select-wrapper">
-          <Select
-            id="Select"
-            variant="outlined"
-            value="en"
-            onChange={e => {
-              e.preventDefault();
-              let currentLanguage = e.target.value;
-              const selectElement = document.getElementById('Select');
+    show &&
+      <React.Fragment>
+        <ul className='nav-wrapper'>
+          <div className="select-wrapper">
+            <Select 
+              id="Select"
+              variant="outlined"
+              value="en"
+              onChange={e => {
+                e.preventDefault();
+                let currentLanguage = e.target.value;
+                const selectElement = document.getElementById('Select');
 
-              changeLanguage(currentLanguage);
+                changeLanguage(currentLanguage);
 
-              if (currentLanguage === 'ru') {
-                selectElement.innerHTML = 'RU';
-              } else if (currentLanguage === 'bl') {
-                selectElement.innerHTML = 'BY';
-              } else if (currentLanguage === 'en') {
-                selectElement.innerHTML = 'EN';
-              }
-            }}
-            style={{
-              marginLeft: '2%',
-              marginRight: '2%',
-              color: '#373737',
-              backgroundColor: '#F5F5F5',
-              border: 'none',
-              height: '40px',
-              width: '65px',
-              marginTop: '10px',
-              borderLeft: 'none',
-            }}
-          >
-            <MenuItem value="en">EN</MenuItem>
-            <MenuItem value="ru">RU</MenuItem>
-            <MenuItem value="bl">BY</MenuItem>
+                if (currentLanguage === 'ru') {
+                  selectElement.innerHTML = 'RU';
+                } else if (currentLanguage === 'bl') {
+                  selectElement.innerHTML = 'BY';
+                } else if (currentLanguage === 'en') {
+                  selectElement.innerHTML = 'EN';
+                }
+              }}
+              style={{
+                marginLeft: '2%',
+                marginRight: '2%',
+                color: '#373737',
+                backgroundColor: '#F5F5F5',
+                border: 'none',
+                height: '40px',
+                width: '65px',
+                marginTop: '10px',
+                borderLeft: 'none',
+              }}
+            >
+              <MenuItem value="en">EN</MenuItem>
+              <MenuItem value="ru">RU</MenuItem>
+              <MenuItem value="bl">BY</MenuItem>
           </Select>
         </div>
         {renderLinks(language)}

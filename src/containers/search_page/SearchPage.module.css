@@ -3,11 +3,17 @@
     width: 50%;
     padding: 10px 15px;
     outline: none;
+    margin-left: 40px;
+    margin-top: 40px;
  }
  .wrapper{
      margin: 0 auto;
+     margin-top: 40px;
  }
 .cards{
-    display: flex;
-    justify-content: space-between;
-}
+   justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 2vw;
+    margin: 40px;
+  }
