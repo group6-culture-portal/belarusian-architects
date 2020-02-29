@@ -60,6 +60,12 @@ const Director = props => {
     })(id);
   }, [id]);
 
+  useEffect(() => {
+    if (director) {
+      document.title = director.name[language];
+    }
+  }, [director, language]);
+
   const renderProfilePicture = (width = 270, height = 370) => {
     return (
       <Lightbox

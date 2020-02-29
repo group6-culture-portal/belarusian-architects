@@ -18,7 +18,7 @@ const workflowSelfEvaluationDB = Object.values(require('./workflow.json').selfEv
 
 const creatorsDB = Object.values(require('./creators.json').members);
 
-var whitelist = ['http://localhost:3000', 'undefined'];
+// var whitelist = ['http://localhost:3000'];
 var corsOptions = {
   origin: function(origin, callback) {
     // console.log(origin);

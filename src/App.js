@@ -32,7 +32,6 @@ function App() {
             <Switch>
               <Route path="/" exact component={MainPage} />
               <Route path="/search" exact component={Search} />
-              <Route path="/all_directors" exact component={DummyComponent} />
               <Route path="/creators" exact component={CreatortPage} />
               <Route path="/styleguide" exact component={Styleguide} />
               <Route path="/workflow" exact component={DummyComponent} />
