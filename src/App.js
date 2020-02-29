@@ -13,6 +13,7 @@ import Director from './containers/DirectorPage';
 
 import LanguageContext from './context/languageContext';
 import Navigation from './components/Navigation/navigation';
+import { Parallax, Background } from 'react-parallax';
 
 import './index.css';
 
@@ -23,6 +24,12 @@ function App() {
       <ThemeProvider theme={theme}>
         <LanguageContext.Provider value={{ language: language, changeLanguage: setLanguage }}>
           <Router history={history}>
+          <Parallax
+            blur={2}
+            bgImage={require('./assets/comedy-tragedy-masks.png')}
+            strength={600}
+            bgImageStyle={{width:'100%', height:"100vw"}}
+          >
             <Navigation></Navigation>
             <Switch>
               <Route path="/" exact component={MainPage} />
@@ -33,6 +40,7 @@ function App() {
               <Route path="/director/:id" exact component={Director} />
               <Route path="*" exact component={Page404} />
             </Switch>
+          </Parallax>
           </Router>
         </LanguageContext.Provider>
       </ThemeProvider>
