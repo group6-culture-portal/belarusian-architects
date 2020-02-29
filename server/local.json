@@ -480,7 +480,7 @@
           }
         ]
       },
-      "works": {
+            "works": {
         "en": [
           {
             "date": "1968",
@@ -1508,7 +1508,7 @@
     },
     "5": {
       "name": {
-        "en": "Eўstsigney Mirovich",
+        "en": "Eustsigney Mirovich",
         "bl": "Еўсцігней Міровіч",
         "ru": "Евстигней Мирович"
       },

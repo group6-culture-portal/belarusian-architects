@@ -39,27 +39,22 @@ export default function Styleguide() {
           variant="outlined"
           value={language}
           onChange={e => {
-            e.preventDefault();
             changeLanguage(e.target.value);
           }}
           style={{ marginLeft: '2%' }}
         >
           <MenuItem value="en">EN</MenuItem>
           <MenuItem value="ru">RU</MenuItem>
-          <MenuItem value="by">BY</MenuItem>
+          <MenuItem value="bl">BY</MenuItem>
         </Select>
       </section>
       <section className={styles.section}>
         <Typography variant="h4" gutterBottom>
           Buttons
         </Typography>
-        <Button variant="contained" color="primary">
-          Learn more
-        </Button>
-        <Button variant="outlined" color="primary">
-          Узнать больше
-        </Button>
-        <Button variant="contained" color="primary">
+        <Button size="small" variant="contained" color="primary">Learn more</Button>
+        <Button size="medium" variant="outlined" color="primary">Узнать больше</Button>
+        <Button size="large" variant="contained" color="primary">
           <VideoLibraryIcon style={{ fontSize: 28 }} />
         </Button>
       </section>

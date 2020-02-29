@@ -3,11 +3,20 @@ const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
 const cors = require('cors');
+
 const DB = Object.values(require('./local.json').directors).map((director, index) => {
   director.id = index;
 
   return director;
 });
+
+const workflowsDB = Object.values(require('./workflow.json').creators);
+
+const workflowTeamPainDB = Object.values(require('./workflow.json').teamPain);
+
+const workflowSelfEvaluationDB = Object.values(require('./workflow.json').selfEvaluation);
+
+const creatorsDB = Object.values(require('./creators.json').members);
 
 var whitelist = ['http://localhost:3000', 'undefined'];
 var corsOptions = {
@@ -31,13 +40,6 @@ app.get('/api/directors', (req, res) => {
 app.get('/api/director/:id', (req, res) => {
   const id = Number(req.params.id);
   const result = DB[id];
-
-  const nextId = (id + 1) % DB.length;
-  result.next = { id: nextId, name: DB[nextId].name };
-
-  const prevId = (id + DB.length - 1) % DB.length;
-  result.prev = { id: prevId, name: DB[prevId].name };
-
   res.json(result);
 });
 
@@ -64,6 +66,18 @@ app.get('/api/director_of_day', (req, res) => {
 
 app.get('/api/team', (req, res) => {
   res.json(creatorsDB);
+});
+
+app.get('/api/workflows', (req, res) => {
+  res.json(workflowsDB);
+});
+
+app.get('/api/workflowsTeamPain', (req, res) => {
+  res.json(workflowTeamPainDB);
+});
+
+app.get('/api/workflowSelfEvaluation', (req, res) => {
+  res.json(workflowSelfEvaluationDB);
 });
 
 const port = 5000;
