@@ -16,14 +16,42 @@ export default function MainPage() {
     })();
   }, []);
 
+  useEffect(() => {
+    // if (director) {
+    //   document.title = director.name[language];
+    //   return () => {
+    //     switch (language) {
+    //       case 'en':
+    //         document.title = 'Culture Portal';
+    //         break;
+    //       case 'ru':
+    //         document.title = 'Культурный портал';
+    //         break;
+    //       default:
+    //         document.title = 'Культурны партал';
+    //         break;
+    //     }
+    //   };
+    // }
+    switch (language) {
+      case 'en':
+        document.title = 'Culture Portal';
+        break;
+      case 'ru':
+        document.title = 'Культурный портал';
+        break;
+      default:
+        document.title = 'Культурны партал';
+        break;
+    }
+  }, [language]);
+
   const renderDirector = () => {
     return (
       <div className={styles.cardContent}>
         <img className={styles.photo} src={director.photo} alt="director of the day" />
         <div className={styles.cardText}>
-          <Typography variant="h1">
-            {director.name[language]}
-          </Typography>
+          <Typography variant="h1">{director.name[language]}</Typography>
           <Typography
             variant="subtitle1"
             style={{ fontSize: '22px', fontStyle: 'italic' }}
@@ -37,11 +65,11 @@ export default function MainPage() {
           </Typography>
           <Button variant="contained" color="primary">
             <Link to={`/director/${director.id}`}>
-            {language === 'en'
-              ? 'Learn more'
-              : language === 'ru'
-              ? 'Узнать больше'
-              : 'Даведайцеся больш'}
+              {language === 'en'
+                ? 'Learn more'
+                : language === 'ru'
+                ? 'Узнать больше'
+                : 'Даведайцеся больш'}
             </Link>
           </Button>
         </div>
@@ -52,11 +80,25 @@ export default function MainPage() {
   return (
     <div className={styles.wrapper}>
       <Typography variant="h1" gutterBottom>
-        {
-          language === 'en' ? <>Culture portal<br/>Belarusian theatre directors</> :
-          language === 'ru' ? <>Культурный портал<br/>Белорусские театральные режиссеры</> :
-          <>Культурны партал<br/>Беларускiя тэатральныя рэжысёры</>
-        }
+        {language === 'en' ? (
+          <>
+            Culture portal
+            <br />
+            Belarusian theatre directors
+          </>
+        ) : language === 'ru' ? (
+          <>
+            Культурный портал
+            <br />
+            Белорусские театральные режиссеры
+          </>
+        ) : (
+          <>
+            Культурны партал
+            <br />
+            Беларускiя тэатральныя рэжысёры
+          </>
+        )}
       </Typography>
       <div className={styles.directorText}>
         <Typography variant="subtitle1">{definition[language]}</Typography>

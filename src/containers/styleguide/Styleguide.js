@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect } from 'react';
 import styles from './Styleguide.module.css';
 import { Typography, Button, Select, MenuItem, TextField } from '@material-ui/core/';
 import VideoLibraryIcon from '@material-ui/icons/VideoLibrary';
@@ -11,6 +11,21 @@ import languageContext from '../../context/languageContext';
 
 export default function Styleguide() {
   const { language, changeLanguage } = useContext(languageContext);
+
+  useEffect(() => {
+    switch (language) {
+      case 'en':
+        document.title = 'Styleguide of Culture Portal';
+        break;
+      case 'ru':
+        document.title = 'Стайлгайды Культурного портала';
+        break;
+      default:
+        document.title = 'Стайлгайды Культурнага партала';
+        break;
+    }
+  }, [language]);
+
   return (
     <div className={styles.wrapper}>
       <section className={styles.section}>
@@ -52,8 +67,12 @@ export default function Styleguide() {
         <Typography variant="h4" gutterBottom>
           Buttons
         </Typography>
-        <Button size="small" variant="contained" color="primary">Learn more</Button>
-        <Button size="medium" variant="outlined" color="primary">Узнать больше</Button>
+        <Button size="small" variant="contained" color="primary">
+          Learn more
+        </Button>
+        <Button size="medium" variant="outlined" color="primary">
+          Узнать больше
+        </Button>
         <Button size="large" variant="contained" color="primary">
           <VideoLibraryIcon style={{ fontSize: 28 }} />
         </Button>
