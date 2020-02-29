@@ -9,6 +9,13 @@ const DB = Object.values(require('./local.json').directors).map((director, index
 
   return director;
 });
+
+const workflowsDB = Object.values(require('./workflow.json').creators);
+
+const workflowTeamPainDB = Object.values(require('./workflow.json').teamPain);
+
+const workflowSelfEvaluationDB = Object.values(require('./workflow.json').selfEvaluation);
+
 const creatorsDB = Object.values(require('./creators.json').members);
 
 var whitelist = ['http://localhost:3000', 'undefined'];
@@ -31,7 +38,8 @@ app.get('/api/directors', (req, res) => {
 });
 
 app.get('/api/director/:id', (req, res) => {
-  const result = DB[req.params.id];
+  const id = Number(req.params.id);
+  const result = DB[id];
   res.json(result);
 });
 
@@ -56,6 +64,18 @@ app.get('/api/director_of_day', (req, res) => {
 
 app.get('/api/team', (req, res) => {
   res.json(creatorsDB);
+});
+
+app.get('/api/workflows', (req, res) => {
+  res.json(workflowsDB);
+});
+
+app.get('/api/workflowsTeamPain', (req, res) => {
+  res.json(workflowTeamPainDB);
+});
+
+app.get('/api/workflowSelfEvaluation', (req, res) => {
+  res.json(workflowSelfEvaluationDB);
 });
 
 const port = 5000;

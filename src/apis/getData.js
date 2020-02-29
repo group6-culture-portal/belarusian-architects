@@ -42,14 +42,14 @@ export const getDirector = async id => {
   }
 };
 
-export const searchDirector = async (query, lang) => {
+export const searchDirector = async query => {
   try {
     const response = await fetch(`${API_PATH}/search`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({ query, lang }),
+      body: JSON.stringify({ query }),
     });
     const result = await response.json();
 
@@ -66,6 +66,45 @@ export const getCreatorsInfo = async () => {
     const response = await fetch(`${API_PATH}/team`);
     const result = await response.json();
 
+    return result;
+  } catch (err) {
+    return {
+      error: err,
+    };
+  }
+};
+
+export const getCreators = async () => {
+  try {
+    const response = await fetch(`${API_PATH}/workflows`);
+    const result = await response.json();
+    
+    return result;
+  } catch (err) {
+    return {
+      error: err,
+    };
+  }
+};
+
+export const getCreatorsPain = async () => {
+  try {
+    const response = await fetch(`${API_PATH}/workflowsTeamPain`);
+    const result = await response.json();
+    
+    return result;
+  } catch (err) {
+    return {
+      error: err,
+    };
+  }
+};
+
+export const getCreatorsSelfEvaluation = async () => {
+  try {
+    const response = await fetch(`${API_PATH}/workflowSelfEvaluation`);
+    const result = await response.json();
+    
     return result;
   } catch (err) {
     return {

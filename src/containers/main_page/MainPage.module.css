@@ -1,3 +1,8 @@
+.wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
 h1 {
   text-align: center;
 }
@@ -43,4 +48,31 @@ h1 {
 
 .cardContent a {
   margin-top: 30px;
+}
+
+@media screen and (max-width: 900px) {
+  .directorText {
+    columns: 1;
+  }
+
+  .card {
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 575px) {
+  .card {
+    width: 100%;
+  }
+
+  .photo {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .cardContent {
+    flex-direction: column;
+  }
 }

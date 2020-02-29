@@ -7,14 +7,39 @@ import Styleguide from './containers/styleguide/Styleguide';
 import MainPage from './containers/main_page/MainPage';
 import CreatortPage from './containers/creators_page/index.jsx';
 import Search from './containers/search_page/SearchPage';
+import Workflow from './containers/workflow/workflow'
+import Director from './containers/DirectorPage';
+
 
 import LanguageContext from './context/languageContext';
-import Navigation from './components/Navigation/navigation'
-import './index.css';
+import Navigation from './components/Navigation/navigation';
 
+import './index.css';
 
 function DummyComponent() {
   return <h1>Hello</h1>;
+//  (
+//     <ul>
+//       <li>
+//         <Link to="/">Home</Link>
+//       </li>
+//       <li>
+//         <Link to="/search">search</Link>
+//       </li>
+//       <li>
+//         <Link to="/all_directors">all_directors</Link>
+//       </li>
+//       <li>
+//         <Link to="/creators">creators</Link>
+//       </li>
+//       <li>
+//         <Link to="/styleguide">styleguide</Link>
+//       </li>
+//       <li>
+//         <Link to="/workflow">workflow</Link>
+//       </li>
+//     </ul>
+//  );
 }
 
 function App() {
@@ -31,7 +56,8 @@ function App() {
               <Route path="/all_directors" exact component={DummyComponent} />
               <Route path="/creators" exact component={CreatortPage} />
               <Route path="/styleguide" exact component={Styleguide} />
-              <Route path="/workflow" exact component={DummyComponent} />
+              <Route path="/workflow" exact component={Workflow} />
+              <Route path="/director/:id" exact component={Director} />
             </Switch>
           </Router>
         </LanguageContext.Provider>
@@ -41,23 +67,3 @@ function App() {
 }
 
 export default App;
-
-// function Dir() {
-//   const [director, setDirector] = useState(null);
-//   const { id } = useParams();
-//   useEffect(() => {
-//     (async directorId => {
-//       const result = await getDirector(directorId);
-//       setDirector(result);
-//     })(id);
-//   }, [id]);
-//   return director ? (
-//     <>
-//       <h1>{director.name.en}</h1>
-//       <h1>{director.birthPlace['en']}</h1>
-//       <h1>{director.lifetime}</h1>
-//     </>
-//   ) : (
-//     'loading'
-//   );
-// }
