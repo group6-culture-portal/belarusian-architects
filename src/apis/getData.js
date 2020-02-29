@@ -1,6 +1,6 @@
 import fetch from 'node-fetch';
 
-const API_PATH = 'http://91.123.84.116:5000/api';
+const API_PATH = 'https://server-for-culture-portal.herokuapp.com/api';
 
 // Это пример как использовать api
 export const getDirectors = async () => {
