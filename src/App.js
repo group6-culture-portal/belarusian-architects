@@ -7,9 +7,8 @@ import Styleguide from './containers/styleguide/Styleguide';
 import MainPage from './containers/main_page/MainPage';
 import CreatortPage from './containers/creators_page/index.jsx';
 import Search from './containers/search_page/SearchPage';
-import Workflow from './containers/workflow/workflow'
+import Workflow from './containers/workflow/workflow';
 import Director from './containers/DirectorPage';
-
 
 import LanguageContext from './context/languageContext';
 import Navigation from './components/Navigation/navigation';
@@ -18,28 +17,6 @@ import './index.css';
 
 function DummyComponent() {
   return <h1>Hello</h1>;
-//  (
-//     <ul>
-//       <li>
-//         <Link to="/">Home</Link>
-//       </li>
-//       <li>
-//         <Link to="/search">search</Link>
-//       </li>
-//       <li>
-//         <Link to="/all_directors">all_directors</Link>
-//       </li>
-//       <li>
-//         <Link to="/creators">creators</Link>
-//       </li>
-//       <li>
-//         <Link to="/styleguide">styleguide</Link>
-//       </li>
-//       <li>
-//         <Link to="/workflow">workflow</Link>
-//       </li>
-//     </ul>
-//  );
 }
 
 function App() {
@@ -53,7 +30,6 @@ function App() {
             <Switch>
               <Route path="/" exact component={MainPage} />
               <Route path="/search" exact component={Search} />
-              <Route path="/all_directors" exact component={DummyComponent} />
               <Route path="/creators" exact component={CreatortPage} />
               <Route path="/styleguide" exact component={Styleguide} />
               <Route path="/workflow" exact component={Workflow} />
