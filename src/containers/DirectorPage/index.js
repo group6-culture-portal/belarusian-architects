@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useContext } from 'react';
 import { useParams } from 'react-router-dom';
 import { YMaps, Map, GeoObject } from 'react-yandex-maps';
-import { Grid, Typography } from '@material-ui/core';
+import { Grid, Typography, CircularProgress } from '@material-ui/core';
+import { makeStyles } from '@material-ui/core/styles';
 import Lightbox from 'react-lightbox-component';
 
 import TimeLineContainer from '../../components/Director/TimeLineContainer';
@@ -13,12 +14,25 @@ import LanguageContext from '../../context/languageContext';
 import { getDirector } from '../../apis/getData';
 
 import './DirectorPage.scss';
+
+const useStyles = makeStyles(theme => ({
+  root: {
+    display: 'contents',
+    position: 'relative',
+    '& > * + *': {
+      marginLeft: theme.spacing(2),
+      marginTop: theme.spacing(2),
+    },
+  },
+}));
+
 const Director = props => {
   const [director, setDirector] = useState(null);
-  const { screanHeight, screanWidth } = useWindowDimensions();
+  const { screanWidth } = useWindowDimensions();
   let { id } = useParams();
   const { language } = useContext(LanguageContext);
   const [text, setText] = useState('');
+  const classes = useStyles();
 
   useEffect(() => {
     switch (language) {
@@ -132,6 +146,8 @@ const Director = props => {
   };
 
   if (director) {
+    console.log(director);
+    if (typeof director.error === 'object') return <h1>Failed to fetch. Try again.</h1>;
     return (
       <div className="director_page">
         <main className="content">
@@ -186,7 +202,17 @@ const Director = props => {
       </div>
     );
   }
-  return <div> loading...</div>;
+  return (
+    <div className={classes.root}>
+      <CircularProgress
+        style={{
+          position: 'absolute',
+          top: '50%',
+          left: '50%',
+        }}
+      />
+    </div>
+  );
 };
 
 export default Director;
