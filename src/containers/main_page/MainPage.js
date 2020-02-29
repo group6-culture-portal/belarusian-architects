@@ -4,7 +4,7 @@ import { Typography, Button } from '@material-ui/core/';
 import { getDirectorOfDay } from '../../apis/getData';
 import styles from './MainPage.module.css';
 import definition from './definition';
-import {NavLink} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export default function MainPage() {
   const { language } = useContext(languageContext);
@@ -36,12 +36,13 @@ export default function MainPage() {
             {director.summary[language]}
           </Typography>
           <Button variant="contained" color="primary">
-          <Link to={`/director/${director.id}`} />
+            <Link to={`/director/${director.id}`}>
             {language === 'en'
               ? 'Learn more'
               : language === 'ru'
               ? 'Узнать больше'
               : 'Даведайцеся больш'}
+            </Link>
           </Button>
         </div>
       </div>
