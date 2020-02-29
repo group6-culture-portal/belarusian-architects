@@ -146,182 +146,186 @@
           }
         ]
       },
-      "works": {
-        "en": [
-          {
-            "date": "1951",
-            "title": "Zaporozhets beyond the Danube - S. Gulak-Artsyamovskaga"
-          },
-          {
-            "date": "1951",
-            "title": "The Quiet Don - Ivan Dzerzhinsky"
-          },
-          {
-            "date": "1952",
-            "title": "The Last Yard - Moniuszko"
-          },
-          {
-            "date": "1952",
-            "title": "Mermaid - Dargomyzhsky"
-          },
-          {
-            "date": "1952",
-            "title": "Mazepa - Tchaikovsky"
-          },
-          {
-            "date": "1953",
-            "title": "Aida - by Giuseppe Verdi"
-          },
-          {
-            "date": "1953",
-            "title": "Girl from Polesie - E. Tikotskogo"
-          },
-          {
-            "date": "1954",
-            "title": "Boris Godunov - by Mussorgsky"
-          },
-          {
-            "date": "1954",
-            "title": "La Traviata - by Giuseppe Verdi"
-          },
-          {
-            "date": "1955",
-            "title": "Il Trovatore - by Giuseppe Verdi"
-          },
-          {
-            "date": "1956",
-            "title": "Nadezhda Durova - Bogatyrev"
-          },
-          {
-            "date": "1957",
-            "title": "Mihas Podgorny - E. Tikotsky"
-          },
-          {
-            "date": "1958",
-            "title": "Clear Dawn - A. Turenkova"
-          },
-          {
-            "date": "1960",
-            "title": "The Queen of Spades - by Tchaikovsky"
-          }
-        ],
-        "bl": [
-          {
-            "date": "1951",
-            "title": "«Запарожац за Дунаем» С. Гулак-Арцямоўскага"
-          },
-          {
-            "date": "1951",
-            "title": "«Ціхі Дон» І. І. Дзяржынскага"
-          },
-          {
-            "date": "1952",
-            "title": "«Страшны двор» С. Манюшкі"
-          },
-          {
-            "date": "1952",
-            "title": "«Русалка» А. Даргамыжскага"
-          },
-          {
-            "date": "1952",
-            "title": "«Мазэпа» П. Чайкоўскага"
-          },
-          {
-            "date": "1953",
-            "title": "«Аіда» Джузэпэ Вердзі"
-          },
-          {
-            "date": "1953",
-            "title": "«Дзяўчына з Палесся» Я. Цікоцкага"
-          },
-          {
-            "date": "1954",
-            "title": "«Барыс Гадуноў» М. Мусаргскага"
-          },
-          {
-            "date": "1954",
-            "title": "«Травіята» Джузэпэ Вердзі"
-          },
-          {
-            "date": "1955",
-            "title": "«Трубадур» Джузэпэ Вердзі"
-          },
-          {
-            "date": "1956",
-            "title": "«Надзея Дурава» А. Багатырова"
-          },
-          {
-            "date": "1957",
-            "title": "«Міхась Падгорны» Я. Цікоцкага"
-          },
-          {
-            "date": "1958",
-            "title": "«Яснае світанне» А. Туранкова"
-          },
-          {
-            "date": "1960",
-            "title": "«Пікавая дама» П. Чайкоўскага"
-          }
-        ],
-        "ru": [
-          {
-            "date": "1951",
-            "title": "«Запорожец за Дунаем» С. С. Гулак-Артемовского"
-          },
-          {
-            "date": "1951",
-            "title": "«Тихий Дон» И. И. Дзержинского"
-          },
-          {
-            "date": "1952",
-            "title": "«Страшный двор» С. Монюшко"
-          },
-          {
-            "date": "1952",
-            "title": "«Русалка» А. С. Даргомыжского"
-          },
-          {
-            "date": "1952",
-            "title": "«Мазепа» П. И. Чайковского"
-          },
-          {
-            "date": "1953",
-            "title": "«Аида» Дж. Верди"
-          },
-          {
-            "date": "1953",
-            "title": "«Девушка из Полесья» Е. К. Тикоцкого"
-          },
-          {
-            "date": "1954",
-            "title": "«Борис Годунов» М. П. Мусоргского"
-          },
-          {
-            "date": "1954",
-            "title": "«Травиата» Дж. Верди"
-          },
-          {
-            "date": "1955",
-            "title": "«Трубадур» Дж. Верди"
-          },
-          {
-            "date": "1956",
-            "title": "«Надежда Дурова» А. В. Богатырёва"
-          },
-          {
-            "date": "1957",
-            "title": "«Михась Подгорный» Е. К. Тикоцкого"
-          },
-          {
-            "date": "1958",
-            "title": "«Ясный рассвет» А. Е. Туренкова"
-          },
-          {
-            "date": "1960",
-            "title": "«Пиковая дама» П. И. Чайковского."
-          }
-        ]
-      },
+
+      "works": 
+        {
+          "en": [
+            {
+              "date": "1951",
+              "title": "Zaporozhets beyond the Danube - S. Gulak-Artsyamovskaga"
+            },
+            {
+              "date": "1951",
+              "title": "The Quiet Don - Ivan Dzerzhinsky"
+            },
+            {
+              "date": "1952",
+              "title": "The Last Yard - Moniuszko"
+            },
+            {
+              "date": "1952",
+              "title": "Mermaid - Dargomyzhsky"
+            },
+            {
+              "date": "1952",
+              "title": "Mazepa - Tchaikovsky"
+            },
+            {
+              "date": "1953",
+              "title": "Aida - by Giuseppe Verdi"
+            },
+            {
+              "date": "1953",
+              "title": "Girl from Polesie - E. Tikotskogo"
+            },
+            {
+              "date": "1954",
+              "title": "Boris Godunov - by Mussorgsky"
+            },
+            {
+              "date": "1954",
+              "title": "La Traviata - by Giuseppe Verdi"
+            },
+            {
+              "date": "1955",
+              "title": "Il Trovatore - by Giuseppe Verdi"
+            },
+            {
+              "date": "1956",
+              "title": "Nadezhda Durova - Bogatyrev"
+            },
+            {
+              "date": "1957",
+              "title": "Mihas Podgorny - E. Tikotsky"
+            },
+            {
+              "date": "1958",
+              "title": "Clear Dawn - A. Turenkova"
+            },
+            {
+              "date": "1960",
+              "title": "The Queen of Spades - by Tchaikovsky"
+            }
+          ],
+          "bl": [
+            {
+              "date": "1951",
+              "title": "«Запарожац за Дунаем» С. Гулак-Арцямоўскага"
+            },
+            {
+              "date": "1951",
+              "title": "«Ціхі Дон» І. І. Дзяржынскага"
+            },
+            {
+              "date": "1952",
+              "title": "«Страшны двор» С. Манюшкі"
+            },
+            {
+              "date": "1952",
+              "title": "«Русалка» А. Даргамыжскага"
+            },
+            {
+              "date": "1952",
+              "title": "«Мазэпа» П. Чайкоўскага"
+            },
+            {
+              "date": "1953",
+              "title": "«Аіда» Джузэпэ Вердзі"
+            },
+            {
+              "date": "1953",
+              "title": "«Дзяўчына з Палесся» Я. Цікоцкага"
+            },
+            {
+              "date": "1954",
+              "title": "«Барыс Гадуноў» М. Мусаргскага"
+            },
+            {
+              "date": "1954",
+              "title": "«Травіята» Джузэпэ Вердзі"
+            },
+            {
+              "date": "1955",
+              "title": "«Трубадур» Джузэпэ Вердзі"
+            },
+            {
+              "date": "1956",
+              "title": "«Надзея Дурава» А. Багатырова"
+            },
+            {
+              "date": "1957",
+              "title": "«Міхась Падгорны» Я. Цікоцкага"
+            },
+            {
+              "date": "1958",
+              "title": "«Яснае світанне» А. Туранкова"
+            },
+            {
+              "date": "1960",
+              "title": "«Пікавая дама» П. Чайкоўскага"
+            }
+          ],
+          "ru": [
+            {
+              "date": "1951",
+              "title": "«Запорожец за Дунаем» С. С. Гулак-Артемовского"
+            },
+            {
+              "date": "1951",
+              "title": "«Тихий Дон» И. И. Дзержинского"
+            },
+            {
+              "date": "1952",
+              "title": "«Страшный двор» С. Монюшко"
+            },
+            {
+              "date": "1952",
+              "title": "«Русалка» А. С. Даргомыжского"
+            },
+            {
+              "date": "1952",
+              "title": "«Мазепа» П. И. Чайковского"
+            },
+            {
+              "date": "1953",
+              "title": "«Аида» Дж. Верди"
+            },
+            {
+              "date": "1953",
+              "title": "«Девушка из Полесья» Е. К. Тикоцкого"
+            },
+            {
+              "date": "1954",
+              "title": "«Борис Годунов» М. П. Мусоргского"
+            },
+            {
+              "date": "1954",
+              "title": "«Травиата» Дж. Верди"
+            },
+            {
+              "date": "1955",
+              "title": "«Трубадур» Дж. Верди"
+            },
+            {
+              "date": "1956",
+              "title": "«Надежда Дурова» А. В. Богатырёва"
+            },
+            {
+              "date": "1957",
+              "title": "«Михась Подгорный» Е. К. Тикоцкого"
+            },
+            {
+              "date": "1958",
+              "title": "«Ясный рассвет» А. Е. Туренкова"
+            },
+            {
+              "date": "1960",
+              "title": "«Пиковая дама» П. И. Чайковского."
+            }
+          ]
+        }
+      ,
+
       "gallery": [
         "https://upload.wikimedia.org/wikipedia/ru/thumb/6/62/Могила_певицы_Ларисы_Александровской.JPG/1280px-Могила_певицы_Ларисы_Александровской.JPG",
         "https://upload.wikimedia.org/wikipedia/ru/2/2c/Sadovsky_N..jpg",

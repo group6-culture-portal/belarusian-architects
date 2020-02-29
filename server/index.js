@@ -54,10 +54,8 @@ app.post('/api/search', (req, res) => {
     if (names.toLowerCase().includes(comparing) || cities.toLowerCase().includes(comparing))
       return true;
   });
-
   res.json(result);
 });
-
 app.get('/api/director_of_day', (req, res) => {
   const result = DB[new Date().getDate() % DB.length];
 
