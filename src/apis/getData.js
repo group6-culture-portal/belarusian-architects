@@ -5,7 +5,7 @@ const API_PATH = 'https://group6culport.netlify.com:5000/api';
 // Это пример как использовать api
 export const getDirectors = async () => {
   try {
-    const response = await fetch(`${API_PATH}/directors`);
+    const response = await fetch(`${API_PATH}/directors`, { referrerPolicy: 'no-referrer' });
     const result = await response.json();
 
     return result;
@@ -18,7 +18,7 @@ export const getDirectors = async () => {
 
 export const getDirectorOfDay = async () => {
   try {
-    const response = await fetch(`${API_PATH}/director_of_day`);
+    const response = await fetch(`${API_PATH}/director_of_day`, { referrerPolicy: 'no-referrer' });
     const result = await response.json();
 
     return result;
@@ -31,7 +31,7 @@ export const getDirectorOfDay = async () => {
 
 export const getDirector = async id => {
   try {
-    const response = await fetch(`${API_PATH}/director/${id}`);
+    const response = await fetch(`${API_PATH}/director/${id}`, { referrerPolicy: 'no-referrer' });
     const result = await response.json();
 
     return result;
@@ -50,6 +50,7 @@ export const searchDirector = async query => {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({ query }),
+      referrerPolicy: 'no-referrer',
     });
     const result = await response.json();
 
@@ -63,7 +64,7 @@ export const searchDirector = async query => {
 
 export const getCreatorsInfo = async () => {
   try {
-    const response = await fetch(`${API_PATH}/team`);
+    const response = await fetch(`${API_PATH}/team`, { referrerPolicy: 'no-referrer' });
     const result = await response.json();
 
     return result;
@@ -76,7 +77,7 @@ export const getCreatorsInfo = async () => {
 
 export const getCreators = async () => {
   try {
-    const response = await fetch(`${API_PATH}/workflows`);
+    const response = await fetch(`${API_PATH}/workflows`, { referrerPolicy: 'no-referrer' });
     const result = await response.json();
 
     return result;
@@ -89,7 +90,9 @@ export const getCreators = async () => {
 
 export const getCreatorsPain = async () => {
   try {
-    const response = await fetch(`${API_PATH}/workflowsTeamPain`);
+    const response = await fetch(`${API_PATH}/workflowsTeamPain`, {
+      referrerPolicy: 'no-referrer',
+    });
     const result = await response.json();
 
     return result;
@@ -102,7 +105,9 @@ export const getCreatorsPain = async () => {
 
 export const getCreatorsSelfEvaluation = async () => {
   try {
-    const response = await fetch(`${API_PATH}/workflowSelfEvaluation`);
+    const response = await fetch(`${API_PATH}/workflowSelfEvaluation`, {
+      referrerPolicy: 'no-referrer',
+    });
     const result = await response.json();
 
     return result;
