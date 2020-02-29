@@ -1,0 +1,591 @@
+{
+  "teamPain": {
+    "en": [
+      "Setting up a server for storing director data",
+      "Working with state using context",
+      "Project structure development",
+      "Collection and analysis of information about directors, preparation of data in three languages",
+      "The distribution of roles in the team, the development of a single application style",
+      "Using Material UI, working with classes, overriding predefined styles",
+      "Conflict resolving (Pull Request)"
+    ],
+    "ru": [
+      "Настройка сервера для хранения данных о режиссерах",
+      "Работа со state с использованием context",
+      "Разработка структуры проекта",
+      "Сбор и анализ информации о режиссерах, подготовка данных на трех языках",
+      "Распределение ролей в команде, разработка единого стиля приложения",
+      "Использование Material UI, работа с классами, переопределение предустановленных стилей",
+      "Решение конфликтов (Pull Request)"
+    ],
+    "bl": [
+      "Настройка сервера для захоўвання дадзеных аб рэжысёраў",
+      "Праца са state з выкарыстаннем context",
+      "Распрацоўка структуры праекта",
+      "Збор і аналіз інфармацыі аб рэжысёраў, падрыхтоўка дадзеных на трох мовах",
+      "Размеркаванне роляў у камандзе, распрацоўка адзінага стылю прыкладання",
+      "Выкарыстанне Material UI, праца з класамі, пераазначэнне прадусталяваных стыляў",
+      "Вырашэнне канфліктаў (Pull Request)"
+    ]
+  },
+  "selfEvaluation": {
+    "0": {
+      "task": {
+        "en": "Main page + page with a list of authors + author's page (only pages with content without widgets)",
+        "ru": "Главная страница + страница со списком авторов + страница автора (только страницы с контентом без виджетов)",
+        "bl": "Галоўная старонка + старонка са спісам аўтараў + старонка аўтара (толькі старонкі са зместам без віджэтаў)"
+      },
+      "score": 10,
+      "checkbox": true
+    },
+    "1": {
+      "task": {
+        "en": "Page with team members + page with worklog",
+        "ru": "Страница с членами команды + страница с рабочим журналом",
+        "bl": "Старонка з членамі каманды + старонка з працоўным журналам"
+      },
+      "score": 10,
+      "checkbox": true
+    },
+    "2": {
+      "task": {
+        "en": "Page with list of authors contains search widget",
+        "ru": "Страница со списком авторов содержит поисковый виджет",
+        "bl": "Старонка са спісам аўтараў змяшчае пошукавы віджэт"
+      },
+      "score": 10,
+      "checkbox": true
+    },
+    "3": {
+      "task": {
+        "en": "Portal has two languages",
+        "ru": "Портал имеет два языка",
+        "bl": "Партал мае дзве мовы"
+      },
+      "score": 20,
+      "checkbox": true
+    },
+    "4": {
+      "task": {
+        "en": "Portal has page with styleguide",
+        "ru": "На портале есть страница с руководством по стилю",
+        "bl": "Партал мае старонку са стылю"
+      },
+      "score": 20,
+      "checkbox": true
+    },
+    "5": {
+      "task": {
+        "en": "Mobile version is okey",
+        "ru": "Мобильная версия хорошая",
+        "bl": "Мабільная версія ў парадку"
+      },
+      "score": 10,
+      "checkbox": true
+    },
+    "6": {
+      "task": {
+        "en": "Ipad/tablet version is okey",
+        "ru": "Версия для iPad / планшета хороша",
+        "bl": "Ipad/tablet version is okey"
+      },
+      "score": 10,
+      "checkbox": true
+    },
+    "7": {
+      "task": {
+        "en": "Author's page contains timeline",
+        "ru": "Страница автора содержит временную шкалу",
+        "bl": "Старонка аўтара змяшчае часовую шкалу"
+      },
+      "score": 10,
+      "checkbox": true
+    },
+    "8": {
+      "task": {
+        "en": "Author's page contains video overlay",
+        "ru": "Страница автора содержит видео оверлей",
+        "bl": "Старонка аўтара змяшчае відэа накладання"
+      },
+      "score": 10,
+      "checkbox": true
+    },
+    "9": {
+      "task": {
+        "en": "Author's page contains photo gallery",
+        "ru": "Страница автора содержит фотогалерею",
+        "bl": "На старонцы аўтара змешчана фотагалерэя"
+      },
+      "score": 20,
+      "checkbox": true
+    },
+    "10": {
+      "task": {
+        "en": "Author's page contains map (geowidget)",
+        "ru": "Страница автора содержит карту (гео виджет)",
+        "bl": "Старонка аўтара змяшчае карту"
+      },
+      "score": 10,
+      "checkbox": true
+    },
+    "11": {
+      "task": {
+        "en": "Design (typography, icons, colors, links + buttons + input are styled)",
+        "ru": "Дизайн (оформление шрифтов, иконки, цвета, ссылки + кнопки + ввод)",
+        "bl": "Дызайн (стылістыка, значкі, колеры, спасылкі + кнопкі + увод)"
+      },
+      "score": 20,
+      "checkbox": true
+    },
+    "12": {
+      "task": {
+        "en": "Material-ui / bootstrap is used",
+        "ru": "Material-ui / bootstrap используется",
+        "bl": "Material-ui / bootstrap сродак"
+      },
+      "score": 20,
+      "checkbox": true
+    },
+    "13": {
+      "task": {
+        "en": "Portal has third language",
+        "ru": "Портал имеет третий язык",
+        "bl": "Партал мае трэцюю мову"
+      },
+      "score": 10,
+      "checkbox": true
+    },
+    "14": {
+      "task": {
+        "en": "Confidence of the project presentation",
+        "ru": "Уверенность в презентации проекта",
+        "bl": "Упэўненасць у прэзентацыі праекта"
+      },
+      "score": 10,
+      "checkbox": true
+    },
+    "15": {
+      "task": {
+        "en": "Project is made using gatsbyjs",
+        "ru": "Проект выполнен с использованием gatsbyjs",
+        "bl": "Праект зроблены з выкарыстаннем gatsbyjs"
+      },
+      "score": 10,
+      "checkbox": false
+    },
+    "16": {
+      "task": {
+        "en": "Contentful / netlify cms is used for content management",
+        "ru": "Contentful / Netlify CMS используется для управления контентом",
+        "bl": "Contentful / Netlify CMS выкарыстоўваецца для кіравання кантэнтам"
+      },
+      "score": 10,
+      "checkbox": true
+    },
+    "17": {
+      "task": {
+        "en": "Animations / special effects like paralax",
+        "ru": "Анимации / спецэффекты, такие как паралакс",
+        "bl": "Анімацыі / спецэфекты, як паралакс"
+      },
+      "score": 20,
+      "checkbox": true
+    },
+    "18": {
+      "task": {
+        "en": "Outstanding design",
+        "ru": "Выдающийся дизайн",
+        "bl": "Выдатны дызайн"
+      },
+      "score": 20,
+      "checkbox": true
+    },
+    "19": {
+      "task": {
+        "en": "There are less than 5 commits from each active team member. Everyone should merge their own PRs.",
+        "ru": "Менее 5 коммитов от каждого активного члена команды. Каждый должен объединить свои пиары",
+        "bl": "Кожны актыўны член каманды складае менш за 5 камісій. Кожны павінен аб'яднаць свае ўласныя піяры."
+      },
+      "score": -50,
+      "checkbox": false
+    },
+    "20": {
+      "task": {
+        "en": "Violations stage2-tasks-requirements",
+        "ru": "Нарушения stage2-tasks-requirements",
+        "bl": "Парушэнні stage2-tasks-requirements"
+      },
+      "score": -50,
+      "checkbox": false
+    },
+    "21": {
+      "task": {
+        "en": "There is no worklog for team",
+        "ru": "Нет рабочего журнала для команды",
+        "bl": "Няма працоўнага журнала для каманды"
+      },
+      "score": -40,
+      "checkbox": false
+    },
+    "22": {
+      "task": {
+        "en": "Too primitive (ugly for 2020) design / UX",
+        "ru": "Слишком примитивный (некрасивый для 2020 года) дизайн / UX",
+        "bl": "Занадта прымітыўны (непрыгожы на 2020 год) дызайн / UX"
+      },
+      "score": -20,
+      "checkbox": false
+    }
+  },
+  "creators": {
+    "0": {
+      "name": {
+        "en": "Sergey Stekh",
+        "ru": "Сергей Стех",
+        "bl": "Сяргей Стех"
+      },
+      "nick": "SergeyCodeJs",
+      "avatar": "https://avatars0.githubusercontent.com/u/53942885?s=400&u=3e2cdf5d2fff800cd3d36ee46dc9b463f471eecf&v=4",
+      "whatIsDone": {
+        "en": [
+          {
+            "time": "2 hours",
+            "task": "Put content about directors in JSON file"
+          },
+          {
+            "time": "12 hours",
+            "task": "Setup navigation bar, routing and language selection"
+          },
+          {
+            "time": "10 hours",
+            "task": "Make workflow page and JSON file with worklog data"
+          },
+          {
+            "time": "5 hours",
+            "task": "Make a component table that displays all completed tasks in three languages, counts and displays the total score for completing tasks, insert in table checkboxes of tasks, that are completed"
+          }
+        ],
+        "ru": [
+          {
+            "time": "2 часа",
+            "task": "Вносил данные о театральных режиссерах в файл JSON"
+          },
+          {
+            "time": "12 часов",
+            "task": "Верстал и делал логику навигационной панели, делал роутинг и селектор выбора языка"
+          },
+          {
+            "time": "10 часов",
+            "task": "Делал компонент с выполненными задачами всех участников и потраченным на них временем, заносил данные в JSON файл"
+          },
+          {
+            "time": "5 часов",
+            "task": "Делал компонент-таблицу, который отображает все выполненные задания на трех языках, подсчитывает и отображает общий счет за выполнение задач, ставит галочки в задачах, которые выполнены"
+          }
+        ],
+        "bl": [
+          {
+            "time": "2 гадзіны",
+            "task": "Ўносіў дадзеныя аб тэатральных рэжысёрах у файл JSON"
+          },
+          {
+            "time": "12 гадзін",
+            "task": "Вярстаўся і рабіў логіку навігацыйнай панэлі, рабіў роўтынг і селектар выбару мовы"
+          },
+          {
+            "time": "10 гадзін",
+            "task": "Рабіў кампанент з выкананымі задачамі ўсіх удзельнікаў і выдаткаваным на іх часам, заносіў дадзеныя ў JSON файл"
+          },
+          {
+            "time": "5 гадзін",
+            "task": "Рабіў кампанент-табліцу, які адлюстроўвае ўсе выкананыя заданні на трох мовах, падлічвае і адлюстроўвае агульны рахунак за выкананне задач, ставіць галачкі ў задачах, якія выкананы"
+          }
+        ]
+      }
+    },
+    "1": {
+      "name": {
+        "en": "Andrei Mandryk",
+        "ru": "Андрей Мандрик",
+        "bl": "Андрэй Мандпык"
+      },
+      "nick": "gagarin880120",
+      "avatar": "https://avatars1.githubusercontent.com/u/44781670?s=400&v=4",
+      "whatIsDone": {
+        "en": [
+          {
+            "time": "4 hours",
+            "task": "Put content about directors into JSON file"
+          },
+          {
+            "time": "12 hours",
+            "task": "Create styleguide page using material-ui"
+          },
+          {
+            "time": "4 hours",
+            "task": "Create main page of the project with description of thetre director work and director of the day block"
+          }
+        ],
+        "ru": [
+          {
+            "time": "4 часа",
+            "task": "Вносил данные о театральных режиссерах в файл JSON"
+          },
+          {
+            "time": "12 часов",
+            "task": "Создание Styleguide страницы с использованием material-ui"
+          },
+          {
+            "time": "4 часа",
+            "task": "Создание главной страницы с описанием работы театрального режиссера и блок с режиссером дня"
+          }
+        ],
+        "bl": [
+          {
+            "time": "4 гадзiны",
+            "task": "Ўносіў дадзеныя аб тэатральных рэжысёрах у файл JSON"
+          },
+          {
+            "time": "12 гадзiн",
+            "task": "Стварэнне Styleguide старонкі з выкарыстаннем material-ui"
+          },
+          {
+            "time": "4 гадзiны",
+            "task": "Стварэнне галоўнай старонкі з апісаннем працы тэатральнага рэжысёра і блок з рэжысёрам дня"
+          }
+        ]
+      }
+    },
+    "2": {
+      "name": {
+        "en": "Ibragim Abbasov",
+        "ru": "Ибрагим Аббасов",
+        "bl": "Ібрагім Аббасаў"
+      },
+      "nick": "Blancduman",
+      "avatar": "https://avatars2.githubusercontent.com/u/36401723",
+      "whatIsDone": {
+        "ru": [
+          {
+            "time": "3 часа",
+            "task": "Сбор команды, создание рабочей среды (дискорд, трелло)."
+          },
+          {
+            "time": "3 часа",
+            "task": "Создание структуры проекта и выдача всем тасков."
+          },
+          {
+            "time": "4 часа",
+            "task": "Реализация backend API."
+          },
+          {
+            "time": "1 часа",
+            "task": "Создание JSON хранилища режиссёров с шаблоном для заполнения."
+          },
+          {
+            "time": "3 часа",
+            "task": "Реализация запросов в Frontend."
+          },
+          {
+            "time": "20 часа",
+            "task": "Создание компонентов Gallery, Table, TimeLine, VideoGallery."
+          },
+          {
+            "time": "4 часа",
+            "task": "Сборка и стилизация контейнера DirectorPage."
+          },
+          {
+            "time": "14 дней",
+            "task": "Исправление багов."
+          }
+        ],
+        "en": [
+          {
+            "time": "3 hours",
+            "task": "Team assemble, creation work environment (discord, trello)."
+          },
+          {
+            "time": "3 hours",
+            "task": "Creation project structure and task for everybody."
+          },
+          {
+            "time": "4 hours",
+            "task": "Implementation backend API."
+          },
+          {
+            "time": "1 hour",
+            "task": "Creation director's JSON store with template."
+          },
+          {
+            "time": "3 hours",
+            "task": "Implementation Frontend requests (API)."
+          },
+          {
+            "time": "20 hours",
+            "task": "Creation components: Gallery, Table, TimeLine, VideoGallery."
+          },
+          {
+            "time": "4 hours",
+            "task": "assemble and styling container DirectorPage."
+          },
+          {
+            "time": "14 days",
+            "task": "Bugs fixing."
+          }
+        ],
+        "bl": [
+          {
+            "time": "3 гадзіны",
+            "task": "Збор каманды, стварэнне рабочай асяроддзя (дыскорд, трэлла)"
+          },
+          {
+            "time": "3 гадзіны",
+            "task": "Стварэнне структуры праекта і выдача ўсім цягаючы."
+          },
+          {
+            "time": "4 гадзіны",
+            "task": "Рэалізацыя backend API."
+          },
+          {
+            "time": "1 гадзіна",
+            "task": "Стварэнне JSON сховішча рэжысёраў з шаблонам для запаўнення."
+          },
+          {
+            "time": "3 гадзіны",
+            "task": "Рэалізацыя запытаў у Frontend."
+          },
+          {
+            "time": "20 гадзіны",
+            "task": "Стварэнне кампанентаў Gallery, Table, TimeLine, VideoGallery."
+          },
+          {
+            "time": "4 гадзіны",
+            "task": "Зборка і стылізацыя кантэйнера DirectorPage."
+          },
+          {
+            "time": "14 дзён",
+            "task": "Выпраўленне багаў."
+          }
+        ]
+      }
+    },
+    "3": {
+      "name": {
+        "en": "Yuliya Simonchik",
+        "ru": "Юлия Симончик",
+        "bl": "Юлія Сімончык"
+      },
+      "nick": "Yuliya-soul",
+      "avatar": "https://avatars1.githubusercontent.com/u/54934592?s=400&u=4438d61a1062be32d5d1086f0010b44dacde2ca8&v=4",
+      "whatIsDone": {
+        "en": [
+          {
+            "time": "4 hours",
+            "task": "Put content about directors in JSON file"
+          },
+          {
+            "time": "21 hours",
+            "task": "Create directors search page"
+          },
+          {
+            "time": "5 hours",
+            "task": "Create 404 page"
+          }
+        ],
+        "ru": [
+          {
+            "time": "4 часа",
+            "task": "Вносилa данные о театральных режиссерах в файл JSON"
+          },
+          {
+            "time": "21 час",
+            "task": "Создавала страницу поиска театральных режиссеров"
+          },
+          {
+            "time": "5 часов",
+            "task": "Создавала страницу 404"
+          }
+        ],
+        "bl": [
+          {
+            "time": "4 гадзіны",
+            "task": "Ўносіла дадзеныя аб тэатральных рэжысёрах у файл JSON"
+          },
+          {
+            "time": "21 гадзіну",
+            "task": "Стварала старонку пошуку тэатральных рэжысёраў"
+          },
+          {
+            "time": "5 гадзін",
+            "task": "Стварала старонку 404"
+          }
+        ]
+      }
+    },
+    "4": {
+      "name": {
+        "en": "Novik Vladislav",
+        "ru": "Новик Владислав",
+        "bl": "Новiк Уладзiслау"
+      },
+      "nick": "latiertiw",
+      "avatar": "https://avatars3.githubusercontent.com/u/43148734?s=460&v=4",
+      "whatIsDone": {
+        "en": [
+          {
+            "time": "4 hours",
+            "task": "Create 'Creators page'"
+          },
+          {
+            "time": "2 hours",
+            "task": "Put content about directors into JSON file"
+          },
+          {
+            "time": "1 hour",
+            "task": "Add visual effects (parallax)"
+          },
+          {
+            "time": "3 hours",
+            "task": "Bugfixing"
+          }
+        ],
+        "ru": [
+          {
+            "time": "4 часа",
+            "task": "Создание страницы создателей"
+          },
+          {
+            "time": "2 часа",
+            "task": "Добавление информации о режиссёрах"
+          },
+          {
+            "time": "1 час",
+            "task": "Добавление визуальных эффектов (параллакс) "
+          },
+          {
+            "time": "3 часа",
+            "task": "Фикс багов"
+          }
+        ],
+        "bl": [
+          {
+            "time": "4 гадзiны",
+            "task": "Стварэнне старонки стваральнікаў"
+          },
+          {
+            "time": "2 гадзiны",
+            "task": "Даданне інфармацыі аб рэжысёраў"
+          },
+          {
+            "time": "1 гадзiна",
+            "task": "Даданне візуальных эфектаў (паралакс)"
+          },
+          {
+            "time": "3 гадзiны",
+            "task": "Фiкс багау"
+          }
+        ]
+      }
+    }
+  }
+}

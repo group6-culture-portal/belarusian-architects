@@ -1,0 +1,99 @@
+{
+  "members": [
+    {
+      "ru": {
+        "name": "Владислав Новик",
+        "info": "FrontEnd Developer"
+      },
+      "en": {
+        "name": "Vlad Novik",
+        "info": "FrontEnd Developer "
+      },
+      "bl": {
+        "name": "Уладiслау Новiк",
+        "info": "FrontEnd Developer "
+      },
+      "image": "https://avatars3.githubusercontent.com/u/43148734?s=460&v=4",
+      "github": "https://github.com/latiertiw",
+      "links": {
+        "Telegram": "https://t.me/latierti"
+      }
+    },
+    {
+      "ru": {
+        "name": "Andrei Mandryk",
+        "info": "Beginning front-end developer from Brest, Belarus."
+      },
+      "en": {
+        "name": "Andrei Mandryk",
+        "info": "Beginning front-end developer from Brest, Belarus."
+      },
+      "bl": {
+        "name": "Andrei Mandryk",
+        "info": "Beginning front-end developer from Brest, Belarus."
+      },
+      "image": "https://avatars1.githubusercontent.com/u/44781670?s=400&v=4",
+      "github": "https://github.com/gagarin880120",
+      "links": {
+        "Telegram": "https://t.me/gagarin880120"
+      }
+    },
+    {
+      "ru": {
+        "name": "Сергей Стех",
+        "info": "FrontEnd Developer"
+      },
+      "en": {
+        "name": "Sergey Stekh",
+        "info": "FrontEnd Developer "
+      },
+      "bl": {
+        "name": "Сяргей Стех",
+        "info": "FrontEnd Developer "
+      },
+      "image": "https://avatars0.githubusercontent.com/u/53942885?s=400&u=3e2cdf5d2fff800cd3d36ee46dc9b463f471eecf&v=4",
+      "github": "https://github.com/SergeyCodeJs",
+      "links": {
+        "Facebook": "https://www.facebook.com/sergey.stekh.1"
+      }
+    },
+    {
+      "ru": {
+        "name": "Ибрагим Аббасов",
+        "info": "Full Stack Developer"
+      },
+      "en": {
+        "name": "Ibragim Abbasov",
+        "info": "Full Stack Developer "
+      },
+      "bl": {
+        "name": "Ібрагім Аббасаў",
+        "info": "Full Stack Developer"
+      },
+      "image": "https://avatars2.githubusercontent.com/u/36401723",
+      "github": "https://github.com/Blancduman",
+      "links": {
+        "Telegram": "https://t.me/CyberComrade"
+      }
+    },
+    {
+      "ru": {
+        "name": "Юлия Симончик",
+        "info": "FrontEnd Developer"
+      },
+      "en": {
+        "name": "Yuliya Simonchik",
+        "info": "FrontEnd Developer"
+      },
+      "bl": {
+        "name": "Юлія Сімончык",
+        "info": "FrontEnd Developer"
+      },
+      "image": "https://avatars1.githubusercontent.com/u/54934592?s=400&u=4438d61a1062be32d5d1086f0010b44dacde2ca8&v=4",
+      "github": "https://github.com/Yuliya-soul",
+      "links": {
+        "Telegram": "https://t.me/Yuliyasoul"
+      }
+    }
+  ]
+}
