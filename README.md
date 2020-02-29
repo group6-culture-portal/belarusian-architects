@@ -1,101 +1,80 @@
 # belarusian-theatre-directors
 
+_SergeyCodeJs_
+
+| time spent | feature                                                                                                                                                                                        |
+| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2h         | Put content about directors in JSON file                                                                                                                                                       |
+| 12h        | Setup navigation bar, routing and language selection                                                                                                                                           |
+| 10h        | Make workflow page and JSON file with worklog data                                                                                                                                             |
+| 5h         | Make a component table that displays all completed tasks in three languages, counts and displays the total score for completing tasks, insert in table checkboxes of tasks, that are completed |
+
+_gagarin880120_
+
+| time spent | feature                                                                                                |
+| ---------- | ------------------------------------------------------------------------------------------------------ |
+| 4h         | Put content about directors into JSON file                                                             |
+| 12h        | Create styleguide page using material-ui                                                               |
+| 4h         | Create main page of the project with description of thetre director work and director of the day block |
+
+_Blancduman_
+
+| time spent | feature                                                      |
+| ---------- | ------------------------------------------------------------ |
+| 3h         | Team assemble, creation work environment (discord, trello).  |
+| 3h         | Creation project structure and task for everybody.           |
+| 4h         | Implementation backend API                                   |
+| 1h         | Creation director's JSON store with template.                |
+| 3h         | Implementation Frontend requests (API).                      |
+| 20h        | Creation components: Gallery, Table, TimeLine, VideoGallery. |
+| 4h         | assemble and styling container DirectorPage.                 |
+| 14d        | Bugs fixing.                                                 |
+
+_Yuliya-soul_
+
+| time spent | feature                                   |
+| ---------- | ----------------------------------------- |
+| 4h         | Put content about directors in JSON file. |
+| 21h        | Create directors search page              |
+| 5h         | Create 404 page                           |
+
+_latiertiw_
+
+| time spent | feature                                    |
+| ---------- | ------------------------------------------ |
+| 4h         | Create 'Creators page'                     |
+| 2h         | Put content about directors into JSON file |
+| 1h         | Add visual effects (parallax)              |
+| 3h         | Bugfixing                                  |
+
 Maximum points - **240**
+Self-verification - **240**
 
 ### Min scope - **50**
 
-- [ ] **10** Main page + page with a list of authors + author's page (only pages with content without widgets);
-- [ ] **10** Page with team members + page with worklog
-- [ ] **10** Page with list of authors contains search widget;
-- [ ] **20** Portal has two languages;
+- [x] **10** Main page + page with a list of authors + author's page (only pages with content without widgets);
+- [x] **10** Page with team members + page with worklog
+- [x] **10** Page with list of authors contains search widget;
+- [x] **20** Portal has two languages;
 
 ### Normal scope - **140**
 
-- [ ] **20** Portal has page with styleguide;
-- [ ] **10** Mobile version is okey
-- [ ] **10** Ipad/tablet version is okey
-- [ ] **10** Author's page contains timeline;
-- [ ] **10** Author's page contains video overlay;
-- [ ] **20** Author's page contains photo gallery;
-- [ ] **10** Author's page contains map (geowidget);
-- [ ] **from 0 to 20** Design (typography, icons, colors, links + buttons + input are styled)
-- [ ] **20** Material-ui / bootstrap is used
-- [ ] **10** Portal has third language;
+- [x] **20** Portal has page with styleguide;
+- [x] **10** Mobile version is okey
+- [x] **10** Ipad/tablet version is okey
+- [x] **10** Author's page contains timeline;
+- [x] **10** Author's page contains video overlay;
+- [x] **20** Author's page contains photo gallery;
+- [x] **10** Author's page contains map (geowidget);
+- [x] **from 0 to 20** Design (typography, icons, colors, links + buttons + input are styled)
+- [x] **20** Material-ui / bootstrap is used
+- [x] **10** Portal has third language;
 
 ### Extra scope - **70**
 
-- [ ] **10** Confidence of the project presentation;
+- [x] **10** Confidence of the project presentation;
 - [ ] **10** Project is made using gatsbyjs;
-- [ ] **10** Contentful / netlify cms is used for content management
-- [ ] **20** Animations / special effects like paralax
-- [ ] **up to 20** Outstanding design;
-- [ ] **20** Storybook/styleguidist/other react styleguide tool usage for the page with styles
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- [x] **10** Contentful / netlify cms is used for content management
+- [x] **20** Animations / special effects like paralax
+- [x] **up to 20** Outstanding design;
+- [x] **20** Storybook/styleguidist/other react styleguide tool usage for the page with styles
